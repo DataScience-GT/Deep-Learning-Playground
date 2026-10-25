@@ -1,12 +1,9 @@
 name: "Terraform Validation"
 
+# Paused Fall 2026: Terraform for the old team's AWS setup. Manual only, once ownership is confirmed (#5).
+
 on:
-  push:
-    paths:
-      - "dlp-terraform/**"
-  pull_request:
-    paths:
-      - "dlp-terraform/**"
+  workflow_dispatch:
 
 permissions:
   contents: read
