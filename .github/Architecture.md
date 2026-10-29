@@ -5,61 +5,61 @@
 ```
 📦 training
 |  |- 📂 training:
-|  |  |- 📂 middleware:
-|  |  |  |- 📜 __init__.py
-|  |  |  |- 📜 health_check_middleware.py
-|  |  |- 📂 routes:
-|  |  |  |- 📂 datasets:
-|  |  |  |  |- 📂 default:
-|  |  |  |  |  |- 📜 schemas.py
-|  |  |  |  |  |- 📜 __init__.py
-|  |  |  |  |  |- 📜 columns.py
+|  |  |- 📂 core:
+|  |  |  |- 📂 celery:
+|  |  |  |  |- 📜 criterion.py
+|  |  |  |  |- 📜 Dockerfile
+|  |  |  |  |- 📜 train_types.py
+|  |  |  |  |- 📜 dl_model.py : torch model based on user specifications from drag and drop
 |  |  |  |  |- 📜 __init__.py
-|  |  |  |- 📂 image:
+|  |  |  |  |- 📜 optimizer.py : what optimizer to use (ie: SGD or Adam for now)
+|  |  |  |  |- 📜 worker.py
+|  |  |  |  |- 📜 dataset.py : read in the dataset through URL or file upload
+|  |  |  |  |- 📜 trainer.py
+|  |  |  |- 📜 authenticator.py
+|  |  |  |- 📜 __init__.py
+|  |  |- 📂 routes:
+|  |  |  |- 📂 tabular:
+|  |  |  |  |- 📜 tabular.py
 |  |  |  |  |- 📜 schemas.py
 |  |  |  |  |- 📜 __init__.py
-|  |  |  |  |- 📜 image.py
+|  |  |  |- 📂 datasets:
+|  |  |  |  |- 📂 default:
+|  |  |  |  |  |- 📜 columns.py
+|  |  |  |  |  |- 📜 schemas.py
+|  |  |  |  |  |- 📜 __init__.py
+|  |  |  |  |- 📜 __init__.py
 |  |  |  |- 📂 audio:
 |  |  |  |  |- 📜 schemas.py
 |  |  |  |  |- 📜 __init__.py
 |  |  |  |  |- 📜 audio.py
-|  |  |  |- 📂 tabular:
+|  |  |  |- 📂 image:
+|  |  |  |  |- 📜 image.py
 |  |  |  |  |- 📜 schemas.py
 |  |  |  |  |- 📜 __init__.py
-|  |  |  |  |- 📜 tabular.py
 |  |  |  |- 📜 schemas.py
 |  |  |  |- 📜 __init__.py
-|  |  |- 📂 core:
-|  |  |  |- 📂 celery:
-|  |  |  |  |- 📜 Dockerfile
-|  |  |  |  |- 📜 __init__.py
-|  |  |  |  |- 📜 optimizer.py : what optimizer to use (ie: SGD or Adam for now)
-|  |  |  |  |- 📜 dataset.py : read in the dataset through URL or file upload
-|  |  |  |  |- 📜 train_types.py
-|  |  |  |  |- 📜 trainer.py
-|  |  |  |  |- 📜 dl_model.py : torch model based on user specifications from drag and drop
-|  |  |  |  |- 📜 criterion.py
-|  |  |  |  |- 📜 worker.py
+|  |  |- 📂 middleware:
 |  |  |  |- 📜 __init__.py
-|  |  |  |- 📜 authenticator.py
-|  |  |- 📜 __init__.py
-|  |  |- 📜 wsgi.py
+|  |  |  |- 📜 health_check_middleware.py
 |  |  |- 📜 celeryconfig.py
-|  |  |- 📜 settings.py
+|  |  |- 📜 constants.py : list of helpful constants
+|  |  |- 📜 wsgi.py
+|  |  |- 📜 __init__.py
+|  |  |- 📜 celery_app.py
 |  |  |- 📜 asgi.py
 |  |  |- 📜 urls.py
-|  |  |- 📜 celery_app.py
-|  |  |- 📜 constants.py : list of helpful constants
-|  |- 📜 pytest.ini
-|  |- 📜 cli.py
-|  |- 📜 Dockerfile
-|  |- 📜 README.md
-|  |- 📜 docker-compose.yml
-|  |- 📜 docker-compose.prod.yml
+|  |  |- 📜 settings.py
 |  |- 📜 pyproject.toml
-|  |- 📜 environment.yml
 |  |- 📜 poetry.lock
+|  |- 📜 cli.py
+|  |- 📜 pytest.ini
+|  |- 📜 README.md
+|  |- 📜 Dockerfile
+|  |- 📜 docker-compose.prod.yml
+|  |- 📜 environment.yml
 |  |- 📜 manage.py
+|  |- 📜 docker-compose.yml
 ```
 
 ## Frontend Architecture
@@ -69,178 +69,180 @@
 |  |- 📂 public:
 |  |  |- 📂 images:
 |  |  |  |- 📂 learn_mod_images:
-|  |  |  |  |- 📜 neuralnet.png
-|  |  |  |  |- 📜 ReLUactivation.png
-|  |  |  |  |- 📜 binarystepactivation.png
-|  |  |  |  |- 📜 neuron.png
-|  |  |  |  |- 📜 sigmoidactivation.png
-|  |  |  |  |- 📜 robotImage.jpg
-|  |  |  |  |- 📜 LeakyReLUactivation.png
-|  |  |  |  |- 📜 neuronWithEquation.png
-|  |  |  |  |- 📜 lossExampleTable.png
-|  |  |  |  |- 📜 lossExampleEquation.png
-|  |  |  |  |- 📜 sigmoidfunction.png
 |  |  |  |  |- 📜 tanhactivation.png
+|  |  |  |  |- 📜 lossExampleEquation.png
+|  |  |  |  |- 📜 LeakyReLUactivation.png
+|  |  |  |  |- 📜 robotImage.jpg
+|  |  |  |  |- 📜 ReLUactivation.png
+|  |  |  |  |- 📜 neuronWithEquation.png
+|  |  |  |  |- 📜 binarystepactivation.png
+|  |  |  |  |- 📜 sigmoidactivation.png
+|  |  |  |  |- 📜 neuralnet.png
+|  |  |  |  |- 📜 neuron.png
+|  |  |  |  |- 📜 sigmoidfunction.png
 |  |  |  |  |- 📜 lossExample.png
+|  |  |  |  |- 📜 lossExampleTable.png
+|  |  |  |- 📂 wiki_images:
+|  |  |  |  |- 📜 batchnorm_diagram.png
+|  |  |  |  |- 📜 tanh_plot.png
+|  |  |  |  |- 📜 maxpool2d.gif
+|  |  |  |  |- 📜 softmax_equation.png : PNG file of Softmax equation
+|  |  |  |  |- 📜 conv2d2.gif
+|  |  |  |  |- 📜 conv2d.gif
+|  |  |  |  |- 📜 avgpool_maxpool.gif
+|  |  |  |  |- 📜 tanh_equation.png
+|  |  |  |  |- 📜 sigmoid_equation.png
+|  |  |  |  |- 📜 dropout_diagram.png
 |  |  |  |- 📂 logos:
 |  |  |  |  |- 📂 dlp_branding:
-|  |  |  |  |  |- 📜 dlp-logo.svg : DLP Logo, duplicate of files in public, but essential as the frontend can't read public
 |  |  |  |  |  |- 📜 dlp-logo.png : DLP Logo, duplicate of files in public, but essential as the frontend can't read public
-|  |  |  |  |- 📜 dsgt-logo-light.png
-|  |  |  |  |- 📜 pytorch-logo.png
-|  |  |  |  |- 📜 python-logo.png
-|  |  |  |  |- 📜 google.png
-|  |  |  |  |- 📜 aws-logo.png
-|  |  |  |  |- 📜 github.png
-|  |  |  |  |- 📜 flask-logo.png
+|  |  |  |  |  |- 📜 dlp-logo.svg : DLP Logo, duplicate of files in public, but essential as the frontend can't read public
 |  |  |  |  |- 📜 dsgt-logo-white-back.png
-|  |  |  |  |- 📜 dsgt-logo-dark.png
-|  |  |  |  |- 📜 react-logo.png
+|  |  |  |  |- 📜 aws-logo.png
 |  |  |  |  |- 📜 pandas-logo.png
-|  |  |  |- 📂 wiki_images:
-|  |  |  |  |- 📜 sigmoid_equation.png
-|  |  |  |  |- 📜 conv2d.gif
-|  |  |  |  |- 📜 softmax_equation.png : PNG file of Softmax equation
-|  |  |  |  |- 📜 batchnorm_diagram.png
-|  |  |  |  |- 📜 dropout_diagram.png
-|  |  |  |  |- 📜 maxpool2d.gif
-|  |  |  |  |- 📜 conv2d2.gif
-|  |  |  |  |- 📜 tanh_equation.png
-|  |  |  |  |- 📜 avgpool_maxpool.gif
-|  |  |  |  |- 📜 tanh_plot.png
+|  |  |  |  |- 📜 github.png
+|  |  |  |  |- 📜 pytorch-logo.png
+|  |  |  |  |- 📜 react-logo.png
+|  |  |  |  |- 📜 dsgt-logo-dark.png
+|  |  |  |  |- 📜 google.png
+|  |  |  |  |- 📜 python-logo.png
+|  |  |  |  |- 📜 flask-logo.png
+|  |  |  |  |- 📜 dsgt-logo-light.png
 |  |  |  |- 📜 demo_video.gif : GIF tutorial of a simple classification training session
+|  |  |- 📜 dlp-logo.ico : DLP Logo
 |  |  |- 📜 manifest.json : Default React file for choosing icon based on
 |  |  |- 📜 robots.txt
 |  |  |- 📜 index.html : Base HTML file that will be initially rendered
-|  |  |- 📜 dlp-logo.ico : DLP Logo
-|  |- 📂 layer_docs:
-|  |  |- 📜 Softmax.md : Doc for Softmax layer
-|  |  |- 📜 softmax_equation.png : PNG file of Softmax equation
-|  |  |- 📜 Linear.md : Doc for Linear layer
-|  |  |- 📜 ReLU.md : Doc for ReLU later
 |  |- 📂 src:
 |  |  |- 📂 pages:
 |  |  |  |- 📂 train:
 |  |  |  |  |- 📜 [train_space_id].tsx
-|  |  |  |  |- 📜 index.tsx
 |  |  |  |  |- 📜 metrics_to_charts.tsx
-|  |  |  |- 📜 settings.tsx
-|  |  |  |- 📜 dashboard.tsx
+|  |  |  |  |- 📜 index.tsx
 |  |  |  |- 📜 login.tsx
-|  |  |  |- 📜 learn.tsx
+|  |  |  |- 📜 settings.tsx
+|  |  |  |- 📜 LearnContent.tsx
 |  |  |  |- 📜 _app.tsx
 |  |  |  |- 📜 _document.tsx
-|  |  |  |- 📜 LearnContent.tsx
-|  |  |  |- 📜 feedback.tsx
-|  |  |  |- 📜 forgot.tsx
 |  |  |  |- 📜 wiki.tsx
+|  |  |  |- 📜 forgot.tsx
+|  |  |  |- 📜 learn.tsx
+|  |  |  |- 📜 dashboard.tsx
 |  |  |  |- 📜 about.tsx
-|  |  |- 📂 features:
-|  |  |  |- 📂 Train:
-|  |  |  |  |- 📂 components:
-|  |  |  |  |  |- 📜 DatasetStepLayout.tsx
-|  |  |  |  |  |- 📜 CreateTrainspace.tsx
-|  |  |  |  |  |- 📜 TrainspaceLayout.tsx
-|  |  |  |  |- 📂 features:
-|  |  |  |  |  |- 📂 Image:
-|  |  |  |  |  |  |- 📂 components:
-|  |  |  |  |  |  |  |- 📜 ImageFlow.tsx
-|  |  |  |  |  |  |  |- 📜 ImageParametersStep.tsx
-|  |  |  |  |  |  |  |- 📜 ImageDatasetStep.tsx
-|  |  |  |  |  |  |  |- 📜 ImageReviewStep.tsx
-|  |  |  |  |  |  |  |- 📜 ImageTrainspace.tsx
-|  |  |  |  |  |  |- 📂 constants:
-|  |  |  |  |  |  |  |- 📜 imageConstants.ts
-|  |  |  |  |  |  |- 📂 types:
-|  |  |  |  |  |  |  |- 📜 imageTypes.ts
-|  |  |  |  |  |  |- 📂 redux:
-|  |  |  |  |  |  |  |- 📜 imageApi.ts
-|  |  |  |  |  |  |  |- 📜 imageActions.ts
-|  |  |  |  |  |  |- 📜 index.ts
-|  |  |  |  |  |- 📂 Tabular:
-|  |  |  |  |  |  |- 📂 components:
-|  |  |  |  |  |  |  |- 📜 TabularParametersStep.tsx
-|  |  |  |  |  |  |  |- 📜 TabularFlow.tsx
-|  |  |  |  |  |  |  |- 📜 TabularTrainspace.tsx
-|  |  |  |  |  |  |  |- 📜 TabularReviewStep.tsx
-|  |  |  |  |  |  |  |- 📜 TabularDatasetStep.tsx
-|  |  |  |  |  |  |- 📂 constants:
-|  |  |  |  |  |  |  |- 📜 tabularConstants.ts
-|  |  |  |  |  |  |- 📂 types:
-|  |  |  |  |  |  |  |- 📜 tabularTypes.ts
-|  |  |  |  |  |  |- 📂 redux:
-|  |  |  |  |  |  |  |- 📜 tabularActions.ts
-|  |  |  |  |  |  |  |- 📜 tabularApi.ts
-|  |  |  |  |  |  |- 📜 index.ts
-|  |  |  |  |- 📂 constants:
-|  |  |  |  |  |- 📜 trainConstants.ts
-|  |  |  |  |- 📂 types:
-|  |  |  |  |  |- 📜 trainTypes.ts
-|  |  |  |  |- 📂 redux:
-|  |  |  |  |  |- 📜 trainspaceApi.ts
-|  |  |  |  |  |- 📜 trainspaceSlice.ts
-|  |  |  |- 📂 LearnMod:
-|  |  |  |  |- 📜 FRQuestion.tsx
-|  |  |  |  |- 📜 Exercise.tsx
-|  |  |  |  |- 📜 ClassCard.tsx
-|  |  |  |  |- 📜 ImageComponent.tsx
-|  |  |  |  |- 📜 ModulesSideBar.tsx
-|  |  |  |  |- 📜 MCQuestion.tsx
-|  |  |  |  |- 📜 LearningModulesContent.tsx
-|  |  |  |- 📂 Feedback:
-|  |  |  |  |- 📂 redux:
-|  |  |  |  |  |- 📜 feedbackApi.ts
-|  |  |  |- 📂 OpenAi:
-|  |  |  |  |- 📜 openAiUtils.ts
-|  |  |  |- 📂 Dashboard:
-|  |  |  |  |- 📂 components:
-|  |  |  |  |  |- 📜 TrainDataGrid.tsx
-|  |  |  |  |  |- 📜 TrainBarChart.tsx
-|  |  |  |  |  |- 📜 TrainDoughnutChart.tsx
-|  |  |  |  |- 📂 redux:
-|  |  |  |  |  |- 📜 dashboardApi.ts
-|  |  |- 📂 common:
-|  |  |  |- 📂 components:
-|  |  |  |  |- 📜 EmailInput.tsx
-|  |  |  |  |- 📜 ClientOnlyPortal.tsx
-|  |  |  |  |- 📜 Footer.tsx
-|  |  |  |  |- 📜 TitleText.tsx
-|  |  |  |  |- 📜 NavBarMain.tsx
-|  |  |  |  |- 📜 Spacer.tsx
-|  |  |  |  |- 📜 DlpTooltip.tsx
-|  |  |  |  |- 📜 HtmlTooltip.tsx
-|  |  |  |- 📂 utils:
-|  |  |  |  |- 📜 dateFormat.ts
-|  |  |  |  |- 📜 firebase.ts
-|  |  |  |  |- 📜 dndHelpers.ts
-|  |  |  |- 📂 styles:
-|  |  |  |  |- 📜 globals.css
-|  |  |  |  |- 📜 Home.module.css
-|  |  |  |- 📂 redux:
-|  |  |  |  |- 📜 train.ts
-|  |  |  |  |- 📜 backendApi.ts
-|  |  |  |  |- 📜 userLogin.ts
-|  |  |  |  |- 📜 hooks.ts
-|  |  |  |  |- 📜 store.ts
+|  |  |  |- 📜 feedback.tsx
+|  |  |- 📂 backend_outputs:
+|  |  |  |- 📜 model.pt : Last model.pt output
+|  |  |  |- 📜 my_deep_learning_model.onnx : Last ONNX file output
+|  |  |  |- 📜 model.pkl
 |  |  |- 📂 __tests__:
 |  |  |  |- 📂 common:
 |  |  |  |  |- 📂 components:
 |  |  |  |  |  |- 📜 TitleText.test.tsx
-|  |  |- 📂 backend_outputs:
-|  |  |  |- 📜 my_deep_learning_model.onnx : Last ONNX file output
-|  |  |  |- 📜 model.pt : Last model.pt output
-|  |  |  |- 📜 model.pkl
+|  |  |- 📂 features:
+|  |  |  |- 📂 Dashboard:
+|  |  |  |  |- 📂 components:
+|  |  |  |  |  |- 📜 TrainDataGrid.tsx
+|  |  |  |  |  |- 📜 TrainDoughnutChart.tsx
+|  |  |  |  |  |- 📜 TrainBarChart.tsx
+|  |  |  |  |- 📂 redux:
+|  |  |  |  |  |- 📜 dashboardApi.ts
+|  |  |  |- 📂 LearnMod:
+|  |  |  |  |- 📜 LearningModulesContent.tsx
+|  |  |  |  |- 📜 ImageComponent.tsx
+|  |  |  |  |- 📜 MCQuestion.tsx
+|  |  |  |  |- 📜 ModulesSideBar.tsx
+|  |  |  |  |- 📜 ClassCard.tsx
+|  |  |  |  |- 📜 FRQuestion.tsx
+|  |  |  |  |- 📜 Exercise.tsx
+|  |  |  |- 📂 OpenAi:
+|  |  |  |  |- 📜 openAiUtils.ts
+|  |  |  |- 📂 Train:
+|  |  |  |  |- 📂 components:
+|  |  |  |  |  |- 📜 CreateTrainspace.tsx
+|  |  |  |  |  |- 📜 DatasetStepLayout.tsx
+|  |  |  |  |  |- 📜 TrainspaceLayout.tsx
+|  |  |  |  |- 📂 redux:
+|  |  |  |  |  |- 📜 trainspaceSlice.ts
+|  |  |  |  |  |- 📜 trainspaceApi.ts
+|  |  |  |  |- 📂 constants:
+|  |  |  |  |  |- 📜 trainConstants.ts
+|  |  |  |  |- 📂 features:
+|  |  |  |  |  |- 📂 Tabular:
+|  |  |  |  |  |  |- 📂 components:
+|  |  |  |  |  |  |  |- 📜 TabularReviewStep.tsx
+|  |  |  |  |  |  |  |- 📜 TabularTrainspace.tsx
+|  |  |  |  |  |  |  |- 📜 TabularParametersStep.tsx
+|  |  |  |  |  |  |  |- 📜 TabularFlow.tsx
+|  |  |  |  |  |  |  |- 📜 TabularDatasetStep.tsx
+|  |  |  |  |  |  |- 📂 redux:
+|  |  |  |  |  |  |  |- 📜 tabularApi.ts
+|  |  |  |  |  |  |  |- 📜 tabularActions.ts
+|  |  |  |  |  |  |- 📂 constants:
+|  |  |  |  |  |  |  |- 📜 tabularConstants.ts
+|  |  |  |  |  |  |- 📂 types:
+|  |  |  |  |  |  |  |- 📜 tabularTypes.ts
+|  |  |  |  |  |  |- 📜 index.ts
+|  |  |  |  |  |- 📂 Image:
+|  |  |  |  |  |  |- 📂 components:
+|  |  |  |  |  |  |  |- 📜 ImageFlow.tsx
+|  |  |  |  |  |  |  |- 📜 ImageReviewStep.tsx
+|  |  |  |  |  |  |  |- 📜 ImageTrainspace.tsx
+|  |  |  |  |  |  |  |- 📜 ImageParametersStep.tsx
+|  |  |  |  |  |  |  |- 📜 ImageDatasetStep.tsx
+|  |  |  |  |  |  |- 📂 redux:
+|  |  |  |  |  |  |  |- 📜 imageApi.ts
+|  |  |  |  |  |  |  |- 📜 imageActions.ts
+|  |  |  |  |  |  |- 📂 constants:
+|  |  |  |  |  |  |  |- 📜 imageConstants.ts
+|  |  |  |  |  |  |- 📂 types:
+|  |  |  |  |  |  |  |- 📜 imageTypes.ts
+|  |  |  |  |  |  |- 📜 index.ts
+|  |  |  |  |- 📂 types:
+|  |  |  |  |  |- 📜 trainTypes.ts
+|  |  |  |- 📂 Feedback:
+|  |  |  |  |- 📂 redux:
+|  |  |  |  |  |- 📜 feedbackApi.ts
+|  |  |- 📂 common:
+|  |  |  |- 📂 utils:
+|  |  |  |  |- 📜 dndHelpers.ts
+|  |  |  |  |- 📜 firebase.ts
+|  |  |  |  |- 📜 dateFormat.ts
+|  |  |  |- 📂 components:
+|  |  |  |  |- 📜 Footer.tsx
+|  |  |  |  |- 📜 DlpTooltip.tsx
+|  |  |  |  |- 📜 NavBarMain.tsx
+|  |  |  |  |- 📜 EmailInput.tsx
+|  |  |  |  |- 📜 ClientOnlyPortal.tsx
+|  |  |  |  |- 📜 HtmlTooltip.tsx
+|  |  |  |  |- 📜 Spacer.tsx
+|  |  |  |  |- 📜 TitleText.tsx
+|  |  |  |- 📂 redux:
+|  |  |  |  |- 📜 hooks.ts
+|  |  |  |  |- 📜 backendApi.ts
+|  |  |  |  |- 📜 userLogin.ts
+|  |  |  |  |- 📜 train.ts
+|  |  |  |  |- 📜 store.ts
+|  |  |  |- 📂 styles:
+|  |  |  |  |- 📜 globals.css
+|  |  |  |  |- 📜 Home.module.css
 |  |  |- 📜 next-env.d.ts
-|  |  |- 📜 iris.csv : Sample CSV data
 |  |  |- 📜 GlobalStyle.ts
+|  |  |- 📜 iris.csv : Sample CSV data
 |  |  |- 📜 constants.ts
+|  |- 📂 layer_docs:
+|  |  |- 📜 ReLU.md : Doc for ReLU later
+|  |  |- 📜 softmax_equation.png : PNG file of Softmax equation
+|  |  |- 📜 Linear.md : Doc for Linear layer
+|  |  |- 📜 Softmax.md : Doc for Softmax layer
 |  |- 📜 tsconfig.json
-|  |- 📜 pnpm-lock.yaml
-|  |- 📜 package.json
-|  |- 📜 next.config.js
 |  |- 📜 jest.config.ts
+|  |- 📜 next.config.js
+|  |- 📜 package.json
 |  |- 📜 next-env.d.ts
 |  |- 📜 .eslintignore
+|  |- 📜 pnpm-lock.yaml
 |  |- 📜 .eslintrc.json
+|  |- 📜 pnpm-workspace.yaml
+|  |- 📜 .env.example
 ```
 
