@@ -25,39 +25,20 @@ jobs:
           use-mamba: true
           activate-environment: dlp
 
-      - name: Cache Mamba env
-        id: cached-mamba-env
-        uses: actions/cache@v3
-        env:
-          # Increase this value to reset cache if etc/example-environment.yml has not changed
-          CACHE_NUMBER: 0
-        with:
-          path: /usr/share/miniconda3/envs/
-          key: mamba-${{ runner.os }}-${{env.CACHE_NUMBER }}-${{hashFiles('**/training/environment.yml') }}
-
-      - name: Update environment
-        run: mamba env update -n dlp -f
-          training/environment.yml
-        if: steps.cached-mamba-env.outputs.cache-hit != 'true'
-
-      #----------------------------------------------
-      #       load cached venv if cache exists
-      #----------------------------------------------
-      - name: Load cached venv
-        id: cached-poetry-dependencies
+      # One cache, keyed on both dependency files, no restore-keys: a hit is exactly the env these files built.
+      - name: Cache dlp env
+        id: cached-env
         uses: actions/cache@v3
         with:
           path: /usr/share/miniconda3/envs/dlp
-          key: training-venv-${{ runner.os }}-${{ hashFiles('**/training/poetry.lock') }}
-          restore-keys: training-venv-${{ runner.os }}-
+          key: dlp-env-${{ runner.os }}-1-${{ hashFiles('training/environment.yml', 'training/poetry.lock') }}
 
-      #---------------------------------------------------
-      #       install dependencies if cache does not exist
-      #---------------------------------------------------
+      - name: Update environment
+        if: steps.cached-env.outputs.cache-hit != 'true'
+        run: mamba env update -n dlp -f training/environment.yml
 
       - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: pwd && cd training && poetry install --no-interaction --no-root && poetry env info -p
+        run: cd training && poetry install --no-interaction --no-root
         shell: bash -el {0}
 
       - name: Add Poetry env to PATH
@@ -106,38 +87,19 @@ jobs:
           use-mamba: true
           activate-environment: dlp
 
-      - name: Cache Mamba env
-        id: cached-mamba-env
-        uses: actions/cache@v3
-        env:
-          # Increase this value to reset cache if etc/example-environment.yml has not changed
-          CACHE_NUMBER: 0
-        with:
-          path: /usr/share/miniconda3/envs/
-          key: mamba-${{ runner.os }}-${{env.CACHE_NUMBER }}-${{hashFiles('**/training/environment.yml') }}
-
-      - name: Update environment
-        run: mamba env update -n dlp -f
-          training/environment.yml
-        if: steps.cached-mamba-env.outputs.cache-hit != 'true'
-
-      #----------------------------------------------
-      #       load cached venv if cache exists
-      #----------------------------------------------
-
-      - name: Load cached venv
-        id: cached-poetry-dependencies
+      # One cache, keyed on both dependency files, no restore-keys: a hit is exactly the env these files built.
+      - name: Cache dlp env
+        id: cached-env
         uses: actions/cache@v3
         with:
           path: /usr/share/miniconda3/envs/dlp
-          key: training-venv-${{ runner.os }}-${{ hashFiles('**/training/poetry.lock') }}
-          restore-keys: training-venv-${{ runner.os }}-
+          key: dlp-env-${{ runner.os }}-1-${{ hashFiles('training/environment.yml', 'training/poetry.lock') }}
 
-      #----------------------------------------------
-      # install dependencies if cache does not exist
-      #----------------------------------------------
+      - name: Update environment
+        if: steps.cached-env.outputs.cache-hit != 'true'
+        run: mamba env update -n dlp -f training/environment.yml
+
       - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: cd training && poetry install --no-interaction --no-root
         shell: bash -el {0}
 
