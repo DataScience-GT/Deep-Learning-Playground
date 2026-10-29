@@ -7,8 +7,6 @@ on:
       - nextjs
       - prod-deploy
   pull_request:
-    paths:
-      - "training/**"
 
 jobs:
   lint:

@@ -26,11 +26,9 @@
 
 name: Deploy to Amazon ECS
 
-# Only trigger, when we push to prod-deploy
+# Paused Fall 2026: deploys to the old team's AWS account. Manual only, once ownership is confirmed (#5).
 on:
-  push:
-    branches:
-      - "prod-deploy"
+  workflow_dispatch:
 
 env:
   AWS_REGION: "us-west-2" # set this to your preferred AWS region, e.g. us-west-1
