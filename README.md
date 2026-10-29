@@ -76,8 +76,8 @@ High-level map (see [`.github/Architecture.md`](.github/Architecture.md) for gen
 Install these if you want to run pieces of the stack. You do not need every tool on day one.
 
 1. **git**
-2. **Node.js 20** — GitHub Actions for the frontend use `node-version: 20.x`. [nvm](https://github.com/nvm-sh/nvm) is the path the old docs used (`nvm install 20`, `nvm use 20`).
-3. **pnpm 8** — frontend CI uses `pnpm/action-setup` version 8. Install with `npm install -g pnpm` if needed. Do not use npm/yarn inside `frontend/` (`only-allow pnpm`).
+2. **Node.js 22 (LTS)** — GitHub Actions for the frontend use `node-version: 22.x`, and `frontend/package.json` requires Node 20 or newer (`engines`). Node 20 reached end-of-life in April 2026. With [nvm](https://github.com/nvm-sh/nvm): `nvm install 22`, `nvm use 22`.
+3. **pnpm 12.11.2** — pinned by the `packageManager` field in `frontend/package.json`; CI reads the same field via `pnpm/action-setup`. Run `corepack enable` once (Corepack ships with Node) and `pnpm` will use that exact version. Do not use npm/yarn inside `frontend/` (`only-allow pnpm`).
 4. **Python 3.9.x** — both Poetry projects require `>=3.9, <3.10`.
 5. **Poetry** — `backend/pyproject.toml` and `training/pyproject.toml`.
 6. **Mamba / Miniforge** — `training/environment.yml` creates conda env `dlp` with Python 3.9, Poetry, PyTorch, torchvision. Django CI uses `conda-incubator/setup-miniconda` + mamba.
