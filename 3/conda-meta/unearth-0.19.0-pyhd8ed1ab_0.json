@@ -1,0 +1,389 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "cached-property >=1.5.2",
+        "httpx2",
+        "packaging >=20",
+        "python >=3.11",
+        "requests >=2.25"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/unearth-0.19.0-pyhd8ed1ab_0",
+    "files": [
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/INSTALLER",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/METADATA",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/RECORD",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/REQUESTED",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/WHEEL",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/direct_url.json",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/entry_points.txt",
+        "lib/python3.14/site-packages/unearth-0.19.0.dist-info/licenses/LICENSE",
+        "lib/python3.14/site-packages/unearth/__init__.py",
+        "lib/python3.14/site-packages/unearth/__main__.py",
+        "lib/python3.14/site-packages/unearth/auth.py",
+        "lib/python3.14/site-packages/unearth/collector.py",
+        "lib/python3.14/site-packages/unearth/errors.py",
+        "lib/python3.14/site-packages/unearth/evaluator.py",
+        "lib/python3.14/site-packages/unearth/fetchers/__init__.py",
+        "lib/python3.14/site-packages/unearth/fetchers/legacy.py",
+        "lib/python3.14/site-packages/unearth/fetchers/sync.py",
+        "lib/python3.14/site-packages/unearth/finder.py",
+        "lib/python3.14/site-packages/unearth/link.py",
+        "lib/python3.14/site-packages/unearth/pep425tags.py",
+        "lib/python3.14/site-packages/unearth/preparer.py",
+        "lib/python3.14/site-packages/unearth/py.typed",
+        "lib/python3.14/site-packages/unearth/session.py",
+        "lib/python3.14/site-packages/unearth/utils.py",
+        "lib/python3.14/site-packages/unearth/vcs/__init__.py",
+        "lib/python3.14/site-packages/unearth/vcs/base.py",
+        "lib/python3.14/site-packages/unearth/vcs/bazaar.py",
+        "lib/python3.14/site-packages/unearth/vcs/git.py",
+        "lib/python3.14/site-packages/unearth/vcs/hg.py",
+        "lib/python3.14/site-packages/unearth/vcs/svn.py",
+        "lib/python3.14/site-packages/unearth/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/__main__.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/auth.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/collector.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/errors.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/evaluator.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/fetchers/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/fetchers/__pycache__/legacy.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/fetchers/__pycache__/sync.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/finder.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/link.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/pep425tags.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/preparer.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/session.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/__pycache__/utils.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/vcs/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/vcs/__pycache__/base.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/vcs/__pycache__/bazaar.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/vcs/__pycache__/git.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/vcs/__pycache__/hg.cpython-314.pyc",
+        "lib/python3.14/site-packages/unearth/vcs/__pycache__/svn.cpython-314.pyc",
+        "bin/unearth"
+    ],
+    "fn": "unearth-0.19.0-pyhd8ed1ab_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/unearth-0.19.0-pyhd8ed1ab_0",
+        "type": 1
+    },
+    "md5": "9261909cb4ffe05e8ff5a4e9ff182e0e",
+    "name": "unearth",
+    "noarch": "python",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/unearth-0.19.0-pyhd8ed1ab_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "size_in_bytes": 5
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "accc5e777c5dc10d0213b899d4cc3102186cc7faa94158c23e4805deb99770c6",
+                "sha256_in_prefix": "accc5e777c5dc10d0213b899d4cc3102186cc7faa94158c23e4805deb99770c6",
+                "size_in_bytes": 3772
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "86216ee69511dec3dece189f91bfac9fca22a987a74e36525cfa508701f1423f",
+                "sha256_in_prefix": "86216ee69511dec3dece189f91bfac9fca22a987a74e36525cfa508701f1423f",
+                "size_in_bytes": 3478
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "22e224df06da127147d5cc7be623364750a6962448ddd14b5d36d16a482f8054",
+                "sha256_in_prefix": "22e224df06da127147d5cc7be623364750a6962448ddd14b5d36d16a482f8054",
+                "size_in_bytes": 90
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "c8c312f3b74cc99f784737616eb177b840dc7f09e1520948743af017ecbf9cf8",
+                "sha256_in_prefix": "c8c312f3b74cc99f784737616eb177b840dc7f09e1520948743af017ecbf9cf8",
+                "size_in_bytes": 103
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/entry_points.txt",
+                "path_type": "hardlink",
+                "sha256": "a5b4d97595383863e26f0ec02d741e2f2336a23fae40d8aacd8d805c2e8893d3",
+                "sha256_in_prefix": "a5b4d97595383863e26f0ec02d741e2f2336a23fae40d8aacd8d805c2e8893d3",
+                "size_in_bytes": 65
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth-0.19.0.dist-info/licenses/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "f41fb5f1a24c28cdf0217aefc7b18fb9ad3500f5988d7f232c7eaa21b9bf595f",
+                "sha256_in_prefix": "f41fb5f1a24c28cdf0217aefc7b18fb9ad3500f5988d7f232c7eaa21b9bf595f",
+                "size_in_bytes": 1059
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "05bcaf1bb92b23d51b989916435686a90c56266883ef16ae2fcdc1b42aaf2ce7",
+                "sha256_in_prefix": "05bcaf1bb92b23d51b989916435686a90c56266883ef16ae2fcdc1b42aaf2ce7",
+                "size_in_bytes": 601
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__main__.py",
+                "path_type": "hardlink",
+                "sha256": "ea50b797a003f52ef1572cc709d0b8811c942c14408ad63aff9eecf49bffa79e",
+                "sha256_in_prefix": "ea50b797a003f52ef1572cc709d0b8811c942c14408ad63aff9eecf49bffa79e",
+                "size_in_bytes": 7671
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/auth.py",
+                "path_type": "hardlink",
+                "sha256": "411ad4f5d5338cbb0e31a5bda1703211153966064d3b35133389d73bdff93619",
+                "sha256_in_prefix": "411ad4f5d5338cbb0e31a5bda1703211153966064d3b35133389d73bdff93619",
+                "size_in_bytes": 18668
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/collector.py",
+                "path_type": "hardlink",
+                "sha256": "cc89f0374af76ee34c641ee6fd04a941b0a1e37aaffd7f66722285c61fe37f80",
+                "sha256_in_prefix": "cc89f0374af76ee34c641ee6fd04a941b0a1e37aaffd7f66722285c61fe37f80",
+                "size_in_bytes": 9792
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/errors.py",
+                "path_type": "hardlink",
+                "sha256": "c14534cff89f71f6fc4bfb075178e87d1d0bb18279c824937e689ff119cd8584",
+                "sha256_in_prefix": "c14534cff89f71f6fc4bfb075178e87d1d0bb18279c824937e689ff119cd8584",
+                "size_in_bytes": 970
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/evaluator.py",
+                "path_type": "hardlink",
+                "sha256": "cc8940b2416be6941086f2cd39bbc3d296cafc300eb750d6bf45b56a780e6e69",
+                "sha256_in_prefix": "cc8940b2416be6941086f2cd39bbc3d296cafc300eb750d6bf45b56a780e6e69",
+                "size_in_bytes": 12637
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/fetchers/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "14652a9665698693e1ccccad48885c6efba69d64ceebb20d2b76a4fa80712311",
+                "sha256_in_prefix": "14652a9665698693e1ccccad48885c6efba69d64ceebb20d2b76a4fa80712311",
+                "size_in_bytes": 1312
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/fetchers/legacy.py",
+                "path_type": "hardlink",
+                "sha256": "3444c9219519f7840b2e93d39e3db99028d45e0866486b2e4266dc5852e42291",
+                "sha256_in_prefix": "3444c9219519f7840b2e93d39e3db99028d45e0866486b2e4266dc5852e42291",
+                "size_in_bytes": 5853
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/fetchers/sync.py",
+                "path_type": "hardlink",
+                "sha256": "03bddffdc4f345fda577610380dffb566c51edb9b855e29990c4a096a77f2922",
+                "sha256_in_prefix": "03bddffdc4f345fda577610380dffb566c51edb9b855e29990c4a096a77f2922",
+                "size_in_bytes": 4222
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/finder.py",
+                "path_type": "hardlink",
+                "sha256": "435dbafc9231e62b1cd9fb5e3fd9e769ae4c1b52f726942fb06c507187c02e0f",
+                "sha256_in_prefix": "435dbafc9231e62b1cd9fb5e3fd9e769ae4c1b52f726942fb06c507187c02e0f",
+                "size_in_bytes": 18359
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/link.py",
+                "path_type": "hardlink",
+                "sha256": "e34f35ee31d805f555996a7bc7968cdd9fc3fe77c9d19795c435cc6939e0e85b",
+                "sha256_in_prefix": "e34f35ee31d805f555996a7bc7968cdd9fc3fe77c9d19795c435cc6939e0e85b",
+                "size_in_bytes": 5511
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/pep425tags.py",
+                "path_type": "hardlink",
+                "sha256": "ab0b96d8a916d68c16bdbe9375453ea52db5cfaf706157d34d63b25633dda9ac",
+                "sha256_in_prefix": "ab0b96d8a916d68c16bdbe9375453ea52db5cfaf706157d34d63b25633dda9ac",
+                "size_in_bytes": 5387
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/preparer.py",
+                "path_type": "hardlink",
+                "sha256": "803635173ec0f2f38b2d71db912b1fc17608e44445b856eb5cd135b973ce8f1b",
+                "sha256_in_prefix": "803635173ec0f2f38b2d71db912b1fc17608e44445b856eb5cd135b973ce8f1b",
+                "size_in_bytes": 15987
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/py.typed",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/session.py",
+                "path_type": "hardlink",
+                "sha256": "761a2ea316aa163c68b0c081b12dc1cde92857758d3b81d5416aa377622b355d",
+                "sha256_in_prefix": "761a2ea316aa163c68b0c081b12dc1cde92857758d3b81d5416aa377622b355d",
+                "size_in_bytes": 327
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/utils.py",
+                "path_type": "hardlink",
+                "sha256": "eba8f0250ae6559e052c9829bd12cc4666c083a373d7c914c66455e8c8992e5f",
+                "sha256_in_prefix": "eba8f0250ae6559e052c9829bd12cc4666c083a373d7c914c66455e8c8992e5f",
+                "size_in_bytes": 8973
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "35e7d7dd0d317802fccd72f3d1b2d066ac5728278428301780d2353f421922e3",
+                "sha256_in_prefix": "35e7d7dd0d317802fccd72f3d1b2d066ac5728278428301780d2353f421922e3",
+                "size_in_bytes": 258
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/base.py",
+                "path_type": "hardlink",
+                "sha256": "be1894decc859a108f269ad6766b28142ee75a9e92ff7ddb62c6b8f26c43edfb",
+                "sha256_in_prefix": "be1894decc859a108f269ad6766b28142ee75a9e92ff7ddb62c6b8f26c43edfb",
+                "size_in_bytes": 8709
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/bazaar.py",
+                "path_type": "hardlink",
+                "sha256": "4f709c483107c2a85211160342d23c8a5423a9dbd1ba21a7b62bd5ced65f4465",
+                "sha256_in_prefix": "4f709c483107c2a85211160342d23c8a5423a9dbd1ba21a7b62bd5ced65f4465",
+                "size_in_bytes": 2659
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/git.py",
+                "path_type": "hardlink",
+                "sha256": "296ce9e6042b5a8082aad0cbc5190b7e650ff4aaf4dd62e2ea0ae803e739ee0b",
+                "sha256_in_prefix": "296ce9e6042b5a8082aad0cbc5190b7e650ff4aaf4dd62e2ea0ae803e739ee0b",
+                "size_in_bytes": 7159
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/hg.py",
+                "path_type": "hardlink",
+                "sha256": "65b2a161e95d9b3e7b5074477b2aedc0ea1e2c6924fc3f85b823840130292fd8",
+                "sha256_in_prefix": "65b2a161e95d9b3e7b5074477b2aedc0ea1e2c6924fc3f85b823840130292fd8",
+                "size_in_bytes": 1996
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/svn.py",
+                "path_type": "hardlink",
+                "sha256": "df7ba8233a4ff6d7b9830e3e174ea22d1225b25f58566c7e9681928fd408c303",
+                "sha256_in_prefix": "df7ba8233a4ff6d7b9830e3e174ea22d1225b25f58566c7e9681928fd408c303",
+                "size_in_bytes": 6205
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/__main__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/auth.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/collector.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/errors.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/evaluator.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/fetchers/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/fetchers/__pycache__/legacy.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/fetchers/__pycache__/sync.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/finder.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/link.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/pep425tags.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/preparer.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/session.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/__pycache__/utils.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__pycache__/base.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__pycache__/bazaar.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__pycache__/git.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__pycache__/hg.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/unearth/vcs/__pycache__/svn.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "bin/unearth",
+                "path_type": "unix_python_entry_point"
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": null,
+    "requested_spec": "unearth==0.19.0=pyhd8ed1ab_0",
+    "sha256": "d7c03ea6eeffb2e0f1e03007c59909580aa52f52939142f0951ffed3d10b64c4",
+    "size": 290884,
+    "subdir": "noarch",
+    "timestamp": 1793601391674,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/unearth-0.19.0-pyhd8ed1ab_0.conda",
+    "version": "0.19.0"
+}

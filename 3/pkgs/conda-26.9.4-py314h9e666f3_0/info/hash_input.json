@@ -1,0 +1,1 @@
+{"build_platform": "linux-64", "channel_sources": "conda-forge", "channel_targets": "conda-forge main", "python": "3.14.* *_cp314", "target_platform": "linux-64"}

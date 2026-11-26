@@ -1,0 +1,7 @@
+- python:
+    imports:
+    - ruamel.yaml
+    - ruamel.yaml.cyaml
+    python_version:
+    - 3.10.*
+    - 3.14.*

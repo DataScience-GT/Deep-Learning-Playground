@@ -1,0 +1,25 @@
+{
+    "arch": "x86_64",
+    "build": "h72ddc62_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "libstdcxx >=15",
+        "libgcc >=15",
+        "__glibc >=2.17,<3.0.a0",
+        "libzlib >=1.3.2,<2.0a0"
+    ],
+    "fn": "libsolv-0.7.41-h72ddc62_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "bf225947b08a8017fb846ea94a83809a",
+    "name": "libsolv",
+    "platform": "linux",
+    "sha256": "28ea835c466e7311e83a3a3def253a75a4307b3c0dc4bca1aa7596dfeba05bf6",
+    "size": 530491,
+    "subdir": "linux-64",
+    "timestamp": 1793004545403,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libsolv-0.7.41-h72ddc62_0.conda",
+    "version": "0.7.41"
+}

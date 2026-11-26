@@ -1,0 +1,16 @@
+{
+  "build": "pyhba3e0a1_4",
+  "build_number": 4,
+  "depends": [
+    "python >=3.11",
+    "tomli",
+    "tomli-w",
+    "python"
+  ],
+  "license": "BSD-3-Clause AND MIT",
+  "name": "menuinst",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1793820825241,
+  "version": "2.5.2"
+}

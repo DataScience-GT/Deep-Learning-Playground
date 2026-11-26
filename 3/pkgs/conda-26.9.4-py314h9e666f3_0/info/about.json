@@ -1,0 +1,26 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "Conda is an open source package management system and environment\nmanagement system for installing multiple versions of software packages\nand their dependencies and switching easily between them. It works on\nLinux, OS X and Windows, and was created for Python programs but can\npackage and distribute any software.",
+  "dev_url": "https://github.com/conda/conda",
+  "doc_url": "https://docs.conda.io/projects/conda/en/stable/",
+  "extra": {
+    "flow_run_id": "github_39648288524",
+    "recipe-maintainers": [
+      "dbast",
+      "isuruf",
+      "jakirkham",
+      "jezdez",
+      "kenodegard",
+      "mbargull",
+      "ocefpaf",
+      "beeankha"
+    ],
+    "remote_url": "https://github.com/conda-forge/conda-feedstock",
+    "sha": "545bfab8fd06c0353df1358039e1ec7cac76f146"
+  },
+  "home": "https://conda.io/",
+  "license": "BSD-3-Clause",
+  "summary": "OS-agnostic, system-level binary package and environment manager."
+}

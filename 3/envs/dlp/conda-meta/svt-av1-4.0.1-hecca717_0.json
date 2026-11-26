@@ -1,0 +1,165 @@
+{
+    "arch": "x86_64",
+    "build": "hecca717_0",
+    "build_number": 0,
+    "build_string": "hecca717_0",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libstdcxx >=14"
+    ],
+    "extracted_package_dir": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/linux-64/svt-av1-4.0.1-hecca717_0",
+    "files": [
+        "bin/SvtAv1EncApp",
+        "include/svt-av1/EbConfigMacros.h",
+        "include/svt-av1/EbDebugMacros.h",
+        "include/svt-av1/EbSvtAv1.h",
+        "include/svt-av1/EbSvtAv1Enc.h",
+        "include/svt-av1/EbSvtAv1ErrorCodes.h",
+        "include/svt-av1/EbSvtAv1Formats.h",
+        "include/svt-av1/EbSvtAv1Metadata.h",
+        "lib/cmake/SVT-AV1/SVT-AV1-sharedTargets-release.cmake",
+        "lib/cmake/SVT-AV1/SVT-AV1-sharedTargets.cmake",
+        "lib/cmake/SVT-AV1/SVT-AV1Config.cmake",
+        "lib/cmake/SVT-AV1/SVT-AV1ConfigVersion.cmake",
+        "lib/libSvtAv1Enc.so",
+        "lib/libSvtAv1Enc.so.4",
+        "lib/libSvtAv1Enc.so.4.0.1",
+        "lib/pkgconfig/SvtAv1Enc.pc"
+    ],
+    "fn": "svt-av1-4.0.1-hecca717_0.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/linux-64/svt-av1-4.0.1-hecca717_0",
+        "type": 1
+    },
+    "md5": "2a2170a3e5c9a354d09e4be718c43235",
+    "name": "svt-av1",
+    "package_tarball_full_path": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/linux-64/svt-av1-4.0.1-hecca717_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/SvtAv1EncApp",
+                "path_type": "hardlink",
+                "sha256": "b544f9efc2558fbcf0342ddb01a387d0d1ef388dff6a770687644d25ee688fa4",
+                "sha256_in_prefix": "b544f9efc2558fbcf0342ddb01a387d0d1ef388dff6a770687644d25ee688fa4",
+                "size_in_bytes": 109096
+            },
+            {
+                "_path": "include/svt-av1/EbConfigMacros.h",
+                "path_type": "hardlink",
+                "sha256": "51d61b59d625bd85fae7b4cfac83c3d97ea019b09df3e1567a6db89f87c26580",
+                "sha256_in_prefix": "51d61b59d625bd85fae7b4cfac83c3d97ea019b09df3e1567a6db89f87c26580",
+                "size_in_bytes": 2712
+            },
+            {
+                "_path": "include/svt-av1/EbDebugMacros.h",
+                "path_type": "hardlink",
+                "sha256": "a573c676a87bd59361ea12d91c45d9f314a62262b943a04fb74395e8de33603a",
+                "sha256_in_prefix": "a573c676a87bd59361ea12d91c45d9f314a62262b943a04fb74395e8de33603a",
+                "size_in_bytes": 3473
+            },
+            {
+                "_path": "include/svt-av1/EbSvtAv1.h",
+                "path_type": "hardlink",
+                "sha256": "61860664c46344a9653fdc77860abf0b986a066a64a49487287e8a9a8098801c",
+                "sha256_in_prefix": "61860664c46344a9653fdc77860abf0b986a066a64a49487287e8a9a8098801c",
+                "size_in_bytes": 15203
+            },
+            {
+                "_path": "include/svt-av1/EbSvtAv1Enc.h",
+                "path_type": "hardlink",
+                "sha256": "bfc9b96bf47000823d70e2cc6c3f11381169446c0adb2cafc1599be5253807b6",
+                "sha256_in_prefix": "bfc9b96bf47000823d70e2cc6c3f11381169446c0adb2cafc1599be5253807b6",
+                "size_in_bytes": 38482
+            },
+            {
+                "_path": "include/svt-av1/EbSvtAv1ErrorCodes.h",
+                "path_type": "hardlink",
+                "sha256": "aabc7ae8e6af7325ebe7bcbe9b64ae763367675586ccf261a63f489ca0a3bfa3",
+                "sha256_in_prefix": "aabc7ae8e6af7325ebe7bcbe9b64ae763367675586ccf261a63f489ca0a3bfa3",
+                "size_in_bytes": 2403
+            },
+            {
+                "_path": "include/svt-av1/EbSvtAv1Formats.h",
+                "path_type": "hardlink",
+                "sha256": "e483f3ca5d41d0766f2411be996488397b73901017b1f410501751d3852efbdc",
+                "sha256_in_prefix": "e483f3ca5d41d0766f2411be996488397b73901017b1f410501751d3852efbdc",
+                "size_in_bytes": 6247
+            },
+            {
+                "_path": "include/svt-av1/EbSvtAv1Metadata.h",
+                "path_type": "hardlink",
+                "sha256": "0ff032702a8f560886cf280c86f4e9698d9cd10d5a926ed7f5af7509b3a248ba",
+                "sha256_in_prefix": "0ff032702a8f560886cf280c86f4e9698d9cd10d5a926ed7f5af7509b3a248ba",
+                "size_in_bytes": 5630
+            },
+            {
+                "_path": "lib/cmake/SVT-AV1/SVT-AV1-sharedTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "725eb2476d4087faf0af01244912d23c9f3de0e44a30d3aade9117b171f6a7e3",
+                "sha256_in_prefix": "725eb2476d4087faf0af01244912d23c9f3de0e44a30d3aade9117b171f6a7e3",
+                "size_in_bytes": 904
+            },
+            {
+                "_path": "lib/cmake/SVT-AV1/SVT-AV1-sharedTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "b1091a80bdda0bd695c563827bfc0924d150088039d45e3b3782a6fe23b74a21",
+                "sha256_in_prefix": "b1091a80bdda0bd695c563827bfc0924d150088039d45e3b3782a6fe23b74a21",
+                "size_in_bytes": 4220
+            },
+            {
+                "_path": "lib/cmake/SVT-AV1/SVT-AV1Config.cmake",
+                "path_type": "hardlink",
+                "sha256": "0af09bb753a3355a7b471d42211466691dccd7659ef3fb1c0df32620ae9d59e7",
+                "sha256_in_prefix": "0af09bb753a3355a7b471d42211466691dccd7659ef3fb1c0df32620ae9d59e7",
+                "size_in_bytes": 1567
+            },
+            {
+                "_path": "lib/cmake/SVT-AV1/SVT-AV1ConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "8262c96b460c04e6952d4185640ba63db939a41eddfaffd7ee870e6cafa7c75b",
+                "sha256_in_prefix": "8262c96b460c04e6952d4185640ba63db939a41eddfaffd7ee870e6cafa7c75b",
+                "size_in_bytes": 1861
+            },
+            {
+                "_path": "lib/libSvtAv1Enc.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "666200870bac66558335874b7429da4ec034c780178ea57d09562958d7defe0a",
+                "size_in_bytes": 7447376
+            },
+            {
+                "_path": "lib/libSvtAv1Enc.so.4",
+                "path_type": "softlink",
+                "sha256_in_prefix": "666200870bac66558335874b7429da4ec034c780178ea57d09562958d7defe0a",
+                "size_in_bytes": 7447376
+            },
+            {
+                "_path": "lib/libSvtAv1Enc.so.4.0.1",
+                "path_type": "hardlink",
+                "sha256": "666200870bac66558335874b7429da4ec034c780178ea57d09562958d7defe0a",
+                "sha256_in_prefix": "666200870bac66558335874b7429da4ec034c780178ea57d09562958d7defe0a",
+                "size_in_bytes": 7447376
+            },
+            {
+                "_path": "lib/pkgconfig/SvtAv1Enc.pc",
+                "path_type": "hardlink",
+                "sha256": "ad275246b0572ee1fe667f68b5fa4b8a8ec8b56a1e6a053d5f4c9d9b65dcff56",
+                "sha256_in_prefix": "abc1f7d42335cfcfa6bfc1546b322a561fe830c898d721480e41061698da47e3",
+                "size_in_bytes": 598
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "4a1d2005153b9454fc21c9bad1b539df189905be49e851ec62a6212c2e045381",
+    "size": 2619743,
+    "subdir": "linux-64",
+    "timestamp": 1769664536,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/svt-av1-4.0.1-hecca717_0.conda",
+    "version": "4.0.1"
+}

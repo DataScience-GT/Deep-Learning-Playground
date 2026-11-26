@@ -1,0 +1,17 @@
+{
+  "build": "pyh5ded981_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.11",
+    "conda-package-streaming >=0.13.0",
+    "backports.zstd >=1.1.0",
+    "requests",
+    "python"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "conda-package-handling",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1788438543851,
+  "version": "2.6.0"
+}

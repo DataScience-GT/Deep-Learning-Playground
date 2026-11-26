@@ -1,0 +1,26 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "conda >=26.3.0",
+        "pydantic >=2.12.5,<3",
+        "python >=3.11",
+        "ruamel.yaml"
+    ],
+    "fn": "conda-lockfiles-0.2.2-pyhd8ed1ab_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "dcd81bbc99124087023c0a9d884d8181",
+    "name": "conda-lockfiles",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "d5ab401d80ae2d0782e2ad27f44d25b2f9476e7469f28bec6c99d2da37ac7fac",
+    "size": 20932,
+    "subdir": "noarch",
+    "timestamp": 1790164274628,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-lockfiles-0.2.2-pyhd8ed1ab_0.conda",
+    "version": "0.2.2"
+}

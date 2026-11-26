@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py314h7e8cd81_0",
+  "build_number": 0,
+  "constrains": [
+    "__glibc >=2.17"
+  ],
+  "depends": [
+    "python",
+    "typing-extensions >=4.16.0",
+    "libgcc >=15",
+    "__glibc >=2.17,<3.0.a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "license": "MIT",
+  "name": "pydantic-core",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1793878756071,
+  "version": "2.50.4"
+}

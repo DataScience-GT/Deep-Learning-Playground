@@ -1,0 +1,121 @@
+{
+  "paths": [
+    {
+      "_path": "etc/conda/test-files/reproc-cpp/0/test-cpp/CMakeLists.txt",
+      "path_type": "hardlink",
+      "sha256": "2f67c2a3a24451ea11d54508ac88b7185b4b74e06321e9b006fb2006b491c827",
+      "size_in_bytes": 281
+    },
+    {
+      "_path": "etc/conda/test-files/reproc-cpp/0/test-cpp/test.cpp",
+      "path_type": "hardlink",
+      "sha256": "dd1879513916b9cfbc6811a5aa286213c5437ed7b377186c9c9c232d50c694ec",
+      "size_in_bytes": 501
+    },
+    {
+      "_path": "include/reproc++/arguments.hpp",
+      "path_type": "hardlink",
+      "sha256": "2258221b8c29155dc01816c95b277a39e5730cbd434a6401856b8257246ed371",
+      "size_in_bytes": 1469
+    },
+    {
+      "_path": "include/reproc++/detail/array.hpp",
+      "path_type": "hardlink",
+      "sha256": "ea6f115ec67278e9bc84e5f764a0ccfdf926f14b1b246999e3e7bf080fdf7032",
+      "size_in_bytes": 828
+    },
+    {
+      "_path": "include/reproc++/detail/type_traits.hpp",
+      "path_type": "hardlink",
+      "sha256": "1ada1fa9050053f6f043ca28042c77531176df7c78edd927bd6b27dde2989263",
+      "size_in_bytes": 357
+    },
+    {
+      "_path": "include/reproc++/drain.hpp",
+      "path_type": "hardlink",
+      "sha256": "55b00931226455ce70d8bc6cdf483e432c62fea732125ce67abdf26d466b7be0",
+      "size_in_bytes": 3445
+    },
+    {
+      "_path": "include/reproc++/env.hpp",
+      "path_type": "hardlink",
+      "sha256": "2ad95ca0ac4c51a072482b3daf46c02baf979dc7b7a1f163ab1a9dede3bd0f8b",
+      "size_in_bytes": 1896
+    },
+    {
+      "_path": "include/reproc++/export.hpp",
+      "path_type": "hardlink",
+      "sha256": "e1957b14ee1f7546861782ca0e65f748bfffa0fcd36f69132d9749ad271748d3",
+      "size_in_bytes": 469
+    },
+    {
+      "_path": "include/reproc++/input.hpp",
+      "path_type": "hardlink",
+      "sha256": "25939274a6dee625b0c884f061accbe4aed99124e9a87454f03e1e9044e3859c",
+      "size_in_bytes": 643
+    },
+    {
+      "_path": "include/reproc++/reproc.hpp",
+      "path_type": "hardlink",
+      "sha256": "27ed4669de91de8b2539c60e218f75dd32377057fe27d842d05c9493a20c18ca",
+      "size_in_bytes": 5912
+    },
+    {
+      "_path": "include/reproc++/run.hpp",
+      "path_type": "hardlink",
+      "sha256": "378fb5a69153877daf6758003ae56496a861488b0d543012eb7a3926e2fdb60d",
+      "size_in_bytes": 939
+    },
+    {
+      "_path": "lib/cmake/reproc++/reproc++-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "16fc2e2038e9585f6b47c6d9e495793ba6a79fd358b779507ca2cc9f0f257651",
+      "size_in_bytes": 2765
+    },
+    {
+      "_path": "lib/cmake/reproc++/reproc++-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "79ca49a2e8bd1ba9bc2ec17eafb0baa1038251a391985ad7d920a7ce1cf421ed",
+      "size_in_bytes": 1136
+    },
+    {
+      "_path": "lib/cmake/reproc++/reproc++-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "bff4091cf659206a340e2ff3671db468e9bce4112df467e25379bcc4965da7ad",
+      "size_in_bytes": 882
+    },
+    {
+      "_path": "lib/cmake/reproc++/reproc++-targets.cmake",
+      "path_type": "hardlink",
+      "sha256": "f6b0cbf2c8471f862b5bfa6ea649050395bf83d28f59916d6cdf7b1b18e5108c",
+      "size_in_bytes": 4201
+    },
+    {
+      "_path": "lib/libreproc++.so",
+      "path_type": "softlink",
+      "sha256": "eb821d6021b5cd0d758d41632b2fa97f2b69864a7163e455f78db666c5fbd34b",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "lib/libreproc++.so.14",
+      "path_type": "softlink",
+      "sha256": "eb821d6021b5cd0d758d41632b2fa97f2b69864a7163e455f78db666c5fbd34b",
+      "size_in_bytes": 21
+    },
+    {
+      "_path": "lib/libreproc++.so.14.2.7",
+      "path_type": "hardlink",
+      "sha256": "eb821d6021b5cd0d758d41632b2fa97f2b69864a7163e455f78db666c5fbd34b",
+      "size_in_bytes": 22000
+    },
+    {
+      "_path": "lib/pkgconfig/reproc++.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_reproc-split_1788160449/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "625071973bcb83c7b57dd6a10cfbe96e5ae53204dc38f21fb80e28dd8884b3f3",
+      "size_in_bytes": 579
+    }
+  ],
+  "paths_version": 1
+}

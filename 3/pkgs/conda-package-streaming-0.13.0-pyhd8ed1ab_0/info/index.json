@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "backports.zstd",
+    "python >=3.10"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "conda-package-streaming",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1781293054998,
+  "version": "0.13.0"
+}

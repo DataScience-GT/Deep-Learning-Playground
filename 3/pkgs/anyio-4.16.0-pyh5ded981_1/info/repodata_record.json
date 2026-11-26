@@ -1,0 +1,28 @@
+{
+    "build": "pyh5ded981_1",
+    "build_number": 1,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [
+        "trio >=0.32.0",
+        "uvloop >=0.22.1",
+        "winloop >=0.2.3"
+    ],
+    "depends": [
+        "idna >=2.8",
+        "python >=3.11",
+        "typing_extensions >=4.16.0",
+        "python"
+    ],
+    "fn": "anyio-4.16.0-pyh5ded981_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "501963580398172e51881617fa03b0b9",
+    "name": "anyio",
+    "noarch": "python",
+    "sha256": "7a5d6533f3b9a59a19a7492865ff4492c1c170396c0c04b2f9c5820f603610d9",
+    "size": 186057,
+    "subdir": "noarch",
+    "timestamp": 1793540058382,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/anyio-4.16.0-pyh5ded981_1.conda",
+    "version": "4.16.0"
+}

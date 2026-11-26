@@ -1,0 +1,22 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/msgpack/msgpack-c",
+  "doc_url": "https://github.com/msgpack/msgpack-c/blob/master/README.md",
+  "extra": {
+    "flow_run_id": "github_31255526266",
+    "recipe-maintainers": [
+      "jjerphan",
+      "hmaarrfk",
+      "bluescarni",
+      "ndevenish",
+      "traversaro"
+    ],
+    "remote_url": "https://github.com/conda-forge/msgpack-c-feedstock",
+    "sha": "814f63320fe786994886edf1381bbbec5d2cf6ae"
+  },
+  "home": "https://github.com/msgpack/msgpack-c",
+  "license": "BSL-1.0",
+  "summary": "MessagePack implementation for C and C++."
+}

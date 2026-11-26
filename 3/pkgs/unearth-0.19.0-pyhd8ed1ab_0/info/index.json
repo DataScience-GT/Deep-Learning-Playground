@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "cached-property >=1.5.2",
+    "httpx2",
+    "packaging >=20",
+    "python >=3.11",
+    "requests >=2.25"
+  ],
+  "license": "MIT",
+  "name": "unearth",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1793601391674,
+  "version": "0.19.0"
+}

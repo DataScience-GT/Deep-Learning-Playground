@@ -1,0 +1,5 @@
+channel_sources: conda-forge
+channel_targets: conda-forge main
+httpcore2: 2.16.0 pyh5ded981_0
+python_min: '3.11'
+target_platform: noarch

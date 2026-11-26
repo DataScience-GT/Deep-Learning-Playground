@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyh145f28c_2",
+  "build_number": 2,
+  "depends": [
+    "ca-certificates >=2026.10.19",
+    "python >=3.13.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pip",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1793659415423,
+  "version": "26.2.2"
+}

@@ -1,0 +1,48 @@
+context:
+  version: "26.10.2"
+
+package:
+  name: conda-rattler-solver
+  version: ${{ version }}
+
+source:
+  url: https://github.com/conda/conda-rattler-solver/archive/${{ version }}.tar.gz
+  sha256: d867afc4a9662855a14ececde71e9e2a79ae1a9870711ea7223e80ce5fdd525c
+
+build:
+  noarch: python
+  script: SETUPTOOLS_SCM_PRETEND_VERSION="${{ version }}" python -m pip install . -vv
+  number: 0
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - hatchling
+    - hatch-vcs
+    - pip
+  run:
+    - python >=${{ python_min }}
+    - conda >=26.7.0
+    - py-rattler >=0.28.1,<0.29.0a0
+
+tests:
+  - python:
+      imports:
+        - conda_rattler_solver.solver
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+  - script:
+      - python -m conda create --dry-run --solver=rattler --channel=conda-forge python
+
+about:
+  homepage: https://github.com/conda/conda-rattler-solver
+  summary: 'The fast, Rust-based solver for conda'
+  license: BSD-3-Clause
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - danyeaw
+    - jaimergp

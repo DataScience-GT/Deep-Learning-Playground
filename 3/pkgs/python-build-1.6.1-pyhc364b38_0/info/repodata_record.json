@@ -1,0 +1,29 @@
+{
+    "build": "pyhc364b38_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [
+        "build <0"
+    ],
+    "depends": [
+        "python >=3.10",
+        "colorama",
+        "importlib-metadata >=4.6",
+        "packaging >=24.0",
+        "pyproject_hooks",
+        "tomli >=1.1.0",
+        "python"
+    ],
+    "fn": "python-build-1.6.1-pyhc364b38_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "3d3aeaee9182433cb5d4a433c1e94f58",
+    "name": "python-build",
+    "noarch": "python",
+    "sha256": "28100eda1e92e786c25753d0ea9def9375d692726d2c76444a040be686b4dd9a",
+    "size": 33470,
+    "subdir": "noarch",
+    "timestamp": 1790158724551,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/python-build-1.6.1-pyhc364b38_0.conda",
+    "version": "1.6.1"
+}

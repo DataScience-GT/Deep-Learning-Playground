@@ -1,0 +1,33 @@
+{
+    "build": "pyhcf101f3_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "cached_property >=2.0.1,<2.0.2.0a0"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/cached-property-2.0.1-pyhcf101f3_0",
+    "files": [],
+    "fn": "cached-property-2.0.1-pyhcf101f3_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/cached-property-2.0.1-pyhcf101f3_0",
+        "type": 1
+    },
+    "md5": "70e764e549c6c25de5e429d6e4a28b39",
+    "name": "cached-property",
+    "noarch": "python",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/cached-property-2.0.1-pyhcf101f3_0.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "requested_spec": "cached-property==2.0.1=pyhcf101f3_0",
+    "sha256": "39358005c3cc44d8315ed79789b18a960d69365be979970cc6bae8f7a6177703",
+    "size": 3720,
+    "subdir": "noarch",
+    "timestamp": 1787678456483,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/cached-property-2.0.1-pyhcf101f3_0.conda",
+    "version": "2.0.1"
+}

@@ -1,0 +1,55 @@
+{
+    "arch": "x86_64",
+    "build": "hd2095e1_0",
+    "build_number": 0,
+    "build_string": "hd2095e1_0",
+    "channel": "conda-forge",
+    "constrains": [
+        "expat 2.11.0.*"
+    ],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=15"
+    ],
+    "extracted_package_dir": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/linux-64/libexpat-2.11.0-hd2095e1_0",
+    "files": [
+        "lib/libexpat.so.1",
+        "lib/libexpat.so.1.14.0"
+    ],
+    "fn": "libexpat-2.11.0-hd2095e1_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/linux-64/libexpat-2.11.0-hd2095e1_0",
+        "type": 1
+    },
+    "md5": "47c5c4a042f288a54654ebe79bafd1b3",
+    "name": "libexpat",
+    "package_tarball_full_path": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/linux-64/libexpat-2.11.0-hd2095e1_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/libexpat.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "438a67ea786bd00d7fbf69e6a9cc53a5e4b64670bbfc8e63d8a8a115171e0433",
+                "size_in_bytes": 213152
+            },
+            {
+                "_path": "lib/libexpat.so.1.14.0",
+                "path_type": "hardlink",
+                "sha256": "438a67ea786bd00d7fbf69e6a9cc53a5e4b64670bbfc8e63d8a8a115171e0433",
+                "sha256_in_prefix": "438a67ea786bd00d7fbf69e6a9cc53a5e4b64670bbfc8e63d8a8a115171e0433",
+                "size_in_bytes": 213152
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "f81a13d80aa62aa6cba1ab54cce5262eea4f2a05979a0c35d0fe979f0ea94600",
+    "size": 83976,
+    "subdir": "linux-64",
+    "timestamp": 1795647413,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.11.0-hd2095e1_0.conda",
+    "version": "2.11.0"
+}

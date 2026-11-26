@@ -1,0 +1,527 @@
+{
+    "build": "pyh5ded981_1",
+    "build_number": 1,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [
+        "certifi >=2026.10.19",
+        "conda >=26.1.0"
+    ],
+    "depends": [
+        "python >=3.11",
+        "packaging",
+        "unearth",
+        "python-build",
+        "python-installer >=1.0",
+        "platformdirs",
+        "conda-index >=0.13.0",
+        "conda-package-streaming >=0.11",
+        "python"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-pypi-0.13.0-pyh5ded981_1",
+    "files": [
+        "lib/python3.14/site-packages/conda_pypi/__init__.py",
+        "lib/python3.14/site-packages/conda_pypi/_version.py",
+        "lib/python3.14/site-packages/conda_pypi/build.py",
+        "lib/python3.14/site-packages/conda_pypi/cli/__init__.py",
+        "lib/python3.14/site-packages/conda_pypi/cli/convert.py",
+        "lib/python3.14/site-packages/conda_pypi/cli/index.py",
+        "lib/python3.14/site-packages/conda_pypi/cli/install.py",
+        "lib/python3.14/site-packages/conda_pypi/cli/main.py",
+        "lib/python3.14/site-packages/conda_pypi/conda_build_utils.py",
+        "lib/python3.14/site-packages/conda_pypi/convert_tree.py",
+        "lib/python3.14/site-packages/conda_pypi/data/EXTERNALLY-MANAGED",
+        "lib/python3.14/site-packages/conda_pypi/dependencies/__init__.py",
+        "lib/python3.14/site-packages/conda_pypi/dependencies/pypi.py",
+        "lib/python3.14/site-packages/conda_pypi/dependencies_subprocess.py",
+        "lib/python3.14/site-packages/conda_pypi/downloader.py",
+        "lib/python3.14/site-packages/conda_pypi/exceptions.py",
+        "lib/python3.14/site-packages/conda_pypi/grayskull_pypi_mapping.json",
+        "lib/python3.14/site-packages/conda_pypi/health_checks/__init__.py",
+        "lib/python3.14/site-packages/conda_pypi/health_checks/external_packages.py",
+        "lib/python3.14/site-packages/conda_pypi/index.py",
+        "lib/python3.14/site-packages/conda_pypi/installer.py",
+        "lib/python3.14/site-packages/conda_pypi/license_files.py",
+        "lib/python3.14/site-packages/conda_pypi/main.py",
+        "lib/python3.14/site-packages/conda_pypi/markers.py",
+        "lib/python3.14/site-packages/conda_pypi/name_mapping.py",
+        "lib/python3.14/site-packages/conda_pypi/package_extractors/__init__.py",
+        "lib/python3.14/site-packages/conda_pypi/package_extractors/whl.py",
+        "lib/python3.14/site-packages/conda_pypi/paths.py",
+        "lib/python3.14/site-packages/conda_pypi/plugin.py",
+        "lib/python3.14/site-packages/conda_pypi/pypi_metadata.py",
+        "lib/python3.14/site-packages/conda_pypi/python_paths.py",
+        "lib/python3.14/site-packages/conda_pypi/translate.py",
+        "lib/python3.14/site-packages/conda_pypi/utils.py",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/INSTALLER",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/METADATA",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/RECORD",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/REQUESTED",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/WHEEL",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/direct_url.json",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/entry_points.txt",
+        "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/licenses/LICENSE",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/_version.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/build.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/convert.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/index.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/install.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/main.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/conda_build_utils.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/convert_tree.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/dependencies/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/dependencies/__pycache__/pypi.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/dependencies_subprocess.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/downloader.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/exceptions.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/health_checks/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/health_checks/__pycache__/external_packages.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/index.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/installer.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/license_files.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/main.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/markers.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/name_mapping.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/package_extractors/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/package_extractors/__pycache__/whl.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/paths.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/plugin.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/pypi_metadata.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/python_paths.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/translate.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_pypi/__pycache__/utils.cpython-314.pyc"
+    ],
+    "fn": "conda-pypi-0.13.0-pyh5ded981_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-pypi-0.13.0-pyh5ded981_1",
+        "type": 1
+    },
+    "md5": "4c0a712cde065bac88caea93eb6aea88",
+    "name": "conda-pypi",
+    "noarch": "python",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-pypi-0.13.0-pyh5ded981_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "2428c1b63e689bc4a5f7150d36090b2e6c3efa0db4e54d113b4747c4a9a7fa32",
+                "sha256_in_prefix": "2428c1b63e689bc4a5f7150d36090b2e6c3efa0db4e54d113b4747c4a9a7fa32",
+                "size_in_bytes": 536
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/_version.py",
+                "path_type": "hardlink",
+                "sha256": "d01163480b8c08bea7fd1b1071564f796787678d05793fd5d7b1b2f0c5996527",
+                "sha256_in_prefix": "d01163480b8c08bea7fd1b1071564f796787678d05793fd5d7b1b2f0c5996527",
+                "size_in_bytes": 522
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/build.py",
+                "path_type": "hardlink",
+                "sha256": "d46745f2abea119f940aad7b5e565d22d4449b8f33f6e4234103a8472d78734a",
+                "sha256_in_prefix": "d46745f2abea119f940aad7b5e565d22d4449b8f33f6e4234103a8472d78734a",
+                "size_in_bytes": 11625
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "43fc3449ad6119373e742321c465da7991cfc73536b265301f09c864afc7aa28",
+                "sha256_in_prefix": "43fc3449ad6119373e742321c465da7991cfc73536b265301f09c864afc7aa28",
+                "size_in_bytes": 52
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/convert.py",
+                "path_type": "hardlink",
+                "sha256": "eb474a54f09bf73af8ab403a3cc78bbd6765d3a878e578ca3af1473c01c0041b",
+                "sha256_in_prefix": "eb474a54f09bf73af8ab403a3cc78bbd6765d3a878e578ca3af1473c01c0041b",
+                "size_in_bytes": 6323
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/index.py",
+                "path_type": "hardlink",
+                "sha256": "bdbfbb37101206b5e4021cca2f37a0be745e15f3baec3f139599daef5aafee4a",
+                "sha256_in_prefix": "bdbfbb37101206b5e4021cca2f37a0be745e15f3baec3f139599daef5aafee4a",
+                "size_in_bytes": 6203
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/install.py",
+                "path_type": "hardlink",
+                "sha256": "4f620436c466c27de2f9e23ba80c2b33c90550bf30ae8136860c2a5a7f9b8995",
+                "sha256_in_prefix": "4f620436c466c27de2f9e23ba80c2b33c90550bf30ae8136860c2a5a7f9b8995",
+                "size_in_bytes": 8488
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/main.py",
+                "path_type": "hardlink",
+                "sha256": "2b9af346e332f785ffc2ba97812f003f66b2436433fed6635c8d76f0159c5f61",
+                "sha256_in_prefix": "2b9af346e332f785ffc2ba97812f003f66b2436433fed6635c8d76f0159c5f61",
+                "size_in_bytes": 2247
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/conda_build_utils.py",
+                "path_type": "hardlink",
+                "sha256": "610e0c0180d41b26993f6a16bbaf6e61151d3e215e0e8c18713a0895a591d53a",
+                "sha256_in_prefix": "610e0c0180d41b26993f6a16bbaf6e61151d3e215e0e8c18713a0895a591d53a",
+                "size_in_bytes": 1665
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/convert_tree.py",
+                "path_type": "hardlink",
+                "sha256": "3dfa34e659e092bd0db930890e5cab7a2b79042a409219e030058b0779167d7e",
+                "sha256_in_prefix": "3dfa34e659e092bd0db930890e5cab7a2b79042a409219e030058b0779167d7e",
+                "size_in_bytes": 8866
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/data/EXTERNALLY-MANAGED",
+                "path_type": "hardlink",
+                "sha256": "1df4a6118482a59a8a3e2875464ed6b1306e090c1c40002b95738165a5fd3009",
+                "sha256_in_prefix": "1df4a6118482a59a8a3e2875464ed6b1306e090c1c40002b95738165a5fd3009",
+                "size_in_bytes": 870
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/dependencies/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "1d64204fd86ba41cfda4cabc84219e52aa6eca5da6eb13b022d2e7cc6e1e1d11",
+                "sha256_in_prefix": "1d64204fd86ba41cfda4cabc84219e52aa6eca5da6eb13b022d2e7cc6e1e1d11",
+                "size_in_bytes": 259
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/dependencies/pypi.py",
+                "path_type": "hardlink",
+                "sha256": "94abd1d4483c27afbb13b84c1b032446b0f5479f67f74da5a0d046fe7891512a",
+                "sha256_in_prefix": "94abd1d4483c27afbb13b84c1b032446b0f5479f67f74da5a0d046fe7891512a",
+                "size_in_bytes": 2113
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/dependencies_subprocess.py",
+                "path_type": "hardlink",
+                "sha256": "d6595b19a897ad434cdb2cf2e502b9cfe3b1d4dbdb143c1cac161186a4d94b8d",
+                "sha256_in_prefix": "d6595b19a897ad434cdb2cf2e502b9cfe3b1d4dbdb143c1cac161186a4d94b8d",
+                "size_in_bytes": 712
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/downloader.py",
+                "path_type": "hardlink",
+                "sha256": "6766ef371e2704dde99a60de8dcf17ed012967e7bb281c214703ef2de519b2fc",
+                "sha256_in_prefix": "6766ef371e2704dde99a60de8dcf17ed012967e7bb281c214703ef2de519b2fc",
+                "size_in_bytes": 2370
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/exceptions.py",
+                "path_type": "hardlink",
+                "sha256": "77c00ab91a720917e2675cf730e45ed7320f1866f1cc4f560b965c3b5fa65b97",
+                "sha256_in_prefix": "77c00ab91a720917e2675cf730e45ed7320f1866f1cc4f560b965c3b5fa65b97",
+                "size_in_bytes": 190
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/grayskull_pypi_mapping.json",
+                "path_type": "hardlink",
+                "sha256": "92ce0c08f81f7dd940333c3567ee900bfb4599c2e7c01cf5e8b6472f3b77f4b5",
+                "sha256_in_prefix": "92ce0c08f81f7dd940333c3567ee900bfb4599c2e7c01cf5e8b6472f3b77f4b5",
+                "size_in_bytes": 1657622
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/health_checks/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "3f858029b47de720493021f35c7e2637779f3424fedd04bcacd685c144a14491",
+                "sha256_in_prefix": "3f858029b47de720493021f35c7e2637779f3424fedd04bcacd685c144a14491",
+                "size_in_bytes": 110
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/health_checks/external_packages.py",
+                "path_type": "hardlink",
+                "sha256": "cea6ac4180115aaf8bd6d9b996b5e32f6ee6bce3d57d937407622f8645e2e165",
+                "sha256_in_prefix": "cea6ac4180115aaf8bd6d9b996b5e32f6ee6bce3d57d937407622f8645e2e165",
+                "size_in_bytes": 5504
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/index.py",
+                "path_type": "hardlink",
+                "sha256": "fffea8fab711f32dee33f940a0375567b457870db1c868641df8d9dba033f516",
+                "sha256_in_prefix": "fffea8fab711f32dee33f940a0375567b457870db1c868641df8d9dba033f516",
+                "size_in_bytes": 2703
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/installer.py",
+                "path_type": "hardlink",
+                "sha256": "4cdad6d672493e4c916ba85e3fde0a8be266a48ba113ff33c87294a3c1def534",
+                "sha256_in_prefix": "4cdad6d672493e4c916ba85e3fde0a8be266a48ba113ff33c87294a3c1def534",
+                "size_in_bytes": 6902
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/license_files.py",
+                "path_type": "hardlink",
+                "sha256": "18775c0bec5676bcb91eeced91034f2cb1d88aa53bbb6b20c3ccb9ae1d0966f2",
+                "sha256_in_prefix": "18775c0bec5676bcb91eeced91034f2cb1d88aa53bbb6b20c3ccb9ae1d0966f2",
+                "size_in_bytes": 3186
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/main.py",
+                "path_type": "hardlink",
+                "sha256": "6e9fef0e9b7a2ed929b750654def1b87a0a1ea65c16a9e737ff7af26aee21084",
+                "sha256_in_prefix": "6e9fef0e9b7a2ed929b750654def1b87a0a1ea65c16a9e737ff7af26aee21084",
+                "size_in_bytes": 6221
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/markers.py",
+                "path_type": "hardlink",
+                "sha256": "fc850ceec7d540c6e70d4bdcd5208f592c4c2fac1c81f6027a88d370d6233ab1",
+                "sha256_in_prefix": "fc850ceec7d540c6e70d4bdcd5208f592c4c2fac1c81f6027a88d370d6233ab1",
+                "size_in_bytes": 5767
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/name_mapping.py",
+                "path_type": "hardlink",
+                "sha256": "09a973f7ca456b44e8b51c23b5d6ddadb30a5fa3cdf4a054331a1f243c34d328",
+                "sha256_in_prefix": "09a973f7ca456b44e8b51c23b5d6ddadb30a5fa3cdf4a054331a1f243c34d328",
+                "size_in_bytes": 1971
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/package_extractors/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/package_extractors/whl.py",
+                "path_type": "hardlink",
+                "sha256": "9e72f7f39559d7ecb7a9b3b23372b0d64add47d99d7f6fcf1c2d2af8ad5f2a0a",
+                "sha256_in_prefix": "9e72f7f39559d7ecb7a9b3b23372b0d64add47d99d7f6fcf1c2d2af8ad5f2a0a",
+                "size_in_bytes": 9428
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/paths.py",
+                "path_type": "hardlink",
+                "sha256": "a9968035116f7659f4f2a724fc7e7f9addce7412c11ca679845d3f96a57df5bd",
+                "sha256_in_prefix": "a9968035116f7659f4f2a724fc7e7f9addce7412c11ca679845d3f96a57df5bd",
+                "size_in_bytes": 193
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/plugin.py",
+                "path_type": "hardlink",
+                "sha256": "8b00ff8a76e3be87aac713bbca7de0dffcaf6f47cb3f39b9d40d7e1807fae4f0",
+                "sha256_in_prefix": "8b00ff8a76e3be87aac713bbca7de0dffcaf6f47cb3f39b9d40d7e1807fae4f0",
+                "size_in_bytes": 1671
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/pypi_metadata.py",
+                "path_type": "hardlink",
+                "sha256": "edcdf157b4cae7c8eabd7e973f526aec8ba9a094df596ff6305f493520526569",
+                "sha256_in_prefix": "edcdf157b4cae7c8eabd7e973f526aec8ba9a094df596ff6305f493520526569",
+                "size_in_bytes": 4611
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/python_paths.py",
+                "path_type": "hardlink",
+                "sha256": "7bc8b8834762fddff9f4ed3f2cc706f31b9c86c96c23f4c41096e333e7fa4a12",
+                "sha256_in_prefix": "7bc8b8834762fddff9f4ed3f2cc706f31b9c86c96c23f4c41096e333e7fa4a12",
+                "size_in_bytes": 4148
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/translate.py",
+                "path_type": "hardlink",
+                "sha256": "de0e491a111bc5777abc6a6d0fa54748e0ee559ef39aeb4d38ba77fbfaf6975b",
+                "sha256_in_prefix": "de0e491a111bc5777abc6a6d0fa54748e0ee559ef39aeb4d38ba77fbfaf6975b",
+                "size_in_bytes": 12768
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/utils.py",
+                "path_type": "hardlink",
+                "sha256": "85ecfdb2f8e8abecb92f9965ebfc47e7d98912f2cfd49a172ef7bc50b3447c0a",
+                "sha256_in_prefix": "85ecfdb2f8e8abecb92f9965ebfc47e7d98912f2cfd49a172ef7bc50b3447c0a",
+                "size_in_bytes": 2110
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "size_in_bytes": 6
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "c1071cf9a2670a2a1b09edfc7a82322e808498b3a9c6db6733f9a869264c667b",
+                "sha256_in_prefix": "c1071cf9a2670a2a1b09edfc7a82322e808498b3a9c6db6733f9a869264c667b",
+                "size_in_bytes": 4315
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "1104da05e807ac6b81b41b4d6b6dbbbbb74b7ebf255dab5941d0092c5dcd4c50",
+                "sha256_in_prefix": "1104da05e807ac6b81b41b4d6b6dbbbbb74b7ebf255dab5941d0092c5dcd4c50",
+                "size_in_bytes": 5220
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
+                "sha256_in_prefix": "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
+                "size_in_bytes": 87
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "21d35f1c17be2264c835e447f62df356193b26fb49d95dbfbecd6d2532b0ff3e",
+                "sha256_in_prefix": "21d35f1c17be2264c835e447f62df356193b26fb49d95dbfbecd6d2532b0ff3e",
+                "size_in_bytes": 121
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/entry_points.txt",
+                "path_type": "hardlink",
+                "sha256": "981797d0a5c56cb8ae1aaef2d11027be02299c4fd2b2a1536ef8ea8ea766b04a",
+                "sha256_in_prefix": "981797d0a5c56cb8ae1aaef2d11027be02299c4fd2b2a1536ef8ea8ea766b04a",
+                "size_in_bytes": 39
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi-0.13.0.dist-info/licenses/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "2f650dc1498a5f17e2ff0ddbe4a9a3f66871b9bf8a9a2f61dd6033919f3828ea",
+                "sha256_in_prefix": "2f650dc1498a5f17e2ff0ddbe4a9a3f66871b9bf8a9a2f61dd6033919f3828ea",
+                "size_in_bytes": 1080
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/_version.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/build.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/convert.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/index.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/install.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/cli/__pycache__/main.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/conda_build_utils.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/convert_tree.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/dependencies/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/dependencies/__pycache__/pypi.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/dependencies_subprocess.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/downloader.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/exceptions.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/health_checks/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/health_checks/__pycache__/external_packages.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/index.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/installer.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/license_files.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/main.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/markers.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/name_mapping.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/package_extractors/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/package_extractors/__pycache__/whl.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/paths.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/plugin.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/pypi_metadata.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/python_paths.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/translate.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_pypi/__pycache__/utils.cpython-314.pyc",
+                "path_type": "pyc_file"
+            }
+        ],
+        "paths_version": 1
+    },
+    "requested_spec": "conda-pypi==0.13.0=pyh5ded981_1",
+    "sha256": "43351ec8257e7add2e5b852f6e44af2e8f08251cd223823f238063908438040d",
+    "size": 253023,
+    "subdir": "noarch",
+    "timestamp": 1792581704294,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-pypi-0.13.0-pyh5ded981_1.conda",
+    "version": "0.13.0"
+}

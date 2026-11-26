@@ -1,0 +1,492 @@
+{
+    "arch": "x86_64",
+    "build": "gpl_h3152399_100",
+    "build_number": 100,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "libgcc >=15",
+        "liblzma >=5.8.3,<6.0a0",
+        "libxml2",
+        "libxml2-16 >=2.15.4",
+        "libzlib >=1.3.2,<2.0a0",
+        "lz4-c >=1.10.0,<1.11.0a0",
+        "lzo >=2.10,<3.0a0",
+        "openssl >=3.5.9,<4.0a0",
+        "zstd >=1.5.7,<1.6.0a0"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/libarchive-3.8.11-gpl_h3152399_100",
+    "files": [
+        "bin/bsdcat",
+        "bin/bsdcpio",
+        "bin/bsdtar",
+        "bin/bsdunzip",
+        "include/archive.h",
+        "include/archive_entry.h",
+        "lib/libarchive.a",
+        "lib/libarchive.so",
+        "lib/libarchive.so.13",
+        "lib/libarchive.so.13.8.11",
+        "lib/pkgconfig/libarchive.pc",
+        "share/man/man1/bsdcat.1",
+        "share/man/man1/bsdcpio.1",
+        "share/man/man1/bsdtar.1",
+        "share/man/man1/bsdunzip.1",
+        "share/man/man3/archive_entry.3",
+        "share/man/man3/archive_entry_acl.3",
+        "share/man/man3/archive_entry_linkify.3",
+        "share/man/man3/archive_entry_misc.3",
+        "share/man/man3/archive_entry_paths.3",
+        "share/man/man3/archive_entry_perms.3",
+        "share/man/man3/archive_entry_stat.3",
+        "share/man/man3/archive_entry_time.3",
+        "share/man/man3/archive_read.3",
+        "share/man/man3/archive_read_add_passphrase.3",
+        "share/man/man3/archive_read_data.3",
+        "share/man/man3/archive_read_disk.3",
+        "share/man/man3/archive_read_extract.3",
+        "share/man/man3/archive_read_filter.3",
+        "share/man/man3/archive_read_format.3",
+        "share/man/man3/archive_read_free.3",
+        "share/man/man3/archive_read_header.3",
+        "share/man/man3/archive_read_new.3",
+        "share/man/man3/archive_read_open.3",
+        "share/man/man3/archive_read_set_options.3",
+        "share/man/man3/archive_util.3",
+        "share/man/man3/archive_write.3",
+        "share/man/man3/archive_write_blocksize.3",
+        "share/man/man3/archive_write_data.3",
+        "share/man/man3/archive_write_disk.3",
+        "share/man/man3/archive_write_filter.3",
+        "share/man/man3/archive_write_finish_entry.3",
+        "share/man/man3/archive_write_format.3",
+        "share/man/man3/archive_write_free.3",
+        "share/man/man3/archive_write_header.3",
+        "share/man/man3/archive_write_new.3",
+        "share/man/man3/archive_write_open.3",
+        "share/man/man3/archive_write_set_options.3",
+        "share/man/man3/archive_write_set_passphrase.3",
+        "share/man/man3/libarchive.3",
+        "share/man/man3/libarchive_changes.3",
+        "share/man/man3/libarchive_internals.3",
+        "share/man/man5/cpio.5",
+        "share/man/man5/libarchive-formats.5",
+        "share/man/man5/mtree.5",
+        "share/man/man5/tar.5"
+    ],
+    "fn": "libarchive-3.8.11-gpl_h3152399_100.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/libarchive-3.8.11-gpl_h3152399_100",
+        "type": 1
+    },
+    "md5": "e0d4df4a6b54a62bd7f12e52a6158bd9",
+    "name": "libarchive",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/libarchive-3.8.11-gpl_h3152399_100.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/bsdcat",
+                "path_type": "hardlink",
+                "sha256": "20814b5b77e5281bbf1724fc7572b8537384f99f0f668247cfd927661d2f52b6",
+                "sha256_in_prefix": "20814b5b77e5281bbf1724fc7572b8537384f99f0f668247cfd927661d2f52b6",
+                "size_in_bytes": 101768
+            },
+            {
+                "_path": "bin/bsdcpio",
+                "path_type": "hardlink",
+                "sha256": "73332c1f987aa624449d743752504db26408d0073cea51350aebd0e85a557cb1",
+                "sha256_in_prefix": "73332c1f987aa624449d743752504db26408d0073cea51350aebd0e85a557cb1",
+                "size_in_bytes": 907064
+            },
+            {
+                "_path": "bin/bsdtar",
+                "path_type": "hardlink",
+                "sha256": "1bbace7fb1001710765d03f2033d3fd1ecd49ebafc59bea89a1d4f992cb19ad3",
+                "sha256_in_prefix": "1bbace7fb1001710765d03f2033d3fd1ecd49ebafc59bea89a1d4f992cb19ad3",
+                "size_in_bytes": 969632
+            },
+            {
+                "_path": "bin/bsdunzip",
+                "path_type": "hardlink",
+                "sha256": "3946c89f1a7a0c92a32ebdd2065736f1b39b45603f5134193181de7ce8d4bc11",
+                "sha256_in_prefix": "3946c89f1a7a0c92a32ebdd2065736f1b39b45603f5134193181de7ce8d4bc11",
+                "size_in_bytes": 183216
+            },
+            {
+                "_path": "include/archive.h",
+                "path_type": "hardlink",
+                "sha256": "7c1f9a5858cf11b4097e61489eb498ea955067287a9f754312c60cce3a3e54de",
+                "sha256_in_prefix": "7c1f9a5858cf11b4097e61489eb498ea955067287a9f754312c60cce3a3e54de",
+                "size_in_bytes": 56278
+            },
+            {
+                "_path": "include/archive_entry.h",
+                "path_type": "hardlink",
+                "sha256": "0f76dc1de6cd51be76c946c27ab5af0e9b29b3f0991d50a498cf17e0ee0c2ffc",
+                "sha256_in_prefix": "0f76dc1de6cd51be76c946c27ab5af0e9b29b3f0991d50a498cf17e0ee0c2ffc",
+                "size_in_bytes": 35427
+            },
+            {
+                "_path": "lib/libarchive.a",
+                "path_type": "hardlink",
+                "sha256": "04739de39202da4423af5e6d137bdc1e746811be55f6e95572cc1dcb58536b24",
+                "sha256_in_prefix": "04739de39202da4423af5e6d137bdc1e746811be55f6e95572cc1dcb58536b24",
+                "size_in_bytes": 1899958
+            },
+            {
+                "_path": "lib/libarchive.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c9f9bf07a1d3e982701df5622b7fd7edde0028082a29fa33f26e5538952aaa36",
+                "size_in_bytes": 990720
+            },
+            {
+                "_path": "lib/libarchive.so.13",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c9f9bf07a1d3e982701df5622b7fd7edde0028082a29fa33f26e5538952aaa36",
+                "size_in_bytes": 990720
+            },
+            {
+                "_path": "lib/libarchive.so.13.8.11",
+                "path_type": "hardlink",
+                "sha256": "c9f9bf07a1d3e982701df5622b7fd7edde0028082a29fa33f26e5538952aaa36",
+                "sha256_in_prefix": "c9f9bf07a1d3e982701df5622b7fd7edde0028082a29fa33f26e5538952aaa36",
+                "size_in_bytes": 990720
+            },
+            {
+                "_path": "lib/pkgconfig/libarchive.pc",
+                "path_type": "hardlink",
+                "sha256": "8b24a368a9f5f2a00ad2dc95e8b64d81e8fef4becac36738d27bd65ccb03a456",
+                "sha256_in_prefix": "7078f9c3c8f0b860d44a7ef789e1f988e4716d140c15586e0e3c9b3b0876a6a3",
+                "size_in_bytes": 1162
+            },
+            {
+                "_path": "share/man/man1/bsdcat.1",
+                "path_type": "hardlink",
+                "sha256": "3af4cd30565d11decffb5590bd8e9a15c4666fd72a858c807bfefc9f334d08ef",
+                "sha256_in_prefix": "3af4cd30565d11decffb5590bd8e9a15c4666fd72a858c807bfefc9f334d08ef",
+                "size_in_bytes": 832
+            },
+            {
+                "_path": "share/man/man1/bsdcpio.1",
+                "path_type": "hardlink",
+                "sha256": "0833aac8e15c265eea3448c322b3c7f477046a4e77e62cef24b44707ed1cc4b7",
+                "sha256_in_prefix": "0833aac8e15c265eea3448c322b3c7f477046a4e77e62cef24b44707ed1cc4b7",
+                "size_in_bytes": 12069
+            },
+            {
+                "_path": "share/man/man1/bsdtar.1",
+                "path_type": "hardlink",
+                "sha256": "205af81a497d0d6b18c7e14fdbe033c801fcd2ff17ec88dd2ea94192d2837119",
+                "sha256_in_prefix": "205af81a497d0d6b18c7e14fdbe033c801fcd2ff17ec88dd2ea94192d2837119",
+                "size_in_bytes": 42108
+            },
+            {
+                "_path": "share/man/man1/bsdunzip.1",
+                "path_type": "hardlink",
+                "sha256": "b1ba557a0f6388d2d7fd556bd242e392fbf4764f9b979c69a3d0e21c2a507b24",
+                "sha256_in_prefix": "b1ba557a0f6388d2d7fd556bd242e392fbf4764f9b979c69a3d0e21c2a507b24",
+                "size_in_bytes": 5320
+            },
+            {
+                "_path": "share/man/man3/archive_entry.3",
+                "path_type": "hardlink",
+                "sha256": "f76470f6e9effe6f71c82e5c9e4514ec42438e7a82d7bf66da7dd415e3d40198",
+                "sha256_in_prefix": "f76470f6e9effe6f71c82e5c9e4514ec42438e7a82d7bf66da7dd415e3d40198",
+                "size_in_bytes": 4950
+            },
+            {
+                "_path": "share/man/man3/archive_entry_acl.3",
+                "path_type": "hardlink",
+                "sha256": "558658f83de755db7b47e1b3c97d7c2f559e5ba1668d04265ecc316cc4bc3778",
+                "sha256_in_prefix": "558658f83de755db7b47e1b3c97d7c2f559e5ba1668d04265ecc316cc4bc3778",
+                "size_in_bytes": 14666
+            },
+            {
+                "_path": "share/man/man3/archive_entry_linkify.3",
+                "path_type": "hardlink",
+                "sha256": "6c65e8cd4a2afa2a8ab64b8a3fba66980ba034ab9a3916fc71edafef99338cd2",
+                "sha256_in_prefix": "6c65e8cd4a2afa2a8ab64b8a3fba66980ba034ab9a3916fc71edafef99338cd2",
+                "size_in_bytes": 6047
+            },
+            {
+                "_path": "share/man/man3/archive_entry_misc.3",
+                "path_type": "hardlink",
+                "sha256": "154ce58f01b3f3d96092cfe376bf99c6313eabc8d9877993491cd27863507567",
+                "sha256_in_prefix": "154ce58f01b3f3d96092cfe376bf99c6313eabc8d9877993491cd27863507567",
+                "size_in_bytes": 2527
+            },
+            {
+                "_path": "share/man/man3/archive_entry_paths.3",
+                "path_type": "hardlink",
+                "sha256": "c3a7cbdd434b690212dcc005bb4be287d2d81354e52a8fbd6022e5cde3ff8d9d",
+                "sha256_in_prefix": "c3a7cbdd434b690212dcc005bb4be287d2d81354e52a8fbd6022e5cde3ff8d9d",
+                "size_in_bytes": 5660
+            },
+            {
+                "_path": "share/man/man3/archive_entry_perms.3",
+                "path_type": "hardlink",
+                "sha256": "1bfa76ec9033e94352ddc59280a4a2e8792d964ffb2e674e4a5e430cbeb07b1a",
+                "sha256_in_prefix": "1bfa76ec9033e94352ddc59280a4a2e8792d964ffb2e674e4a5e430cbeb07b1a",
+                "size_in_bytes": 7830
+            },
+            {
+                "_path": "share/man/man3/archive_entry_stat.3",
+                "path_type": "hardlink",
+                "sha256": "8da6d09a795ee2b5b8619497d04601f7b5135a0c0b880fb38a5992c5e186c3b0",
+                "sha256_in_prefix": "8da6d09a795ee2b5b8619497d04601f7b5135a0c0b880fb38a5992c5e186c3b0",
+                "size_in_bytes": 8296
+            },
+            {
+                "_path": "share/man/man3/archive_entry_time.3",
+                "path_type": "hardlink",
+                "sha256": "b94a830bf3feca608ef83cf2c285adca607c33d7e385308def0aaa2d74c648f1",
+                "sha256_in_prefix": "b94a830bf3feca608ef83cf2c285adca607c33d7e385308def0aaa2d74c648f1",
+                "size_in_bytes": 4594
+            },
+            {
+                "_path": "share/man/man3/archive_read.3",
+                "path_type": "hardlink",
+                "sha256": "fa8c8d5c786446ba7a9380dd764e5ff1c3336acbcdd039d054b16c04f644888c",
+                "sha256_in_prefix": "fa8c8d5c786446ba7a9380dd764e5ff1c3336acbcdd039d054b16c04f644888c",
+                "size_in_bytes": 7327
+            },
+            {
+                "_path": "share/man/man3/archive_read_add_passphrase.3",
+                "path_type": "hardlink",
+                "sha256": "b80641fddabcd25dca39026401ddbf065ac50c1951ea748c074379eed61d3c15",
+                "sha256_in_prefix": "b80641fddabcd25dca39026401ddbf065ac50c1951ea748c074379eed61d3c15",
+                "size_in_bytes": 2518
+            },
+            {
+                "_path": "share/man/man3/archive_read_data.3",
+                "path_type": "hardlink",
+                "sha256": "12d143ed4b4efb20963d4af147b4fb1d4f7a0eccb230f02c2a686747e93f597a",
+                "sha256_in_prefix": "12d143ed4b4efb20963d4af147b4fb1d4f7a0eccb230f02c2a686747e93f597a",
+                "size_in_bytes": 4573
+            },
+            {
+                "_path": "share/man/man3/archive_read_disk.3",
+                "path_type": "hardlink",
+                "sha256": "eda9f847f5890594a616ed3d038afcf9c7b9503943aa7205cf856c782568cdf0",
+                "sha256_in_prefix": "eda9f847f5890594a616ed3d038afcf9c7b9503943aa7205cf856c782568cdf0",
+                "size_in_bytes": 14218
+            },
+            {
+                "_path": "share/man/man3/archive_read_extract.3",
+                "path_type": "hardlink",
+                "sha256": "31bdcb59e85068e03c7679062681948c1fe566ea91222a55cf3ddc22d7bbabbc",
+                "sha256_in_prefix": "31bdcb59e85068e03c7679062681948c1fe566ea91222a55cf3ddc22d7bbabbc",
+                "size_in_bytes": 4474
+            },
+            {
+                "_path": "share/man/man3/archive_read_filter.3",
+                "path_type": "hardlink",
+                "sha256": "2dc7cb6907f9405ae31d749ec19abcbae71f2fa17c43fd98cfb576f388be9b52",
+                "sha256_in_prefix": "2dc7cb6907f9405ae31d749ec19abcbae71f2fa17c43fd98cfb576f388be9b52",
+                "size_in_bytes": 5679
+            },
+            {
+                "_path": "share/man/man3/archive_read_format.3",
+                "path_type": "hardlink",
+                "sha256": "5b9c5f1039032d62839ad5e06a6615a66f13936ca17b902e3a04eb6b9de5235f",
+                "sha256_in_prefix": "5b9c5f1039032d62839ad5e06a6615a66f13936ca17b902e3a04eb6b9de5235f",
+                "size_in_bytes": 6625
+            },
+            {
+                "_path": "share/man/man3/archive_read_free.3",
+                "path_type": "hardlink",
+                "sha256": "6733f5f5024994f27adf457cb675ebea2c8a9f668e9bf26863513184b9bca674",
+                "sha256_in_prefix": "6733f5f5024994f27adf457cb675ebea2c8a9f668e9bf26863513184b9bca674",
+                "size_in_bytes": 3130
+            },
+            {
+                "_path": "share/man/man3/archive_read_header.3",
+                "path_type": "hardlink",
+                "sha256": "853e676b779bd569fc74bc83f26dacb8457c7de140c5ec50f663f65d67223b8c",
+                "sha256_in_prefix": "853e676b779bd569fc74bc83f26dacb8457c7de140c5ec50f663f65d67223b8c",
+                "size_in_bytes": 3021
+            },
+            {
+                "_path": "share/man/man3/archive_read_new.3",
+                "path_type": "hardlink",
+                "sha256": "b25bc127b6d991b97ad7b9cb88b5adb9f8e01365306fde5bc3f3841d402ebc79",
+                "sha256_in_prefix": "b25bc127b6d991b97ad7b9cb88b5adb9f8e01365306fde5bc3f3841d402ebc79",
+                "size_in_bytes": 2107
+            },
+            {
+                "_path": "share/man/man3/archive_read_open.3",
+                "path_type": "hardlink",
+                "sha256": "67bcca55c2bcaaec2d48537555a1d114449a7642ef3b427351701509fe0d6b74",
+                "sha256_in_prefix": "67bcca55c2bcaaec2d48537555a1d114449a7642ef3b427351701509fe0d6b74",
+                "size_in_bytes": 7441
+            },
+            {
+                "_path": "share/man/man3/archive_read_set_options.3",
+                "path_type": "hardlink",
+                "sha256": "1bad6c875f1fd454b9c621751f57c97dc88620f8bcde5eb7e63d7fcbdc51b71c",
+                "sha256_in_prefix": "1bad6c875f1fd454b9c621751f57c97dc88620f8bcde5eb7e63d7fcbdc51b71c",
+                "size_in_bytes": 7664
+            },
+            {
+                "_path": "share/man/man3/archive_util.3",
+                "path_type": "hardlink",
+                "sha256": "24e5810025df00358d7e52324829a6dc454b9d97151323880eb48342f051b028",
+                "sha256_in_prefix": "24e5810025df00358d7e52324829a6dc454b9d97151323880eb48342f051b028",
+                "size_in_bytes": 7661
+            },
+            {
+                "_path": "share/man/man3/archive_write.3",
+                "path_type": "hardlink",
+                "sha256": "13f820bbc286044799efcbcc8dcd9b755e2f9e1932efd36fafec1f764fb2bb11",
+                "sha256_in_prefix": "13f820bbc286044799efcbcc8dcd9b755e2f9e1932efd36fafec1f764fb2bb11",
+                "size_in_bytes": 7472
+            },
+            {
+                "_path": "share/man/man3/archive_write_blocksize.3",
+                "path_type": "hardlink",
+                "sha256": "4206e110dea128b7ef20f8690e35b2454a1ce69d7d495d8ef44582ac16bc2570",
+                "sha256_in_prefix": "4206e110dea128b7ef20f8690e35b2454a1ce69d7d495d8ef44582ac16bc2570",
+                "size_in_bytes": 4210
+            },
+            {
+                "_path": "share/man/man3/archive_write_data.3",
+                "path_type": "hardlink",
+                "sha256": "ad9d2e0c7a4a2104d24049fb842587e0b26107a00a3c63571620cb78880b98cf",
+                "sha256_in_prefix": "ad9d2e0c7a4a2104d24049fb842587e0b26107a00a3c63571620cb78880b98cf",
+                "size_in_bytes": 3148
+            },
+            {
+                "_path": "share/man/man3/archive_write_disk.3",
+                "path_type": "hardlink",
+                "sha256": "7274f4e6544a6485b8a2a212a05a47942a4eb7c96249f667395dfc21dcce93f1",
+                "sha256_in_prefix": "7274f4e6544a6485b8a2a212a05a47942a4eb7c96249f667395dfc21dcce93f1",
+                "size_in_bytes": 12094
+            },
+            {
+                "_path": "share/man/man3/archive_write_filter.3",
+                "path_type": "hardlink",
+                "sha256": "8c88c9246dbab6748ffe7c97911b7d26d6c92acbb4a628f945a0392d32ced999",
+                "sha256_in_prefix": "8c88c9246dbab6748ffe7c97911b7d26d6c92acbb4a628f945a0392d32ced999",
+                "size_in_bytes": 4826
+            },
+            {
+                "_path": "share/man/man3/archive_write_finish_entry.3",
+                "path_type": "hardlink",
+                "sha256": "86544084af5e79e1eea5f14bc042a5fbf7af3f9bf9b67361a896c390819a8da8",
+                "sha256_in_prefix": "86544084af5e79e1eea5f14bc042a5fbf7af3f9bf9b67361a896c390819a8da8",
+                "size_in_bytes": 2711
+            },
+            {
+                "_path": "share/man/man3/archive_write_format.3",
+                "path_type": "hardlink",
+                "sha256": "e322b7080f214347b5dbc2f6521af00aa81382f579e966fbac5dbe3e5d11ce3b",
+                "sha256_in_prefix": "e322b7080f214347b5dbc2f6521af00aa81382f579e966fbac5dbe3e5d11ce3b",
+                "size_in_bytes": 6636
+            },
+            {
+                "_path": "share/man/man3/archive_write_free.3",
+                "path_type": "hardlink",
+                "sha256": "353cf610a04861aa445d664042b402a48b849bde3a5e002659db1de1f2339a11",
+                "sha256_in_prefix": "353cf610a04861aa445d664042b402a48b849bde3a5e002659db1de1f2339a11",
+                "size_in_bytes": 3108
+            },
+            {
+                "_path": "share/man/man3/archive_write_header.3",
+                "path_type": "hardlink",
+                "sha256": "c6da9a8b40a38358b1679c6c1b3ac3b4c1c6129cabe41380fdfe899532521f33",
+                "sha256_in_prefix": "c6da9a8b40a38358b1679c6c1b3ac3b4c1c6129cabe41380fdfe899532521f33",
+                "size_in_bytes": 2481
+            },
+            {
+                "_path": "share/man/man3/archive_write_new.3",
+                "path_type": "hardlink",
+                "sha256": "9e2fd6ce3da1053f2d94813a97aaee50f8bc982c24ec5204c2b698e2eddd83fd",
+                "sha256_in_prefix": "9e2fd6ce3da1053f2d94813a97aaee50f8bc982c24ec5204c2b698e2eddd83fd",
+                "size_in_bytes": 2046
+            },
+            {
+                "_path": "share/man/man3/archive_write_open.3",
+                "path_type": "hardlink",
+                "sha256": "0e07a178ff39b7b0da52da4334dd8babf5e5641e2114fc5c6d39c665f95bd40d",
+                "sha256_in_prefix": "0e07a178ff39b7b0da52da4334dd8babf5e5641e2114fc5c6d39c665f95bd40d",
+                "size_in_bytes": 8214
+            },
+            {
+                "_path": "share/man/man3/archive_write_set_options.3",
+                "path_type": "hardlink",
+                "sha256": "5d32e71a964def68425e8abbd87264e29c9064a25e0a155759f0e08aaf9bf912",
+                "sha256_in_prefix": "5d32e71a964def68425e8abbd87264e29c9064a25e0a155759f0e08aaf9bf912",
+                "size_in_bytes": 24783
+            },
+            {
+                "_path": "share/man/man3/archive_write_set_passphrase.3",
+                "path_type": "hardlink",
+                "sha256": "058e56b848af29e18502e5cd7bc01bac4a7302fc5814679695ff0c9f463f0abf",
+                "sha256_in_prefix": "058e56b848af29e18502e5cd7bc01bac4a7302fc5814679695ff0c9f463f0abf",
+                "size_in_bytes": 2503
+            },
+            {
+                "_path": "share/man/man3/libarchive.3",
+                "path_type": "hardlink",
+                "sha256": "fc6682a9b3e7feb69bde1aea82da26c04694819e0133ada9e11a4b516f69856f",
+                "sha256_in_prefix": "fc6682a9b3e7feb69bde1aea82da26c04694819e0133ada9e11a4b516f69856f",
+                "size_in_bytes": 8358
+            },
+            {
+                "_path": "share/man/man3/libarchive_changes.3",
+                "path_type": "hardlink",
+                "sha256": "41da371326a71af0532b0d540779052ffb29f077f9a60bb178b8146312282a51",
+                "sha256_in_prefix": "41da371326a71af0532b0d540779052ffb29f077f9a60bb178b8146312282a51",
+                "size_in_bytes": 10172
+            },
+            {
+                "_path": "share/man/man3/libarchive_internals.3",
+                "path_type": "hardlink",
+                "sha256": "45f61414d4aa6c23e9baefa3ccbb6ee79275c9a3da01483affe9e8ae877d7b33",
+                "sha256_in_prefix": "45f61414d4aa6c23e9baefa3ccbb6ee79275c9a3da01483affe9e8ae877d7b33",
+                "size_in_bytes": 13667
+            },
+            {
+                "_path": "share/man/man5/cpio.5",
+                "path_type": "hardlink",
+                "sha256": "a13d678a45ac670ecc7f7b1e67fa7e39936b14caa488ec6092dc08be135f1f7d",
+                "sha256_in_prefix": "a13d678a45ac670ecc7f7b1e67fa7e39936b14caa488ec6092dc08be135f1f7d",
+                "size_in_bytes": 13354
+            },
+            {
+                "_path": "share/man/man5/libarchive-formats.5",
+                "path_type": "hardlink",
+                "sha256": "d1f2567b4e19b45fc3c80943673491b7650c06c6d6d70ba21b99b275dd0e158f",
+                "sha256_in_prefix": "d1f2567b4e19b45fc3c80943673491b7650c06c6d6d70ba21b99b275dd0e158f",
+                "size_in_bytes": 19379
+            },
+            {
+                "_path": "share/man/man5/mtree.5",
+                "path_type": "hardlink",
+                "sha256": "ea4cc6e47ccb631d85caace9b2491008b829ad104d2f6a38364bc1881b0649ea",
+                "sha256_in_prefix": "ea4cc6e47ccb631d85caace9b2491008b829ad104d2f6a38364bc1881b0649ea",
+                "size_in_bytes": 8071
+            },
+            {
+                "_path": "share/man/man5/tar.5",
+                "path_type": "hardlink",
+                "sha256": "cfe5004f34dd3c2bf0f57605e1d228240cd54666875ce8435582014cea6adc63",
+                "sha256_in_prefix": "cfe5004f34dd3c2bf0f57605e1d228240cd54666875ce8435582014cea6adc63",
+                "size_in_bytes": 31731
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "libarchive==3.8.11=gpl_h3152399_100",
+    "sha256": "0b13f801fa48194d18819b0dc1aac182ea88089f81b87af2d3bacd69d3ff5cc5",
+    "size": 878657,
+    "subdir": "linux-64",
+    "timestamp": 1793447199622,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libarchive-3.8.11-gpl_h3152399_100.conda",
+    "version": "3.8.11"
+}

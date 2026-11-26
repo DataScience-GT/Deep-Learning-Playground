@@ -1,0 +1,28 @@
+{
+    "build": "pyh5ded981_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.11",
+        "backports.zstd >=1.3.0",
+        "conda >=25",
+        "conda-package-streaming >=0.12.0",
+        "jinja2",
+        "msgpack-python >=1.1.1",
+        "ruamel.yaml",
+        "python"
+    ],
+    "fn": "conda-index-0.13.0-pyh5ded981_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "2f36e8e974c0c8a889870669c96a93c5",
+    "name": "conda-index",
+    "noarch": "python",
+    "sha256": "3629dea4698cf120bb62ac9b6908c9182902a62d743f7d81bb8ecfb42d45fcbe",
+    "size": 214539,
+    "subdir": "noarch",
+    "timestamp": 1788522660257,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-index-0.13.0-pyh5ded981_0.conda",
+    "version": "0.13.0"
+}

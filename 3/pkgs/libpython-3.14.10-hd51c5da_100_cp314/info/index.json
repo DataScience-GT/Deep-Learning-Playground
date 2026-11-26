@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "hd51c5da_100_cp314",
+  "build_number": 100,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=15"
+  ],
+  "license": "Python-2.0",
+  "name": "libpython",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1793015132429,
+  "version": "3.14.10"
+}

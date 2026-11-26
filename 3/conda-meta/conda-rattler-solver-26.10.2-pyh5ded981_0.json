@@ -1,0 +1,218 @@
+{
+    "build": "pyh5ded981_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.11",
+        "conda >=26.7.0",
+        "py-rattler >=0.28.1,<0.29.0a0",
+        "python"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-rattler-solver-26.10.2-pyh5ded981_0",
+    "files": [
+        "lib/python3.14/site-packages/conda_rattler_solver/__init__.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/_conda_build_exceptions.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/_version.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/exceptions.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/index.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/plugin.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/solver.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/state.py",
+        "lib/python3.14/site-packages/conda_rattler_solver/utils.py",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/INSTALLER",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/METADATA",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/RECORD",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/REQUESTED",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/WHEEL",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/direct_url.json",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/entry_points.txt",
+        "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/licenses/LICENSE",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/_conda_build_exceptions.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/_version.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/exceptions.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/index.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/plugin.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/solver.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/state.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/utils.cpython-314.pyc"
+    ],
+    "fn": "conda-rattler-solver-26.10.2-pyh5ded981_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-rattler-solver-26.10.2-pyh5ded981_0",
+        "type": 1
+    },
+    "md5": "d3d33eb1776456fb7c3cc9aaed71a23e",
+    "name": "conda-rattler-solver",
+    "noarch": "python",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-rattler-solver-26.10.2-pyh5ded981_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "63a944dde67be752eecb47418152d366aab91764754070d2127922f9afd35dc0",
+                "sha256_in_prefix": "63a944dde67be752eecb47418152d366aab91764754070d2127922f9afd35dc0",
+                "size_in_bytes": 168
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/_conda_build_exceptions.py",
+                "path_type": "hardlink",
+                "sha256": "618a209fc23866980d5764fc95674bc023890590c7bc85a9bae3abee25f66d87",
+                "sha256_in_prefix": "618a209fc23866980d5764fc95674bc023890590c7bc85a9bae3abee25f66d87",
+                "size_in_bytes": 1329
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/_version.py",
+                "path_type": "hardlink",
+                "sha256": "5c18b3838c377eda6f931684f954bebd6573264503c870c6d1c979f438594b96",
+                "sha256_in_prefix": "5c18b3838c377eda6f931684f954bebd6573264503c870c6d1c979f438594b96",
+                "size_in_bytes": 524
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/exceptions.py",
+                "path_type": "hardlink",
+                "sha256": "ba27a5a2e5ad698e57ab39e9091fcd5abc6e106e6222dc2d2134062c65688309",
+                "sha256_in_prefix": "ba27a5a2e5ad698e57ab39e9091fcd5abc6e106e6222dc2d2134062c65688309",
+                "size_in_bytes": 332
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/index.py",
+                "path_type": "hardlink",
+                "sha256": "749ee5514ee5c242643af53305941cab223e022e4d680461a18053e47b8e3572",
+                "sha256_in_prefix": "749ee5514ee5c242643af53305941cab223e022e4d680461a18053e47b8e3572",
+                "size_in_bytes": 25368
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/plugin.py",
+                "path_type": "hardlink",
+                "sha256": "908d14a8e87984cf76a26b4acbdb9f9dec14fa1e9290a0be3872e5ea34602079",
+                "sha256_in_prefix": "908d14a8e87984cf76a26b4acbdb9f9dec14fa1e9290a0be3872e5ea34602079",
+                "size_in_bytes": 318
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/solver.py",
+                "path_type": "hardlink",
+                "sha256": "12a7b48086e9dac584994bc1ad98db0b1ec46e0a4ca6c0f23eccd7c98dc2ddc3",
+                "sha256_in_prefix": "12a7b48086e9dac584994bc1ad98db0b1ec46e0a4ca6c0f23eccd7c98dc2ddc3",
+                "size_in_bytes": 42047
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/state.py",
+                "path_type": "hardlink",
+                "sha256": "85cb41bae16b0d37adea0509b1b6cfd11fcbb0ccd8f74bd32264efbee0df22fe",
+                "sha256_in_prefix": "85cb41bae16b0d37adea0509b1b6cfd11fcbb0ccd8f74bd32264efbee0df22fe",
+                "size_in_bytes": 35083
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/utils.py",
+                "path_type": "hardlink",
+                "sha256": "645555bc0616e2c92de75752f92160f015e76cf3c6acfdc733fcf985df91449d",
+                "sha256_in_prefix": "645555bc0616e2c92de75752f92160f015e76cf3c6acfdc733fcf985df91449d",
+                "size_in_bytes": 17011
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "size_in_bytes": 6
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "39cbc2aab1252ba5e0d541e56ac363fa3379eddf62a441145912a5a2feec81e7",
+                "sha256_in_prefix": "39cbc2aab1252ba5e0d541e56ac363fa3379eddf62a441145912a5a2feec81e7",
+                "size_in_bytes": 4192
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "1eed94561ca39524123a89f746cfd995cd03ed3d422eaa8b4c13f99bdb7858d4",
+                "sha256_in_prefix": "1eed94561ca39524123a89f746cfd995cd03ed3d422eaa8b4c13f99bdb7858d4",
+                "size_in_bytes": 2162
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
+                "sha256_in_prefix": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
+                "size_in_bytes": 87
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "e0122ccb9541bcd98b4139a670deca270e1476f65a1155f88e78e66ad79e20b6",
+                "sha256_in_prefix": "e0122ccb9541bcd98b4139a670deca270e1476f65a1155f88e78e66ad79e20b6",
+                "size_in_bytes": 140
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/entry_points.txt",
+                "path_type": "hardlink",
+                "sha256": "d105407982fb1951341e3b50ef2a0a969a378988c58aece6d2113f4b6f9e593f",
+                "sha256_in_prefix": "d105407982fb1951341e3b50ef2a0a969a378988c58aece6d2113f4b6f9e593f",
+                "size_in_bytes": 59
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver-26.10.2.dist-info/licenses/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "b673f14dc8f11f10511e9d6ee43cfb46b52559746ea20a57beafc5274bd0ccbd",
+                "sha256_in_prefix": "b673f14dc8f11f10511e9d6ee43cfb46b52559746ea20a57beafc5274bd0ccbd",
+                "size_in_bytes": 1535
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/_conda_build_exceptions.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/_version.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/exceptions.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/index.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/plugin.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/solver.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/state.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/utils.cpython-314.pyc",
+                "path_type": "pyc_file"
+            }
+        ],
+        "paths_version": 1
+    },
+    "requested_spec": "conda-rattler-solver==26.10.2=pyh5ded981_0",
+    "sha256": "ba2cfe03d55c4c5a8bfacf78d5902075b8cdbbe78feecc6996fe00aa82450864",
+    "size": 42411,
+    "subdir": "noarch",
+    "timestamp": 1793790192071,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-rattler-solver-26.10.2-pyh5ded981_0.conda",
+    "version": "26.10.2"
+}

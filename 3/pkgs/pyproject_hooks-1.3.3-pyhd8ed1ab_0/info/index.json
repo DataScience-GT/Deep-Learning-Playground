@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.11",
+    "tomli >=1.1.0"
+  ],
+  "license": "MIT",
+  "name": "pyproject_hooks",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1791576869230,
+  "version": "1.3.3"
+}

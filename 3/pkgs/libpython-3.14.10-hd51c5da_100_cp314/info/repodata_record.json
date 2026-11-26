@@ -1,0 +1,22 @@
+{
+    "arch": "x86_64",
+    "build": "hd51c5da_100_cp314",
+    "build_number": 100,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=15"
+    ],
+    "fn": "libpython-3.14.10-hd51c5da_100_cp314.conda",
+    "license": "Python-2.0",
+    "md5": "f008c8aee493801d0326a7616dec5aa9",
+    "name": "libpython",
+    "platform": "linux",
+    "sha256": "3b9f11f136074f81db3ca56f2f514f466456dbab1189e68b3681b53387043daa",
+    "size": 10589254,
+    "subdir": "linux-64",
+    "timestamp": 1793015132429,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libpython-3.14.10-hd51c5da_100_cp314.conda",
+    "version": "3.14.10"
+}

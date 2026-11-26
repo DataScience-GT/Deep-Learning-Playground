@@ -1,0 +1,293 @@
+{
+    "arch": null,
+    "build": "pyhe730653_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.11"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/python-installer-1.1.0-pyhe730653_0",
+    "files": [
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/INSTALLER",
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/METADATA",
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/RECORD",
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/REQUESTED",
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/WHEEL",
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/direct_url.json",
+        "lib/python3.14/site-packages/installer-1.1.0.dist-info/licenses/LICENSE",
+        "lib/python3.14/site-packages/installer/__init__.py",
+        "lib/python3.14/site-packages/installer/__main__.py",
+        "lib/python3.14/site-packages/installer/_core.py",
+        "lib/python3.14/site-packages/installer/_scripts/__init__.py",
+        "lib/python3.14/site-packages/installer/_scripts/t32.exe",
+        "lib/python3.14/site-packages/installer/_scripts/t64-arm.exe",
+        "lib/python3.14/site-packages/installer/_scripts/t64.exe",
+        "lib/python3.14/site-packages/installer/_scripts/t_arm.exe",
+        "lib/python3.14/site-packages/installer/_scripts/w32.exe",
+        "lib/python3.14/site-packages/installer/_scripts/w64-arm.exe",
+        "lib/python3.14/site-packages/installer/_scripts/w64.exe",
+        "lib/python3.14/site-packages/installer/_scripts/w_arm.exe",
+        "lib/python3.14/site-packages/installer/destinations.py",
+        "lib/python3.14/site-packages/installer/exceptions.py",
+        "lib/python3.14/site-packages/installer/py.typed",
+        "lib/python3.14/site-packages/installer/records.py",
+        "lib/python3.14/site-packages/installer/scripts.py",
+        "lib/python3.14/site-packages/installer/sources.py",
+        "lib/python3.14/site-packages/installer/utils.py",
+        "lib/python3.14/site-packages/installer/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/__main__.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/_core.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/_scripts/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/destinations.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/exceptions.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/records.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/scripts.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/sources.cpython-314.pyc",
+        "lib/python3.14/site-packages/installer/__pycache__/utils.cpython-314.pyc"
+    ],
+    "fn": "python-installer-1.1.0-pyhe730653_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/python-installer-1.1.0-pyhe730653_0",
+        "type": 1
+    },
+    "md5": "d342a60951d6ee3dbfb0256f381de46b",
+    "name": "python-installer",
+    "noarch": "python",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/python-installer-1.1.0-pyhe730653_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "size_in_bytes": 5
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "2ed93c32af5b6244bedd7536bac8f791158be1407280314c9dcb1236e4a74407",
+                "sha256_in_prefix": "2ed93c32af5b6244bedd7536bac8f791158be1407280314c9dcb1236e4a74407",
+                "size_in_bytes": 1294
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "0316c38c3589f4754539596b79fe787b9e60d842900766a50bd28c346d83ae23",
+                "sha256_in_prefix": "0316c38c3589f4754539596b79fe787b9e60d842900766a50bd28c346d83ae23",
+                "size_in_bytes": 2662
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
+                "sha256_in_prefix": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
+                "size_in_bytes": 82
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "cf0eef0f2fb46876821cdf9043870caaf7859569633c560f67f03d13cc35e243",
+                "sha256_in_prefix": "cf0eef0f2fb46876821cdf9043870caaf7859569633c560f67f03d13cc35e243",
+                "size_in_bytes": 112
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer-1.1.0.dist-info/licenses/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "37b8b9f2569892fa54406383d431169dbb2115980d78b7efba6eeae5664c484f",
+                "sha256_in_prefix": "37b8b9f2569892fa54406383d431169dbb2115980d78b7efba6eeae5664c484f",
+                "size_in_bytes": 1057
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "da5afac97745f229a8dcc480f15bf3b6f026b56614580ba0cb42967eff68a1a1",
+                "sha256_in_prefix": "da5afac97745f229a8dcc480f15bf3b6f026b56614580ba0cb42967eff68a1a1",
+                "size_in_bytes": 128
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__main__.py",
+                "path_type": "hardlink",
+                "sha256": "30821a084a972e1734184986a1059b7f50aa3776f228666ceb0a8f88442d1b93",
+                "sha256_in_prefix": "30821a084a972e1734184986a1059b7f50aa3776f228666ceb0a8f88442d1b93",
+                "size_in_bytes": 3674
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_core.py",
+                "path_type": "hardlink",
+                "sha256": "9da28e04fbd21cea234f16aec6ea75d24ac063a1a483ccf3abb4d651715011cb",
+                "sha256_in_prefix": "9da28e04fbd21cea234f16aec6ea75d24ac063a1a483ccf3abb4d651715011cb",
+                "size_in_bytes": 5234
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "222fa4998cbf4d2db71c35dfdd0530de947234ca4c66ca75c322f5d38875625f",
+                "sha256_in_prefix": "222fa4998cbf4d2db71c35dfdd0530de947234ca4c66ca75c322f5d38875625f",
+                "size_in_bytes": 81
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/t32.exe",
+                "path_type": "hardlink",
+                "sha256": "6b4195e640a85ac32eb6f9628822a622057df1e459df7c17a12f97aeabc9415b",
+                "sha256_in_prefix": "6b4195e640a85ac32eb6f9628822a622057df1e459df7c17a12f97aeabc9415b",
+                "size_in_bytes": 97792
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/t64-arm.exe",
+                "path_type": "hardlink",
+                "sha256": "ebc4c06b7d95e74e315419ee7e88e1d0f71e9e9477538c00a93a9ff8c66a6cfc",
+                "sha256_in_prefix": "ebc4c06b7d95e74e315419ee7e88e1d0f71e9e9477538c00a93a9ff8c66a6cfc",
+                "size_in_bytes": 182784
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/t64.exe",
+                "path_type": "hardlink",
+                "sha256": "81a618f21cb87db9076134e70388b6e9cb7c2106739011b6a51772d22cae06b7",
+                "sha256_in_prefix": "81a618f21cb87db9076134e70388b6e9cb7c2106739011b6a51772d22cae06b7",
+                "size_in_bytes": 108032
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/t_arm.exe",
+                "path_type": "hardlink",
+                "sha256": "62aee48069f0715f96da0dbe35eab7868d5cb149f62133141ab0e126d62b9cfe",
+                "sha256_in_prefix": "62aee48069f0715f96da0dbe35eab7868d5cb149f62133141ab0e126d62b9cfe",
+                "size_in_bytes": 86016
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/w32.exe",
+                "path_type": "hardlink",
+                "sha256": "47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b",
+                "sha256_in_prefix": "47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b",
+                "size_in_bytes": 91648
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/w64-arm.exe",
+                "path_type": "hardlink",
+                "sha256": "c5dc9884a8f458371550e09bd396e5418bf375820a31b9899f6499bf391c7b2e",
+                "sha256_in_prefix": "c5dc9884a8f458371550e09bd396e5418bf375820a31b9899f6499bf391c7b2e",
+                "size_in_bytes": 168448
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/w64.exe",
+                "path_type": "hardlink",
+                "sha256": "7a319ffaba23a017d7b1e18ba726ba6c54c53d6446db55f92af53c279894f8ad",
+                "sha256_in_prefix": "7a319ffaba23a017d7b1e18ba726ba6c54c53d6446db55f92af53c279894f8ad",
+                "size_in_bytes": 101888
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/w_arm.exe",
+                "path_type": "hardlink",
+                "sha256": "091feafac1542754885b1b2bc57bf8a66e89351e6aa2c05ebf053fd7b66a2aba",
+                "sha256_in_prefix": "091feafac1542754885b1b2bc57bf8a66e89351e6aa2c05ebf053fd7b66a2aba",
+                "size_in_bytes": 83968
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/destinations.py",
+                "path_type": "hardlink",
+                "sha256": "92853c201d052086220fef5784a2fb6c01dc5812b7f8f9f98590f1b87e5bb1fb",
+                "sha256_in_prefix": "92853c201d052086220fef5784a2fb6c01dc5812b7f8f9f98590f1b87e5bb1fb",
+                "size_in_bytes": 10666
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/exceptions.py",
+                "path_type": "hardlink",
+                "sha256": "630c75d5da3447e70500b8a6731a6d93fae183b4756c36f8b010ae11b94d94be",
+                "sha256_in_prefix": "630c75d5da3447e70500b8a6731a6d93fae183b4756c36f8b010ae11b94d94be",
+                "size_in_bytes": 248
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/py.typed",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/records.py",
+                "path_type": "hardlink",
+                "sha256": "bd26c18b12f2ec3ce8ff534c070f3878a8cf7f25134871ae8cdb93a52835f9cf",
+                "sha256_in_prefix": "bd26c18b12f2ec3ce8ff534c070f3878a8cf7f25134871ae8cdb93a52835f9cf",
+                "size_in_bytes": 7368
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/scripts.py",
+                "path_type": "hardlink",
+                "sha256": "971da58eecdee1c64daf9018071f947f37b6c1d01cedd1828b24eb7f488e71f7",
+                "sha256_in_prefix": "971da58eecdee1c64daf9018071f947f37b6c1d01cedd1828b24eb7f488e71f7",
+                "size_in_bytes": 5538
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/sources.py",
+                "path_type": "hardlink",
+                "sha256": "eef90f50aef04c6faa994a2de04e4e20cb61a659144317e10ba78486b5a694e8",
+                "sha256_in_prefix": "eef90f50aef04c6faa994a2de04e4e20cb61a659144317e10ba78486b5a694e8",
+                "size_in_bytes": 12121
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/utils.py",
+                "path_type": "hardlink",
+                "sha256": "c68c38a65e14f6a717845bbc6cf8f1a1307db2b4c5361550a5448ba53f2b92e7",
+                "sha256_in_prefix": "c68c38a65e14f6a717845bbc6cf8f1a1307db2b4c5361550a5448ba53f2b92e7",
+                "size_in_bytes": 8114
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/__main__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/_core.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/_scripts/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/destinations.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/exceptions.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/records.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/scripts.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/sources.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/installer/__pycache__/utils.cpython-314.pyc",
+                "path_type": "pyc_file"
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": null,
+    "requested_spec": "python-installer==1.1.0=pyhe730653_0",
+    "sha256": "7aec79829c8288d0511558bb48989ef34f214c7dfc1379b3b24964de335bee3a",
+    "size": 239907,
+    "subdir": "noarch",
+    "timestamp": 1791838250849,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/python-installer-1.1.0-pyhe730653_0.conda",
+    "version": "1.1.0"
+}

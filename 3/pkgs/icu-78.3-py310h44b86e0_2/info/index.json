@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py310h44b86e0_2",
+  "build_number": 2,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libstdcxx >=14",
+    "libgcc >=14"
+  ],
+  "license": "MIT",
+  "name": "icu",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1786545741408,
+  "version": "78.3"
+}

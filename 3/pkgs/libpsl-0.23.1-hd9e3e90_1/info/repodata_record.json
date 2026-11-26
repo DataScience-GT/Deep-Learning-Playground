@@ -1,0 +1,25 @@
+{
+    "arch": "x86_64",
+    "build": "hd9e3e90_1",
+    "build_number": 1,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "libstdcxx >=15",
+        "libgcc >=15",
+        "__glibc >=2.17,<3.0.a0",
+        "icu >=78.3,<79.0a0"
+    ],
+    "fn": "libpsl-0.23.1-hd9e3e90_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "77be60417aa572afcb48cbe0f967401d",
+    "name": "libpsl",
+    "platform": "linux",
+    "sha256": "09e8effdc89bc5d021349318d32b85594f5b8d8e3ab8f90a85b81f8fe695a566",
+    "size": 72519,
+    "subdir": "linux-64",
+    "timestamp": 1786970753847,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libpsl-0.23.1-hd9e3e90_1.conda",
+    "version": "0.23.1"
+}

@@ -1,0 +1,142 @@
+# For dispatching between Unix and Windows
+schema_version: 1
+
+context:
+  version: "5.0.6"
+  sha256: a2535137f8da93c0a61a6eeb47e96e502e16db89223b64f76b4041d595f797d7
+
+recipe:
+  name: simdjson-split
+  version: ${{ version }}
+
+source:
+  url: https://github.com/simdjson/simdjson/archive/v${{ version }}.tar.gz
+  sha256: ${{ sha256 }}
+
+build:
+  number: 0
+
+outputs:
+  - package:
+      name: simdjson
+    build:
+      script: build
+      files:
+        - if: win
+          then: Library/include/simdjson*
+          else: include/simdjson*
+        - if: linux
+          then: lib/libsimdjson*.so*
+        - if: osx
+          then: lib/libsimdjson*.dylib*
+        - if: win
+          then:
+            - Library/bin/simdjson.dll
+            - Library/lib/simdjson.lib
+            - Library/lib/pkgconfig/simdjson*
+            - Library/lib/cmake/simdjson/simdjsonTargets*
+            - Library/lib/cmake/simdjson/simdjson-config*
+          else:
+            - lib/pkgconfig/simdjson*
+            - lib/cmake/simdjson/simdjsonTargets*
+            - lib/cmake/simdjson/simdjson-config*
+    requirements:
+      build:
+        - ${{ compiler('cxx') }}
+        - ${{ stdlib("c") }}
+        - cmake
+        - ninja
+      run_exports:
+        - ${{ pin_subpackage('simdjson', upper_bound='x.x') }}
+    tests:
+      - package_contents:
+          include:
+            - simdjson.h
+          lib:
+            - simdjson
+          files:
+            exists:
+              - if: win
+                then: Library/lib/cmake/simdjson/simdjson-config.cmake
+                else: lib/cmake/simdjson/simdjson-config.cmake
+      - if: not (linux and riscv64)
+        then:
+          files:
+            recipe:
+              - test/*
+          requirements:
+            run:
+              - ${{ compiler('cxx') }}
+              - cmake
+              - ninja
+          script:
+            - if: unix
+              then: cmake -G Ninja -S test/ -B build/ -D TEST_TARGET=simdjson ${CMAKE_ARGS}
+            - if: win
+              then: cmake -G Ninja -S test/ -B build/ -D TEST_TARGET=simdjson %CMAKE_ARGS%
+            - cmake --build build/
+            - cmake --build build --target test
+  - package:
+      name: simdjson-static
+    build:
+      script: build
+      files:
+        - if: unix
+          then: lib/libsimdjson_static.a
+        - if: win
+          then:
+            - Library/lib/simdjson_static.lib
+            - Library/lib/cmake/simdjson/simdjson_staticTargets*
+          else: lib/cmake/simdjson/simdjson_staticTargets*
+    requirements:
+      build:
+        - ${{ compiler('cxx') }}
+        - ${{ stdlib("c") }}
+        - cmake
+        - ninja
+      run:
+        - ${{ pin_subpackage('simdjson', exact=True) }}
+    tests:
+      - package_contents:
+          files:
+            exists:
+              - if: unix
+                then: lib/libsimdjson_static.a
+              - if: win
+                then: Library/lib/simdjson_static.lib
+      - if: not (linux and riscv64)
+        then:
+          files:
+            recipe:
+              - test/*
+          requirements:
+            run:
+              - ${{ compiler('cxx') }}
+              - cmake
+              - ninja
+          script:
+            - if: unix
+              then: cmake -G Ninja -S test/ -B build/ -D TEST_TARGET=simdjson_static ${CMAKE_ARGS}
+            - if: win
+              then: cmake -G Ninja -S test/ -B build/ -D TEST_TARGET=simdjson_static %CMAKE_ARGS%
+            - cmake --build build/
+            - cmake --build build --target test
+
+about:
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: Parsing gigabytes of JSON per second
+  description: |
+    JSON is everywhere on the Internet.
+    Servers spend a *lot* of time parsing it. We need a fresh approach.
+    The simdjson library uses commonly available SIMD instructions and
+    microparallel algorithms to parse JSON 2.5x faster than anything else out there.
+  homepage: https://simdjson.org/
+  repository: https://github.com/simdjson/simdjson/
+  documentation: https://simdjson.github.io/simdjson/
+
+extra:
+  recipe-maintainers:
+    - JohanMabille
+    - AntoinePrv
+    - elbaro

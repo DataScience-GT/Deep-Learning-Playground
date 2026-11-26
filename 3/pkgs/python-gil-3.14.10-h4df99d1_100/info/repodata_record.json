@@ -1,0 +1,23 @@
+{
+    "arch": null,
+    "build": "h4df99d1_100",
+    "build_number": 100,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "cpython 3.14.10.*",
+        "python_abi * *_cp314"
+    ],
+    "fn": "python-gil-3.14.10-h4df99d1_100.conda",
+    "license": "Python-2.0",
+    "md5": "834210c44f2cb3f1fb07373f62b21cbf",
+    "name": "python-gil",
+    "noarch": "generic",
+    "platform": null,
+    "sha256": "d3d2134ec9f8c42095bb823260499352cfc14d78d97d12d4abb84fbe06f7f84d",
+    "size": 52037,
+    "subdir": "noarch",
+    "timestamp": 1793014785617,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/python-gil-3.14.10-h4df99d1_100.conda",
+    "version": "3.14.10"
+}

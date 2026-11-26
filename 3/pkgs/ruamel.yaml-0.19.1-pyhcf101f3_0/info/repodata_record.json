@@ -1,0 +1,23 @@
+{
+    "build": "pyhcf101f3_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.10",
+        "ruamel.yaml.clib >=0.2.15",
+        "python"
+    ],
+    "fn": "ruamel.yaml-0.19.1-pyhcf101f3_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "06ad944772941d5dae1e0d09848d8e49",
+    "name": "ruamel.yaml",
+    "noarch": "python",
+    "sha256": "b48bebe297a63ae60f52e50be328262e880702db4d9b4e86731473ada459c2a1",
+    "size": 98448,
+    "subdir": "noarch",
+    "timestamp": 1767538149184,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/ruamel.yaml-0.19.1-pyhcf101f3_0.conda",
+    "version": "0.19.1"
+}

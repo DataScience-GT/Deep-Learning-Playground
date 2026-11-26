@@ -1,0 +1,20 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "Rattler is a library that provides common functionality used within the conda\necosystem. The goal of the library is to enable programs and other libraries to\neasily interact with the conda ecosystem without being dependent on Python. Its\nprimary use case is as a library that you can use to provide conda related\nworkflows in your own tools.",
+  "dev_url": "https://github.com/conda/rattler",
+  "extra": {
+    "feedstock-name": "py-rattler",
+    "flow_run_id": "github_40958661701",
+    "recipe-maintainers": [
+      "baszalmstra",
+      "pavelzw"
+    ],
+    "remote_url": "https://github.com/conda-forge/py-rattler-feedstock",
+    "sha": "6fcc6601e1fa20a8afe7978ee3675563f1f97371"
+  },
+  "home": "https://github.com/conda/rattler",
+  "license": "BSD-3-Clause",
+  "summary": "A blazing fast library to work with the conda ecosystem"
+}
