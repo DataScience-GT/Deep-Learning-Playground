@@ -1,0 +1,1289 @@
+{
+    "build": "pyh5ded981_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.11",
+        "backports.zstd >=1.3.0",
+        "conda >=25",
+        "conda-package-streaming >=0.12.0",
+        "jinja2",
+        "msgpack-python >=1.1.1",
+        "ruamel.yaml",
+        "python"
+    ],
+    "extracted_package_dir": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-index-0.13.0-pyh5ded981_0",
+    "files": [
+        "etc/conda/test-files/conda-index/1/tests/__init__.py",
+        "etc/conda/test-files/conda-index/1/tests/archives/a.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/b.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/conda-forge-repodata-patches-20180828-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-1.0-py27h5e241af_0.conda",
+        "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-1.0-py27h5e241af_0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-1.0-pyhed9eced_1.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-patch.py",
+        "etc/conda/test-files/conda-index/1/tests/archives/flask-0.11.1-py_0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/fly-2.5.2-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/nano-2.4.1-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/readme",
+        "etc/conda/test-files/conda-index/1/tests/archives/spiffy-test-app-0.5-pyh6afbcc8_0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/subfolder.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/subfolder2.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/test_debug_pkg-1.0-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/archives/test_index_of_removed_pkg-1.0-1.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/compare_shards.py",
+        "etc/conda/test-files/conda-index/1/tests/compare_shards.sh",
+        "etc/conda/test-files/conda-index/1/tests/conftest.py",
+        "etc/conda/test-files/conda-index/1/tests/demonstrate_wheel.json",
+        "etc/conda/test-files/conda-index/1/tests/environment-db.yml",
+        "etc/conda/test-files/conda-index/1/tests/environment.yml",
+        "etc/conda/test-files/conda-index/1/tests/gen_patch.py",
+        "etc/conda/test-files/conda-index/1/tests/gen_patch_2.py",
+        "etc/conda/test-files/conda-index/1/tests/http_test_server.py",
+        "etc/conda/test-files/conda-index/1/tests/index_data/.gitignore",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/channeldata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/.cache/stat.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/another_bad_package.conda",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/bad_package.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/current_repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/current_repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata_from_packages.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata_from_packages.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/about/dummy-package-1.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/about/dummy-package-2.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/icon/dummy-package-2.0-0.png",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/index/dummy-package-1.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/index/dummy-package-2.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/paths/dummy-package-1.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/paths/dummy-package-2.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/post_install/dummy-package-1.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/post_install/dummy-package-2.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/recipe/dummy-package-1.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/recipe/dummy-package-2.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/run_exports/dummy-package-1.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/run_exports/dummy-package-2.0-0.tar.bz2.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/stat.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/README",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/channeldata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/current_repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/current_repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata_from_packages.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata_from_packages.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/run_exports_versions-1.0-he35c369_0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/run_exports_versions-2.0-h39de5ba_0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/current_repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/current_repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/dummy-package-1.0-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/dummy-package-2.0-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata_from_packages.json",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata_from_packages.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_data/packages/versions.yml",
+        "etc/conda/test-files/conda-index/1/tests/index_data/recipes/run_exports_versions/conda_build_config.yaml",
+        "etc/conda/test-files/conda-index/1/tests/index_data/recipes/run_exports_versions/meta.yaml",
+        "etc/conda/test-files/conda-index/1/tests/index_data/time_cut/repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/README.md",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/channeldata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/index.html",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/current_repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/current_repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/index.html",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata_from_packages.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata_from_packages.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/current_repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/current_repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/hotfix_depends_test-1.0-dummy_0.conda",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/hotfix_depends_test-1.0-dummy_0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/index.html",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/remove_test-1.0-0.conda",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/remove_test-1.0-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata_from_packages.json",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata_from_packages.json.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/revoke_test-1.0-0.conda",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/revoke_test-1.0-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/track_features_test-1.0-0.conda",
+        "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/track_features_test-1.0-0.tar.bz2",
+        "etc/conda/test-files/conda-index/1/tests/postgresql_fixture.py",
+        "etc/conda/test-files/conda-index/1/tests/split_repo.py",
+        "etc/conda/test-files/conda-index/1/tests/test_cache.py",
+        "etc/conda/test-files/conda-index/1/tests/test_cli.py",
+        "etc/conda/test-files/conda-index/1/tests/test_coverage.py",
+        "etc/conda/test-files/conda-index/1/tests/test_demonstrate_wheel.py",
+        "etc/conda/test-files/conda-index/1/tests/test_fsspec.py",
+        "etc/conda/test-files/conda-index/1/tests/test_index.py",
+        "etc/conda/test-files/conda-index/1/tests/test_plugin.py",
+        "etc/conda/test-files/conda-index/1/tests/test_psql.py",
+        "etc/conda/test-files/conda-index/1/tests/test_rss.py",
+        "etc/conda/test-files/conda-index/1/tests/test_sqlitecache.py",
+        "etc/conda/test-files/conda-index/1/tests/test_utils.py",
+        "etc/conda/test-files/conda-index/1/tests/utils.py",
+        "lib/python3.14/site-packages/conda_index/__init__.py",
+        "lib/python3.14/site-packages/conda_index/__main__.py",
+        "lib/python3.14/site-packages/conda_index/_version.py",
+        "lib/python3.14/site-packages/conda_index/api.py",
+        "lib/python3.14/site-packages/conda_index/cli/__init__.py",
+        "lib/python3.14/site-packages/conda_index/index/__init__.py",
+        "lib/python3.14/site-packages/conda_index/index/cache.py",
+        "lib/python3.14/site-packages/conda_index/index/common.py",
+        "lib/python3.14/site-packages/conda_index/index/convert_cache.py",
+        "lib/python3.14/site-packages/conda_index/index/current_repodata.py",
+        "lib/python3.14/site-packages/conda_index/index/fs.py",
+        "lib/python3.14/site-packages/conda_index/index/logutil.py",
+        "lib/python3.14/site-packages/conda_index/index/rss.py",
+        "lib/python3.14/site-packages/conda_index/index/sqlitecache.py",
+        "lib/python3.14/site-packages/conda_index/plugin.py",
+        "lib/python3.14/site-packages/conda_index/postgres/cache.py",
+        "lib/python3.14/site-packages/conda_index/postgres/model.py",
+        "lib/python3.14/site-packages/conda_index/py.typed",
+        "lib/python3.14/site-packages/conda_index/templates/channeldata-index.html.j2",
+        "lib/python3.14/site-packages/conda_index/templates/subdir-index.html.j2",
+        "lib/python3.14/site-packages/conda_index/utils.py",
+        "lib/python3.14/site-packages/conda_index/utils_build.py",
+        "lib/python3.14/site-packages/conda_index/yaml.py",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/INSTALLER",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/METADATA",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/RECORD",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/REQUESTED",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/WHEEL",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/direct_url.json",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/entry_points.txt",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/licenses/AUTHORS.md",
+        "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/licenses/LICENSE",
+        "lib/python3.14/site-packages/conda_index/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/__main__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/_version.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/api.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/cli/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/__init__.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/cache.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/common.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/convert_cache.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/current_repodata.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/fs.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/logutil.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/rss.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/index/__pycache__/sqlitecache.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/plugin.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/postgres/__pycache__/cache.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/postgres/__pycache__/model.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/utils.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/utils_build.cpython-314.pyc",
+        "lib/python3.14/site-packages/conda_index/__pycache__/yaml.cpython-314.pyc"
+    ],
+    "fn": "conda-index-0.13.0-pyh5ded981_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-index-0.13.0-pyh5ded981_0",
+        "type": 1
+    },
+    "md5": "2f36e8e974c0c8a889870669c96a93c5",
+    "name": "conda-index",
+    "noarch": "python",
+    "package_tarball_full_path": "/home/runner/work/Deep-Learning-Playground/Deep-Learning-Playground/3/pkgs/conda-index-0.13.0-pyh5ded981_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/a.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "591cb14ac537176cae67fdd9bfd9835949593a3b17f2291d9e634cc98dee43e8",
+                "sha256_in_prefix": "591cb14ac537176cae67fdd9bfd9835949593a3b17f2291d9e634cc98dee43e8",
+                "size_in_bytes": 123
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/b.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "a35659a1c54d7ac6f50649eb5ad23148f222c25eebcc5bd5ff2702161736aedd",
+                "sha256_in_prefix": "a35659a1c54d7ac6f50649eb5ad23148f222c25eebcc5bd5ff2702161736aedd",
+                "size_in_bytes": 125
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/conda-forge-repodata-patches-20180828-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "24c50e86353318f0212906e22d871d50d098dda0586b614a7902a0855c665cb2",
+                "sha256_in_prefix": "24c50e86353318f0212906e22d871d50d098dda0586b614a7902a0855c665cb2",
+                "size_in_bytes": 33305
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-1.0-py27h5e241af_0.conda",
+                "path_type": "hardlink",
+                "sha256": "67b07b644105439515cc5c8c22c86939514cacf30c8c574cd70f5f1267a40f19",
+                "sha256_in_prefix": "67b07b644105439515cc5c8c22c86939514cacf30c8c574cd70f5f1267a40f19",
+                "size_in_bytes": 9296
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-1.0-py27h5e241af_0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "459f3e9b2178fa33bdc4e6267326405329d1c1ab982273d9a1c0a5084a1ddc30",
+                "sha256_in_prefix": "459f3e9b2178fa33bdc4e6267326405329d1c1ab982273d9a1c0a5084a1ddc30",
+                "size_in_bytes": 8733
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-1.0-pyhed9eced_1.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "7430743bffd4ac63aa063ae8518e668eac269c783374b589d8078bee5ed4cbc6",
+                "sha256_in_prefix": "7430743bffd4ac63aa063ae8518e668eac269c783374b589d8078bee5ed4cbc6",
+                "size_in_bytes": 7882
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/conda-index-pkg-a-patch.py",
+                "path_type": "hardlink",
+                "sha256": "4e2963509cbf6a4b74cfea02973e33b0f8a207079d41830113d095d9a49db5c8",
+                "sha256_in_prefix": "4e2963509cbf6a4b74cfea02973e33b0f8a207079d41830113d095d9a49db5c8",
+                "size_in_bytes": 353
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/flask-0.11.1-py_0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "20bb13679a48679964cd84571c8dd1aa110f8366565f5d82a8f4efa8dd8b160c",
+                "sha256_in_prefix": "20bb13679a48679964cd84571c8dd1aa110f8366565f5d82a8f4efa8dd8b160c",
+                "size_in_bytes": 5334
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/fly-2.5.2-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "e1efd8de563b1df044ca59b852accbe821e75c8a844eac29aca18824095995f5",
+                "sha256_in_prefix": "e1efd8de563b1df044ca59b852accbe821e75c8a844eac29aca18824095995f5",
+                "size_in_bytes": 6297
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/nano-2.4.1-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "09e5338460dd71fa0d58691f425b799a1fdcb914db8ea2cf48a49ffdcc2b2dac",
+                "sha256_in_prefix": "09e5338460dd71fa0d58691f425b799a1fdcb914db8ea2cf48a49ffdcc2b2dac",
+                "size_in_bytes": 790
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/readme",
+                "path_type": "hardlink",
+                "sha256": "eb36cb485c40ff31d959b33fa08fa455f4eca64d91ac230772a41b85ce816798",
+                "sha256_in_prefix": "eb36cb485c40ff31d959b33fa08fa455f4eca64d91ac230772a41b85ce816798",
+                "size_in_bytes": 75
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/spiffy-test-app-0.5-pyh6afbcc8_0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "78a61d786565892359acf05a56c3e6cf572b2ab58471427f75144ad666aedfd5",
+                "sha256_in_prefix": "78a61d786565892359acf05a56c3e6cf572b2ab58471427f75144ad666aedfd5",
+                "size_in_bytes": 4460
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/subfolder.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "0807341416564b29e835f24d4183bef1774bc373bb3c7ab31e95997b5af276c5",
+                "sha256_in_prefix": "0807341416564b29e835f24d4183bef1774bc373bb3c7ab31e95997b5af276c5",
+                "size_in_bytes": 174
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/subfolder2.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "c8cdede0bcddb0c6b037cdfca20005edd2faab130706d9595264da6552b294e3",
+                "sha256_in_prefix": "c8cdede0bcddb0c6b037cdfca20005edd2faab130706d9595264da6552b294e3",
+                "size_in_bytes": 176
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/test_debug_pkg-1.0-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "dd810bd271d1b66ec82fab5132dda8b01891d951d77d7d3c23a2ab514128a467",
+                "sha256_in_prefix": "dd810bd271d1b66ec82fab5132dda8b01891d951d77d7d3c23a2ab514128a467",
+                "size_in_bytes": 4420
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/archives/test_index_of_removed_pkg-1.0-1.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "b566d858bbd478b38460608d04f73c0a52a66db1c34b5076c9cdbf3cafc44218",
+                "sha256_in_prefix": "b566d858bbd478b38460608d04f73c0a52a66db1c34b5076c9cdbf3cafc44218",
+                "size_in_bytes": 2236
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/compare_shards.py",
+                "path_type": "hardlink",
+                "sha256": "141980ad929287ee74606a1c73c31b13e3f0b8c1aef3bf7cd61b0a3cf1133056",
+                "sha256_in_prefix": "141980ad929287ee74606a1c73c31b13e3f0b8c1aef3bf7cd61b0a3cf1133056",
+                "size_in_bytes": 2487
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/compare_shards.sh",
+                "path_type": "hardlink",
+                "sha256": "ce77814437fa8487d057f084606df88072b217e42e1a71091de099b10ec2f773",
+                "sha256_in_prefix": "ce77814437fa8487d057f084606df88072b217e42e1a71091de099b10ec2f773",
+                "size_in_bytes": 566
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/conftest.py",
+                "path_type": "hardlink",
+                "sha256": "1a5813f6014ffb13a034d8915f754f5ee0dc746f70cdd1ce04cbd9b93356b503",
+                "sha256_in_prefix": "1a5813f6014ffb13a034d8915f754f5ee0dc746f70cdd1ce04cbd9b93356b503",
+                "size_in_bytes": 7075
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/demonstrate_wheel.json",
+                "path_type": "hardlink",
+                "sha256": "9ecbfbed31b74442b98ea9829957aa446c1801cc7cab12dbd831995d00e55296",
+                "sha256_in_prefix": "9ecbfbed31b74442b98ea9829957aa446c1801cc7cab12dbd831995d00e55296",
+                "size_in_bytes": 5356
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/environment-db.yml",
+                "path_type": "hardlink",
+                "sha256": "9d35aaed574fa6af81c951c02d213ce6c5011fddc70fd3b01f8a11942bd2c8a6",
+                "sha256_in_prefix": "9d35aaed574fa6af81c951c02d213ce6c5011fddc70fd3b01f8a11942bd2c8a6",
+                "size_in_bytes": 120
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/environment.yml",
+                "path_type": "hardlink",
+                "sha256": "daffc2ace22422ad969ba721b00eb176e3054a6d48074a912cdaaf95a5159369",
+                "sha256_in_prefix": "daffc2ace22422ad969ba721b00eb176e3054a6d48074a912cdaaf95a5159369",
+                "size_in_bytes": 73
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/gen_patch.py",
+                "path_type": "hardlink",
+                "sha256": "b6b539e3a02169e355f0e3a9ccdc60787ab5bf2eaba7f2fcc7eca4e829be63c2",
+                "sha256_in_prefix": "b6b539e3a02169e355f0e3a9ccdc60787ab5bf2eaba7f2fcc7eca4e829be63c2",
+                "size_in_bytes": 216
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/gen_patch_2.py",
+                "path_type": "hardlink",
+                "sha256": "fa90b5032a56dd3207fea538b5b4bb9d2abc82dbe77cbdb56ca58b162a2923d8",
+                "sha256_in_prefix": "fa90b5032a56dd3207fea538b5b4bb9d2abc82dbe77cbdb56ca58b162a2923d8",
+                "size_in_bytes": 216
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/http_test_server.py",
+                "path_type": "hardlink",
+                "sha256": "8e8a1bc76a10407e2a2b3a368abcf23f8d9b2ae59ecb7b2504835a714681815c",
+                "sha256_in_prefix": "8e8a1bc76a10407e2a2b3a368abcf23f8d9b2ae59ecb7b2504835a714681815c",
+                "size_in_bytes": 1866
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "db721779d0a913ae7720f40a2a10fc6cced3ebbb7d3fb444bb4b21102251a9f2",
+                "sha256_in_prefix": "db721779d0a913ae7720f40a2a10fc6cced3ebbb7d3fb444bb4b21102251a9f2",
+                "size_in_bytes": 17
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/channeldata.json",
+                "path_type": "hardlink",
+                "sha256": "b0026529689eefc26af44bda070bdd64060a5b33d324ef62757cdc08e50bd9fa",
+                "sha256_in_prefix": "b0026529689eefc26af44bda070bdd64060a5b33d324ef62757cdc08e50bd9fa",
+                "size_in_bytes": 82
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/.cache/stat.json",
+                "path_type": "hardlink",
+                "sha256": "22c0ca5bef11c26053fb3389139796f9eca9ca60bca5a4be31ae7080e84daf59",
+                "sha256_in_prefix": "22c0ca5bef11c26053fb3389139796f9eca9ca60bca5a4be31ae7080e84daf59",
+                "size_in_bytes": 121
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/another_bad_package.conda",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/bad_package.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "269c90a4a689db55b38867bd14ef5e4d74856aec98fe4d0aac7d4cf4292f3492",
+                "sha256_in_prefix": "269c90a4a689db55b38867bd14ef5e4d74856aec98fe4d0aac7d4cf4292f3492",
+                "size_in_bytes": 16
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/current_repodata.json",
+                "path_type": "hardlink",
+                "sha256": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "sha256_in_prefix": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/current_repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "sha256_in_prefix": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata.json",
+                "path_type": "hardlink",
+                "sha256": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "sha256_in_prefix": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "sha256_in_prefix": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata_from_packages.json",
+                "path_type": "hardlink",
+                "sha256": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "sha256_in_prefix": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/corrupt/noarch/repodata_from_packages.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "sha256_in_prefix": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/about/dummy-package-1.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "fabcaa1c5bc4ad230e06e2f2087b42f1aef6c57fc8ddd1eaae999ba2138d9991",
+                "sha256_in_prefix": "fabcaa1c5bc4ad230e06e2f2087b42f1aef6c57fc8ddd1eaae999ba2138d9991",
+                "size_in_bytes": 4934
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/about/dummy-package-2.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "fabcaa1c5bc4ad230e06e2f2087b42f1aef6c57fc8ddd1eaae999ba2138d9991",
+                "sha256_in_prefix": "fabcaa1c5bc4ad230e06e2f2087b42f1aef6c57fc8ddd1eaae999ba2138d9991",
+                "size_in_bytes": 4934
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/icon/dummy-package-2.0-0.png",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/index/dummy-package-1.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "aa573dccfffb7461c0ec0da758634700e8c9a7ac3b3668e96a11b46080953ee6",
+                "sha256_in_prefix": "aa573dccfffb7461c0ec0da758634700e8c9a7ac3b3668e96a11b46080953ee6",
+                "size_in_bytes": 288
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/index/dummy-package-2.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "6e567205669011d3d407d7e7af54ec82f076f571cc9d9f438b87bac2d0cd41c9",
+                "sha256_in_prefix": "6e567205669011d3d407d7e7af54ec82f076f571cc9d9f438b87bac2d0cd41c9",
+                "size_in_bytes": 288
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/paths/dummy-package-1.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "a0731dccf9e110a03d184ba01467cabe068391cdab188c49a1e7515a17827183",
+                "sha256_in_prefix": "a0731dccf9e110a03d184ba01467cabe068391cdab188c49a1e7515a17827183",
+                "size_in_bytes": 39
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/paths/dummy-package-2.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "a0731dccf9e110a03d184ba01467cabe068391cdab188c49a1e7515a17827183",
+                "sha256_in_prefix": "a0731dccf9e110a03d184ba01467cabe068391cdab188c49a1e7515a17827183",
+                "size_in_bytes": 39
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/post_install/dummy-package-1.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "4187771971a5867ad3d7369494e0e5731cd5be4c6c765492f1942ea38c539424",
+                "sha256_in_prefix": "4187771971a5867ad3d7369494e0e5731cd5be4c6c765492f1942ea38c539424",
+                "size_in_bytes": 150
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/post_install/dummy-package-2.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "4187771971a5867ad3d7369494e0e5731cd5be4c6c765492f1942ea38c539424",
+                "sha256_in_prefix": "4187771971a5867ad3d7369494e0e5731cd5be4c6c765492f1942ea38c539424",
+                "size_in_bytes": 150
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/recipe/dummy-package-1.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "5fcc59bab77e95efb82f654b944b8efd5335672230aa93da1b9e536bcca7da16",
+                "sha256_in_prefix": "5fcc59bab77e95efb82f654b944b8efd5335672230aa93da1b9e536bcca7da16",
+                "size_in_bytes": 194
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/recipe/dummy-package-2.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "541b04214b29d64370bd651977fd67c32b2859b3ceb5e8db455cf3670578c45a",
+                "sha256_in_prefix": "541b04214b29d64370bd651977fd67c32b2859b3ceb5e8db455cf3670578c45a",
+                "size_in_bytes": 194
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/run_exports/dummy-package-1.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "sha256_in_prefix": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "size_in_bytes": 2
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/run_exports/dummy-package-2.0-0.tar.bz2.json",
+                "path_type": "hardlink",
+                "sha256": "f42f8babbfb3d37e52f548e62e9854abf7fbc07d24c37ae53f77ecf9562e901b",
+                "sha256_in_prefix": "f42f8babbfb3d37e52f548e62e9854abf7fbc07d24c37ae53f77ecf9562e901b",
+                "size_in_bytes": 22
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/.cache/stat.json",
+                "path_type": "hardlink",
+                "sha256": "1647bf03b699cd8608da57be781cacb97dd05351d6a585fefc8f8307cf720fa4",
+                "sha256_in_prefix": "1647bf03b699cd8608da57be781cacb97dd05351d6a585fefc8f8307cf720fa4",
+                "size_in_bytes": 136
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/legacy_cache/README",
+                "path_type": "hardlink",
+                "sha256": "617da1d6dd7d2aa8a74fb97ac755278ee8f931446ec68b1c229099fdf5f9c98a",
+                "sha256_in_prefix": "617da1d6dd7d2aa8a74fb97ac755278ee8f931446ec68b1c229099fdf5f9c98a",
+                "size_in_bytes": 113
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/channeldata.json",
+                "path_type": "hardlink",
+                "sha256": "9147775dd304a4061a8fa73ad7181dfa9e4e116a3af3883963a9fea9b756021a",
+                "sha256_in_prefix": "9147775dd304a4061a8fa73ad7181dfa9e4e116a3af3883963a9fea9b756021a",
+                "size_in_bytes": 999
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/current_repodata.json",
+                "path_type": "hardlink",
+                "sha256": "3909c2d1f357b6899f65407dde8d9f877d834cf5ac829de9f7c9aa01ad9f5fa9",
+                "sha256_in_prefix": "3909c2d1f357b6899f65407dde8d9f877d834cf5ac829de9f7c9aa01ad9f5fa9",
+                "size_in_bytes": 565
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/current_repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "f9cac0c7f551845f11941886e1180168456e700c8a071c506534e757f3596dac",
+                "sha256_in_prefix": "f9cac0c7f551845f11941886e1180168456e700c8a071c506534e757f3596dac",
+                "size_in_bytes": 349
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata.json",
+                "path_type": "hardlink",
+                "sha256": "e2465f45bee8b8825bf4a6a40ee437c2184aced87690570388b01f8889515d41",
+                "sha256_in_prefix": "e2465f45bee8b8825bf4a6a40ee437c2184aced87690570388b01f8889515d41",
+                "size_in_bytes": 1001
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "b9882c74268e526fe6794f99f9cafcbeef790955d2af6074c4aedaeae78c00df",
+                "sha256_in_prefix": "b9882c74268e526fe6794f99f9cafcbeef790955d2af6074c4aedaeae78c00df",
+                "size_in_bytes": 476
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata_from_packages.json",
+                "path_type": "hardlink",
+                "sha256": "e2465f45bee8b8825bf4a6a40ee437c2184aced87690570388b01f8889515d41",
+                "sha256_in_prefix": "e2465f45bee8b8825bf4a6a40ee437c2184aced87690570388b01f8889515d41",
+                "size_in_bytes": 1001
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/repodata_from_packages.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "b9882c74268e526fe6794f99f9cafcbeef790955d2af6074c4aedaeae78c00df",
+                "sha256_in_prefix": "b9882c74268e526fe6794f99f9cafcbeef790955d2af6074c4aedaeae78c00df",
+                "size_in_bytes": 476
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/run_exports_versions-1.0-he35c369_0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "2728e5d4b8c1ad870e247ef63cf1cc1177b617828739745a01637f3f9af2c57a",
+                "sha256_in_prefix": "2728e5d4b8c1ad870e247ef63cf1cc1177b617828739745a01637f3f9af2c57a",
+                "size_in_bytes": 2662
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/noarch/run_exports_versions-2.0-h39de5ba_0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "33877cbe447e8c7a026fbcb7e299b37208ad4bc70cf8328fb4cf552af01ada76",
+                "sha256_in_prefix": "33877cbe447e8c7a026fbcb7e299b37208ad4bc70cf8328fb4cf552af01ada76",
+                "size_in_bytes": 2683
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/current_repodata.json",
+                "path_type": "hardlink",
+                "sha256": "a2cc43a54c4799507a0a209ee675d079b3a066cf80c6254dd0612cfbd5ab639b",
+                "sha256_in_prefix": "a2cc43a54c4799507a0a209ee675d079b3a066cf80c6254dd0612cfbd5ab639b",
+                "size_in_bytes": 536
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/current_repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "f624e0baca03849cf8b565df4a50526a84f632cad06833452fe91a1627dc3dec",
+                "sha256_in_prefix": "f624e0baca03849cf8b565df4a50526a84f632cad06833452fe91a1627dc3dec",
+                "size_in_bytes": 340
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/dummy-package-1.0-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "c836fbdafcd615bdb4633264bf096ebc6c3c6977de1f9b2bf527ab6fc6415e01",
+                "sha256_in_prefix": "c836fbdafcd615bdb4633264bf096ebc6c3c6977de1f9b2bf527ab6fc6415e01",
+                "size_in_bytes": 2517
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/dummy-package-2.0-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "8c2642ca7d68523bda51683703c01cdd5a232bb56f80cf947bfac458c35a5df7",
+                "sha256_in_prefix": "8c2642ca7d68523bda51683703c01cdd5a232bb56f80cf947bfac458c35a5df7",
+                "size_in_bytes": 2520
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata.json",
+                "path_type": "hardlink",
+                "sha256": "4c35fd9bceec829fed4633ad012bfa5eee8bcb8a769d8bd19592181352302805",
+                "sha256_in_prefix": "4c35fd9bceec829fed4633ad012bfa5eee8bcb8a769d8bd19592181352302805",
+                "size_in_bytes": 943
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "e0967205f0167fec93dc467e4916ad37cfc7b500d3f28a6e02d0c205e0cc05e2",
+                "sha256_in_prefix": "e0967205f0167fec93dc467e4916ad37cfc7b500d3f28a6e02d0c205e0cc05e2",
+                "size_in_bytes": 459
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata_from_packages.json",
+                "path_type": "hardlink",
+                "sha256": "4c35fd9bceec829fed4633ad012bfa5eee8bcb8a769d8bd19592181352302805",
+                "sha256_in_prefix": "4c35fd9bceec829fed4633ad012bfa5eee8bcb8a769d8bd19592181352302805",
+                "size_in_bytes": 943
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/osx-64/repodata_from_packages.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "e0967205f0167fec93dc467e4916ad37cfc7b500d3f28a6e02d0c205e0cc05e2",
+                "sha256_in_prefix": "e0967205f0167fec93dc467e4916ad37cfc7b500d3f28a6e02d0c205e0cc05e2",
+                "size_in_bytes": 459
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/packages/versions.yml",
+                "path_type": "hardlink",
+                "sha256": "3d092a2e7b3143faa3fd0c30586ddf42d0a7c9aec9c002965963888fd848b0ce",
+                "sha256_in_prefix": "3d092a2e7b3143faa3fd0c30586ddf42d0a7c9aec9c002965963888fd848b0ce",
+                "size_in_bytes": 31
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/recipes/run_exports_versions/conda_build_config.yaml",
+                "path_type": "hardlink",
+                "sha256": "1bbd9283b7e1c2f7a2716e68c7c9d72c954e006b5ee20f5e899d6aaee894b99d",
+                "sha256_in_prefix": "1bbd9283b7e1c2f7a2716e68c7c9d72c954e006b5ee20f5e899d6aaee894b99d",
+                "size_in_bytes": 25
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/recipes/run_exports_versions/meta.yaml",
+                "path_type": "hardlink",
+                "sha256": "e16a182990a5d58d2246351a52e4ba7128f36b31a5be14d53fbcf6c2a4625b80",
+                "sha256_in_prefix": "e16a182990a5d58d2246351a52e4ba7128f36b31a5be14d53fbcf6c2a4625b80",
+                "size_in_bytes": 144
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_data/time_cut/repodata.json",
+                "path_type": "hardlink",
+                "sha256": "c53ce6be32d390515fce823fa5dbe0cbd39a1fb85f25a975ff074706715fb7b7",
+                "sha256_in_prefix": "c53ce6be32d390515fce823fa5dbe0cbd39a1fb85f25a975ff074706715fb7b7",
+                "size_in_bytes": 5604
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/README.md",
+                "path_type": "hardlink",
+                "sha256": "dc1979c9d2c385910f97679a7f0c7c39ce410c9abc8ae7f77affbadc3f786ec9",
+                "sha256_in_prefix": "dc1979c9d2c385910f97679a7f0c7c39ce410c9abc8ae7f77affbadc3f786ec9",
+                "size_in_bytes": 125
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/channeldata.json",
+                "path_type": "hardlink",
+                "sha256": "5584564fcb93e62d891f855f4b924e42aa5843adba9a74fe1a42a527b83480a7",
+                "sha256_in_prefix": "5584564fcb93e62d891f855f4b924e42aa5843adba9a74fe1a42a527b83480a7",
+                "size_in_bytes": 2986
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/index.html",
+                "path_type": "hardlink",
+                "sha256": "a421d54a0837e7fa75ce23df1813bb439d29fde639493227e41c16c2fbcccbe9",
+                "sha256_in_prefix": "a421d54a0837e7fa75ce23df1813bb439d29fde639493227e41c16c2fbcccbe9",
+                "size_in_bytes": 2754
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/current_repodata.json",
+                "path_type": "hardlink",
+                "sha256": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "sha256_in_prefix": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/current_repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "sha256_in_prefix": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/index.html",
+                "path_type": "hardlink",
+                "sha256": "5e7b29b8b8e83692cf002bc89779f2193a73b1c00b6da99d4ffc16fc874c2efb",
+                "sha256_in_prefix": "5e7b29b8b8e83692cf002bc89779f2193a73b1c00b6da99d4ffc16fc874c2efb",
+                "size_in_bytes": 2410
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata.json",
+                "path_type": "hardlink",
+                "sha256": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "sha256_in_prefix": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "sha256_in_prefix": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata_from_packages.json",
+                "path_type": "hardlink",
+                "sha256": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "sha256_in_prefix": "b546412dc20b790c5f9c223e394ff0e39a27ba12a99631ca4d1bb6c0ca3bd05c",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/noarch/repodata_from_packages.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "sha256_in_prefix": "32d48c11b6d5ee61a54a9076f8c06a62ba795f69b671db3e44b1301fa0efae0e",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/current_repodata.json",
+                "path_type": "hardlink",
+                "sha256": "0c6b7bf7d7dd1daf7bcf0763f92a37c67b6c9302afb85a0dc629c73a010da75d",
+                "sha256_in_prefix": "0c6b7bf7d7dd1daf7bcf0763f92a37c67b6c9302afb85a0dc629c73a010da75d",
+                "size_in_bytes": 1769
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/current_repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "a323f43465e1b1d8404f935559061c15305e8e964a16545db4597ca5c4323746",
+                "sha256_in_prefix": "a323f43465e1b1d8404f935559061c15305e8e964a16545db4597ca5c4323746",
+                "size_in_bytes": 671
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/hotfix_depends_test-1.0-dummy_0.conda",
+                "path_type": "hardlink",
+                "sha256": "2f22bf17d4d2a895fcb3fec3b9d6e25610cfbd0f108963e818f7bc6bc6f0333d",
+                "sha256_in_prefix": "2f22bf17d4d2a895fcb3fec3b9d6e25610cfbd0f108963e818f7bc6bc6f0333d",
+                "size_in_bytes": 2796
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/hotfix_depends_test-1.0-dummy_0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "fcaf5f4b4f9d322b4cf74fed29526c4fba67ab7c91e4f1857811345fa38503c7",
+                "sha256_in_prefix": "fcaf5f4b4f9d322b4cf74fed29526c4fba67ab7c91e4f1857811345fa38503c7",
+                "size_in_bytes": 2422
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/index.html",
+                "path_type": "hardlink",
+                "sha256": "53d50b87f775e6e477bd1bbfb74d301362e209ce28306504f97d71c3ec73aa50",
+                "sha256_in_prefix": "53d50b87f775e6e477bd1bbfb74d301362e209ce28306504f97d71c3ec73aa50",
+                "size_in_bytes": 3794
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/remove_test-1.0-0.conda",
+                "path_type": "hardlink",
+                "sha256": "8085ea22e51eca82fcddf25ca4f14d9a2bdc629c7f75e8b83f0116dc622eae47",
+                "sha256_in_prefix": "8085ea22e51eca82fcddf25ca4f14d9a2bdc629c7f75e8b83f0116dc622eae47",
+                "size_in_bytes": 2721
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/remove_test-1.0-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "8058335b04bb97ed3fb32a29edd724766c6a9456e6abd0f7b2ac5b9685adc697",
+                "sha256_in_prefix": "8058335b04bb97ed3fb32a29edd724766c6a9456e6abd0f7b2ac5b9685adc697",
+                "size_in_bytes": 2392
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata.json",
+                "path_type": "hardlink",
+                "sha256": "0c6b7bf7d7dd1daf7bcf0763f92a37c67b6c9302afb85a0dc629c73a010da75d",
+                "sha256_in_prefix": "0c6b7bf7d7dd1daf7bcf0763f92a37c67b6c9302afb85a0dc629c73a010da75d",
+                "size_in_bytes": 1769
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "a323f43465e1b1d8404f935559061c15305e8e964a16545db4597ca5c4323746",
+                "sha256_in_prefix": "a323f43465e1b1d8404f935559061c15305e8e964a16545db4597ca5c4323746",
+                "size_in_bytes": 671
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata_from_packages.json",
+                "path_type": "hardlink",
+                "sha256": "0c6b7bf7d7dd1daf7bcf0763f92a37c67b6c9302afb85a0dc629c73a010da75d",
+                "sha256_in_prefix": "0c6b7bf7d7dd1daf7bcf0763f92a37c67b6c9302afb85a0dc629c73a010da75d",
+                "size_in_bytes": 1769
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/repodata_from_packages.json.bz2",
+                "path_type": "hardlink",
+                "sha256": "a323f43465e1b1d8404f935559061c15305e8e964a16545db4597ca5c4323746",
+                "sha256_in_prefix": "a323f43465e1b1d8404f935559061c15305e8e964a16545db4597ca5c4323746",
+                "size_in_bytes": 671
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/revoke_test-1.0-0.conda",
+                "path_type": "hardlink",
+                "sha256": "dfadf4eeca02efa4e9985a151b5ba06ef07e40db2e625f416f6a5b81af51899d",
+                "sha256_in_prefix": "dfadf4eeca02efa4e9985a151b5ba06ef07e40db2e625f416f6a5b81af51899d",
+                "size_in_bytes": 2727
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/revoke_test-1.0-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "4d13bdfb2ecdd5808dfe49755dfe3f94365c6a2d2b304ddfd62d67ad0b36b7a9",
+                "sha256_in_prefix": "4d13bdfb2ecdd5808dfe49755dfe3f94365c6a2d2b304ddfd62d67ad0b36b7a9",
+                "size_in_bytes": 2396
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/track_features_test-1.0-0.conda",
+                "path_type": "hardlink",
+                "sha256": "035aff729e61fa9a430182e9e118c3968597f0a772247eb00fd96c56165058bf",
+                "sha256_in_prefix": "035aff729e61fa9a430182e9e118c3968597f0a772247eb00fd96c56165058bf",
+                "size_in_bytes": 2756
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/index_hotfix_pkgs/osx-64/track_features_test-1.0-0.tar.bz2",
+                "path_type": "hardlink",
+                "sha256": "c10ec43e7453dfa2d08077d677650f54e2cd196e6cf02a0a5160f0480d1fc37d",
+                "sha256_in_prefix": "c10ec43e7453dfa2d08077d677650f54e2cd196e6cf02a0a5160f0480d1fc37d",
+                "size_in_bytes": 2399
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/postgresql_fixture.py",
+                "path_type": "hardlink",
+                "sha256": "a374e158248d1e6ad57a3f3a655b88469c34ea646742bee81ed6e17da4ee0776",
+                "sha256_in_prefix": "a374e158248d1e6ad57a3f3a655b88469c34ea646742bee81ed6e17da4ee0776",
+                "size_in_bytes": 1142
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/split_repo.py",
+                "path_type": "hardlink",
+                "sha256": "8bce2eb77aacaf5d174bc06c0ccd5a395c22aab48fda780646bf3604b715c436",
+                "sha256_in_prefix": "8bce2eb77aacaf5d174bc06c0ccd5a395c22aab48fda780646bf3604b715c436",
+                "size_in_bytes": 11463
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_cache.py",
+                "path_type": "hardlink",
+                "sha256": "7305b6c773a89b2531632763f5c72a9894e0fa9509144f283eebea2228a80e30",
+                "sha256_in_prefix": "7305b6c773a89b2531632763f5c72a9894e0fa9509144f283eebea2228a80e30",
+                "size_in_bytes": 1902
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_cli.py",
+                "path_type": "hardlink",
+                "sha256": "392fe4f50bac72e05ea68525cf662a209c3559db344826dfb9c598aef649a0ff",
+                "sha256_in_prefix": "392fe4f50bac72e05ea68525cf662a209c3559db344826dfb9c598aef649a0ff",
+                "size_in_bytes": 9186
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_coverage.py",
+                "path_type": "hardlink",
+                "sha256": "75c295588d58974abd3692e148ea1fabcc6fdf00010ff587d310f82aeebd3d08",
+                "sha256_in_prefix": "75c295588d58974abd3692e148ea1fabcc6fdf00010ff587d310f82aeebd3d08",
+                "size_in_bytes": 4385
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_demonstrate_wheel.py",
+                "path_type": "hardlink",
+                "sha256": "56f8a10b296aae473eaedf71c3948a66a9ad6be70cce1175b5e0014629b0ae24",
+                "sha256_in_prefix": "56f8a10b296aae473eaedf71c3948a66a9ad6be70cce1175b5e0014629b0ae24",
+                "size_in_bytes": 2930
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_fsspec.py",
+                "path_type": "hardlink",
+                "sha256": "f1caffd0804c11516e524a03482cbf877f25e4fec279afe72c651c721982108f",
+                "sha256_in_prefix": "f1caffd0804c11516e524a03482cbf877f25e4fec279afe72c651c721982108f",
+                "size_in_bytes": 1667
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_index.py",
+                "path_type": "hardlink",
+                "sha256": "9b286bde10644c5e4ca650be37eea0041bb7cfe889341538ae33a626806ca21f",
+                "sha256_in_prefix": "9b286bde10644c5e4ca650be37eea0041bb7cfe889341538ae33a626806ca21f",
+                "size_in_bytes": 73117
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_plugin.py",
+                "path_type": "hardlink",
+                "sha256": "60e5bd50693302438a067de3b233e0e55795a3ccb9db8402a7b2f1df97b4f474",
+                "sha256_in_prefix": "60e5bd50693302438a067de3b233e0e55795a3ccb9db8402a7b2f1df97b4f474",
+                "size_in_bytes": 1129
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_psql.py",
+                "path_type": "hardlink",
+                "sha256": "ff9cb71133dca7a217c4e4a15ddf49ce86c77173c1d5af41eafe2f367021bd61",
+                "sha256_in_prefix": "ff9cb71133dca7a217c4e4a15ddf49ce86c77173c1d5af41eafe2f367021bd61",
+                "size_in_bytes": 18874
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_rss.py",
+                "path_type": "hardlink",
+                "sha256": "2278ddec964927cc0fe8ad8133df2182770198745801197381a3a7e0146975f9",
+                "sha256_in_prefix": "2278ddec964927cc0fe8ad8133df2182770198745801197381a3a7e0146975f9",
+                "size_in_bytes": 6514
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_sqlitecache.py",
+                "path_type": "hardlink",
+                "sha256": "1e50caaca3ed7d6273df531952069824b170d1afbbcaf2e9124c92b1fa0e50ba",
+                "sha256_in_prefix": "1e50caaca3ed7d6273df531952069824b170d1afbbcaf2e9124c92b1fa0e50ba",
+                "size_in_bytes": 13237
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/test_utils.py",
+                "path_type": "hardlink",
+                "sha256": "529c53a73d29a35570270e0764db673988e8e6920b25986557ea76aa417b634c",
+                "sha256_in_prefix": "529c53a73d29a35570270e0764db673988e8e6920b25986557ea76aa417b634c",
+                "size_in_bytes": 2357
+            },
+            {
+                "_path": "etc/conda/test-files/conda-index/1/tests/utils.py",
+                "path_type": "hardlink",
+                "sha256": "9e0fef469c3307c984bbb7eb752111581204365f637150535f62e2a1ff40d3bb",
+                "sha256_in_prefix": "9e0fef469c3307c984bbb7eb752111581204365f637150535f62e2a1ff40d3bb",
+                "size_in_bytes": 5665
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "5dc83cc898af8565d3a32fb80bbf64c2799455e49b173ef25a20ba7496c7625e",
+                "sha256_in_prefix": "5dc83cc898af8565d3a32fb80bbf64c2799455e49b173ef25a20ba7496c7625e",
+                "size_in_bytes": 708
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__main__.py",
+                "path_type": "hardlink",
+                "sha256": "3aef99876faadc922683e8a4e350a6bba42f3a169f1364d2d3da4d3e8c430110",
+                "sha256_in_prefix": "3aef99876faadc922683e8a4e350a6bba42f3a169f1364d2d3da4d3e8c430110",
+                "size_in_bytes": 83
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/_version.py",
+                "path_type": "hardlink",
+                "sha256": "d01163480b8c08bea7fd1b1071564f796787678d05793fd5d7b1b2f0c5996527",
+                "sha256_in_prefix": "d01163480b8c08bea7fd1b1071564f796787678d05793fd5d7b1b2f0c5996527",
+                "size_in_bytes": 522
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/api.py",
+                "path_type": "hardlink",
+                "sha256": "06322ef7c6fae3ec25dac4d59d7563513712740756b45cefaff52840da416c3d",
+                "sha256_in_prefix": "06322ef7c6fae3ec25dac4d59d7563513712740756b45cefaff52840da416c3d",
+                "size_in_bytes": 1511
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/cli/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "5dd7f3889d90c9967481642f9c37ed4a2798664195390f6c257d5a2075cde1bb",
+                "sha256_in_prefix": "5dd7f3889d90c9967481642f9c37ed4a2798664195390f6c257d5a2075cde1bb",
+                "size_in_bytes": 12507
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "2c811e7468e480f87f5c92ed896a206bce72d295d98f2bbfc28afdd75d3df015",
+                "sha256_in_prefix": "2c811e7468e480f87f5c92ed896a206bce72d295d98f2bbfc28afdd75d3df015",
+                "size_in_bytes": 57077
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/cache.py",
+                "path_type": "hardlink",
+                "sha256": "f1fe8db3e56a7794ee16244e589b4235aac675b5b2dbed22e3d517a7695fa67c",
+                "sha256_in_prefix": "f1fe8db3e56a7794ee16244e589b4235aac675b5b2dbed22e3d517a7695fa67c",
+                "size_in_bytes": 18798
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/common.py",
+                "path_type": "hardlink",
+                "sha256": "11589f9716e43229f7d511b265270c1f8a1ab0ec7bb8fc805df64fc7f5313e9b",
+                "sha256_in_prefix": "11589f9716e43229f7d511b265270c1f8a1ab0ec7bb8fc805df64fc7f5313e9b",
+                "size_in_bytes": 312
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/convert_cache.py",
+                "path_type": "hardlink",
+                "sha256": "a587207a69296e2faa26c8af38b3763c0009189f9df38dbedcc7a84445dc386b",
+                "sha256_in_prefix": "a587207a69296e2faa26c8af38b3763c0009189f9df38dbedcc7a84445dc386b",
+                "size_in_bytes": 11750
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/current_repodata.py",
+                "path_type": "hardlink",
+                "sha256": "43dfefa9de577e7fae9f8b0563163fc556d53becc7add0fa3e86432eb94ef2b6",
+                "sha256_in_prefix": "43dfefa9de577e7fae9f8b0563163fc556d53becc7add0fa3e86432eb94ef2b6",
+                "size_in_bytes": 6153
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/fs.py",
+                "path_type": "hardlink",
+                "sha256": "4ada18b26e1bc0f41ecb8eddf16b6155d6b9d3847e2564d4dabae8635d354efd",
+                "sha256_in_prefix": "4ada18b26e1bc0f41ecb8eddf16b6155d6b9d3847e2564d4dabae8635d354efd",
+                "size_in_bytes": 2124
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/logutil.py",
+                "path_type": "hardlink",
+                "sha256": "ece09d047b4b99291e0a7c1c97ff7f85b82828ac55695fadfa4aa8ffccfbde5f",
+                "sha256_in_prefix": "ece09d047b4b99291e0a7c1c97ff7f85b82828ac55695fadfa4aa8ffccfbde5f",
+                "size_in_bytes": 172
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/rss.py",
+                "path_type": "hardlink",
+                "sha256": "c3cacbacebb342240b4ea8cd7be0606821598256b3bc141873266f28ffcfc02e",
+                "sha256_in_prefix": "c3cacbacebb342240b4ea8cd7be0606821598256b3bc141873266f28ffcfc02e",
+                "size_in_bytes": 2940
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/sqlitecache.py",
+                "path_type": "hardlink",
+                "sha256": "3e3422d73f1bf4d2d23f4d6714338dbec403cafe0d16b29491407d9678260fac",
+                "sha256_in_prefix": "3e3422d73f1bf4d2d23f4d6714338dbec403cafe0d16b29491407d9678260fac",
+                "size_in_bytes": 15723
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/plugin.py",
+                "path_type": "hardlink",
+                "sha256": "aa6ea43478f31aa847de3276ebcfaf02eb9e2b9196d0716b83766a7ff8e2cee5",
+                "sha256_in_prefix": "aa6ea43478f31aa847de3276ebcfaf02eb9e2b9196d0716b83766a7ff8e2cee5",
+                "size_in_bytes": 844
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/postgres/cache.py",
+                "path_type": "hardlink",
+                "sha256": "2b1c15e126e9320de2731e6064ad322d89e84b3e8dfa947793415a803c1c0e09",
+                "sha256_in_prefix": "2b1c15e126e9320de2731e6064ad322d89e84b3e8dfa947793415a803c1c0e09",
+                "size_in_bytes": 18238
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/postgres/model.py",
+                "path_type": "hardlink",
+                "sha256": "7a119f98596d0ccdd19542c600f13a9f39211c637b8c97dded0504151583ec5a",
+                "sha256_in_prefix": "7a119f98596d0ccdd19542c600f13a9f39211c637b8c97dded0504151583ec5a",
+                "size_in_bytes": 1958
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/py.typed",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/templates/channeldata-index.html.j2",
+                "path_type": "hardlink",
+                "sha256": "7318d0f9132b0c8aa11761a5ac39957a94067d0bc38543e9a947297a97e5896c",
+                "sha256_in_prefix": "7318d0f9132b0c8aa11761a5ac39957a94067d0bc38543e9a947297a97e5896c",
+                "size_in_bytes": 3302
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/templates/subdir-index.html.j2",
+                "path_type": "hardlink",
+                "sha256": "794512e1c149850a243d367abfdaab5d1e525f0f96a207df12264d16b985d965",
+                "sha256_in_prefix": "794512e1c149850a243d367abfdaab5d1e525f0f96a207df12264d16b985d965",
+                "size_in_bytes": 1974
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/utils.py",
+                "path_type": "hardlink",
+                "sha256": "e4cef39d57daf487e2d5fb088f38b5ba896459703a3c3808f7c5c219bb46b6a3",
+                "sha256_in_prefix": "e4cef39d57daf487e2d5fb088f38b5ba896459703a3c3808f7c5c219bb46b6a3",
+                "size_in_bytes": 2853
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/utils_build.py",
+                "path_type": "hardlink",
+                "sha256": "47e4ca8c5f1388d69042bb8ddd550d59dab6048c69665db5d571fd383a2fe588",
+                "sha256_in_prefix": "47e4ca8c5f1388d69042bb8ddd550d59dab6048c69665db5d571fd383a2fe588",
+                "size_in_bytes": 13277
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/yaml.py",
+                "path_type": "hardlink",
+                "sha256": "bb07ae4df9dc73363aac021a2d642e521aa85f19bb7d88e29c630127899c474e",
+                "sha256_in_prefix": "bb07ae4df9dc73363aac021a2d642e521aa85f19bb7d88e29c630127899c474e",
+                "size_in_bytes": 483
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "size_in_bytes": 6
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "edae5c6d01dbbe495f45909b4fb679368dfba7061df123f718fec67861379f03",
+                "sha256_in_prefix": "edae5c6d01dbbe495f45909b4fb679368dfba7061df123f718fec67861379f03",
+                "size_in_bytes": 4828
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "65820d957581a81a3116daa5e5ac6b9c3e72dba2111580f8f91aebb443c918f8",
+                "sha256_in_prefix": "65820d957581a81a3116daa5e5ac6b9c3e72dba2111580f8f91aebb443c918f8",
+                "size_in_bytes": 3875
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+                "sha256_in_prefix": "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+                "size_in_bytes": 87
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "1393ce7fc1b4616ceaf1729f788a8949e6eddb08f363a49a324435fdd6c81600",
+                "sha256_in_prefix": "1393ce7fc1b4616ceaf1729f788a8949e6eddb08f363a49a324435fdd6c81600",
+                "size_in_bytes": 122
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/entry_points.txt",
+                "path_type": "hardlink",
+                "sha256": "82db48a228d76dce43e50219344069fbdb797de701e4d6561a429198a9004b89",
+                "sha256_in_prefix": "82db48a228d76dce43e50219344069fbdb797de701e4d6561a429198a9004b89",
+                "size_in_bytes": 35
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/licenses/AUTHORS.md",
+                "path_type": "hardlink",
+                "sha256": "54ce6189abc81defe63faf9f1fbe19cc1d4c94a6273758ae2c1ddd775b832e56",
+                "sha256_in_prefix": "54ce6189abc81defe63faf9f1fbe19cc1d4c94a6273758ae2c1ddd775b832e56",
+                "size_in_bytes": 359
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index-0.13.0.dist-info/licenses/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "f597f664ffcbadaf09ad744560fa81b18d3cd57eac04db929bf62967bc22c6e6",
+                "sha256_in_prefix": "f597f664ffcbadaf09ad744560fa81b18d3cd57eac04db929bf62967bc22c6e6",
+                "size_in_bytes": 1492
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/__main__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/_version.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/api.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/cli/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/__init__.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/cache.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/common.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/convert_cache.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/current_repodata.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/fs.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/logutil.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/rss.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/index/__pycache__/sqlitecache.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/plugin.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/postgres/__pycache__/cache.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/postgres/__pycache__/model.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/utils.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/utils_build.cpython-314.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.14/site-packages/conda_index/__pycache__/yaml.cpython-314.pyc",
+                "path_type": "pyc_file"
+            }
+        ],
+        "paths_version": 1
+    },
+    "requested_spec": "conda-index==0.13.0=pyh5ded981_0",
+    "sha256": "3629dea4698cf120bb62ac9b6908c9182902a62d743f7d81bb8ecfb42d45fcbe",
+    "size": 214539,
+    "subdir": "noarch",
+    "timestamp": 1788522660257,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-index-0.13.0-pyh5ded981_0.conda",
+    "version": "0.13.0"
+}

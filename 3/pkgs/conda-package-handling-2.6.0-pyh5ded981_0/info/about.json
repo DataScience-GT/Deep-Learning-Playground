@@ -1,0 +1,22 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/conda/conda-package-handling",
+  "doc_url": "https://conda.github.io/conda-package-handling/",
+  "extra": {
+    "flow_run_id": "github_33755348009",
+    "recipe-maintainers": [
+      "beckermr",
+      "dbast",
+      "dholth",
+      "jezdez",
+      "msarahan"
+    ],
+    "remote_url": "https://github.com/conda-forge/conda-package-handling-feedstock",
+    "sha": "b9248d6a8b83419aebcaec6a29a75d44aa6dba28"
+  },
+  "home": "https://github.com/conda/conda-package-handling",
+  "license": "BSD-3-Clause",
+  "summary": "Create and extract conda packages of various formats"
+}

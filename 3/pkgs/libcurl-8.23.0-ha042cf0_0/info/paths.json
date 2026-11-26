@@ -1,0 +1,113 @@
+{
+  "paths": [
+    {
+      "_path": "bin/curl-config",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/curl_split_recipe_1791990667371/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "48a92e4f6f99db8769a25840648f80035c7011f30417aaec8bf412335a966c0b",
+      "size_in_bytes": 12498
+    },
+    {
+      "_path": "include/curl/curl.h",
+      "path_type": "hardlink",
+      "sha256": "ad8989a81e79b407355e14d673410d51420bfec48287f4b890d0b211d9235ec3",
+      "size_in_bytes": 136671
+    },
+    {
+      "_path": "include/curl/curlver.h",
+      "path_type": "hardlink",
+      "sha256": "fed299993c517a6a1785f44b19893d4ae65061a7d7b5ca43036b35bf998065b4",
+      "size_in_bytes": 3052
+    },
+    {
+      "_path": "include/curl/easy.h",
+      "path_type": "hardlink",
+      "sha256": "f101da02dd373151ea7b00082cb62c9d6e482361ab26b6d430ee96aab1b71565",
+      "size_in_bytes": 4000
+    },
+    {
+      "_path": "include/curl/header.h",
+      "path_type": "hardlink",
+      "sha256": "e92525a91bb1119034dd45dd42d255ff9b6a49d964ca7105964e0107671b3395",
+      "size_in_bytes": 2922
+    },
+    {
+      "_path": "include/curl/mprintf.h",
+      "path_type": "hardlink",
+      "sha256": "a79657fa15db71e732bcb58bc4645ab65bdb3222767f34be5bab56aa0d4f4cc9",
+      "size_in_bytes": 3078
+    },
+    {
+      "_path": "include/curl/multi.h",
+      "path_type": "hardlink",
+      "sha256": "621048debd536e82084cefa22d0cf8444c02991b7ade28d5e1884dbadcbe0189",
+      "size_in_bytes": 21210
+    },
+    {
+      "_path": "include/curl/options.h",
+      "path_type": "hardlink",
+      "sha256": "32fe87f843367d25a9db91a47386652402f08c9668617b4c51295ef31d93f8b0",
+      "size_in_bytes": 2402
+    },
+    {
+      "_path": "include/curl/stdcheaders.h",
+      "path_type": "hardlink",
+      "sha256": "d7588b86814a35ffc3766ff6242e6f6705e04401fc9c208a195caff3503af81c",
+      "size_in_bytes": 1362
+    },
+    {
+      "_path": "include/curl/system.h",
+      "path_type": "hardlink",
+      "sha256": "edb2c507a084448a5e3c7e2b9c65c408e22ffeaca5ab0c1ee2e76d82a21113fa",
+      "size_in_bytes": 14943
+    },
+    {
+      "_path": "include/curl/typecheck-gcc.h",
+      "path_type": "hardlink",
+      "sha256": "62bf346ae4dc33bc61cd99a9e935c62dfbcd8120399cdbd5874d15897a57e681",
+      "size_in_bytes": 58092
+    },
+    {
+      "_path": "include/curl/urlapi.h",
+      "path_type": "hardlink",
+      "sha256": "d888326d5bdebb84b5fe133d7ef7703d4e88732757ce4d6b0476f0c668d38a6e",
+      "size_in_bytes": 5870
+    },
+    {
+      "_path": "include/curl/websockets.h",
+      "path_type": "hardlink",
+      "sha256": "05b70dbce5274aa6e360703bb17d67a0390fea18bf4437745a25b08b55d6962b",
+      "size_in_bytes": 3197
+    },
+    {
+      "_path": "lib/libcurl.so",
+      "path_type": "softlink",
+      "sha256": "48aa9048ec94402d60e86c470912f32d9ac2d35dbf54452080acbd81bd6eb36b",
+      "size_in_bytes": 1153200
+    },
+    {
+      "_path": "lib/libcurl.so.4",
+      "path_type": "softlink",
+      "sha256": "48aa9048ec94402d60e86c470912f32d9ac2d35dbf54452080acbd81bd6eb36b",
+      "size_in_bytes": 1153200
+    },
+    {
+      "_path": "lib/libcurl.so.4.8.0",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/curl_split_recipe_1791990667371/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "48aa9048ec94402d60e86c470912f32d9ac2d35dbf54452080acbd81bd6eb36b",
+      "size_in_bytes": 1153200
+    },
+    {
+      "_path": "lib/pkgconfig/libcurl.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/curl_split_recipe_1791990667371/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "e57b333ffa8ed70beb49b3c1b9bca91f6170a636ff1a1a257498b1cc716ee780",
+      "size_in_bytes": 4028
+    }
+  ],
+  "paths_version": 1
+}

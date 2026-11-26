@@ -1,0 +1,25 @@
+{
+    "build": "pyhfa0c392_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [
+        "envwrap >=0.2",
+        "ipywidgets >=6.0"
+    ],
+    "depends": [
+        "python >=3.11",
+        "__unix",
+        "python"
+    ],
+    "fn": "tqdm-4.70.1-pyhfa0c392_0.conda",
+    "license": "MPL-2.0 and MIT",
+    "md5": "ffc91f29264eeb8d3ba96fdc897316c3",
+    "name": "tqdm",
+    "noarch": "python",
+    "sha256": "7c40c84de3de3624c2a753496122dbb880903c796d183e9d4be6c15c310c4bab",
+    "size": 95977,
+    "subdir": "noarch",
+    "timestamp": 1789187326570,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/tqdm-4.70.1-pyhfa0c392_0.conda",
+    "version": "4.70.1"
+}

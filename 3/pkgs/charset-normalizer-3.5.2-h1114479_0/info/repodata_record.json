@@ -1,0 +1,27 @@
+{
+    "arch": "x86_64",
+    "build": "h1114479_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python",
+        "libgcc >=15",
+        "__glibc >=2.17,<3.0.a0",
+        "_python_abi3_support 1.*",
+        "cpython >=3.9"
+    ],
+    "fn": "charset-normalizer-3.5.2-h1114479_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "78d5c6112c9320a1a797935cecfec7c2",
+    "name": "charset-normalizer",
+    "noarch": "python",
+    "platform": "linux",
+    "sha256": "e4f04b45d68716fcc47c808aeacbf165f6f295fb91bd20b91aa38942b8d2cdc6",
+    "size": 217200,
+    "subdir": "linux-64",
+    "timestamp": 1790766086110,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/charset-normalizer-3.5.2-h1114479_0.conda",
+    "version": "3.5.2"
+}

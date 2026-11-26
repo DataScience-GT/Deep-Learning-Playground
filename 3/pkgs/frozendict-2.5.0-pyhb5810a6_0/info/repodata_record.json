@@ -1,0 +1,22 @@
+{
+    "build": "pyhb5810a6_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.11",
+        "python"
+    ],
+    "fn": "frozendict-2.5.0-pyhb5810a6_0.conda",
+    "license": "LGPL-3.0-only",
+    "license_family": "LGPL",
+    "md5": "fc0cbbf1c37e7641fb0b2fc6da62cb9d",
+    "name": "frozendict",
+    "noarch": "python",
+    "sha256": "dfe16188d0d54c1f0ea36131a08d771e043d07eb06b73b59a80b048ddf1c642e",
+    "size": 39132,
+    "subdir": "noarch",
+    "timestamp": 1793383265851,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/frozendict-2.5.0-pyhb5810a6_0.conda",
+    "version": "2.5.0"
+}

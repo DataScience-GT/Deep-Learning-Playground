@@ -1,0 +1,23 @@
+{
+    "build": "pyh5ded981_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.11",
+        "typing_extensions >=4.15.0",
+        "python"
+    ],
+    "fn": "typing-inspection-0.4.5-pyh5ded981_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "9b49216bf058592d9ef924e64602f029",
+    "name": "typing-inspection",
+    "noarch": "python",
+    "sha256": "88c08476c98f264047d6c6bfeb1e8545684dfbcf2c61da338f71033ec17e1f33",
+    "size": 20983,
+    "subdir": "noarch",
+    "timestamp": 1793805183548,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/typing-inspection-0.4.5-pyh5ded981_0.conda",
+    "version": "0.4.5"
+}

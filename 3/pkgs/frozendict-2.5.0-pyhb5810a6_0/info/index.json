@@ -1,0 +1,14 @@
+{
+  "build": "pyhb5810a6_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.11",
+    "python"
+  ],
+  "license": "LGPL-3.0-only",
+  "name": "frozendict",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1793383265851,
+  "version": "2.5.0"
+}

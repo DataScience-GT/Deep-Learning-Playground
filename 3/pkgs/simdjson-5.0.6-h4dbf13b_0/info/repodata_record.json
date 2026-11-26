@@ -1,0 +1,24 @@
+{
+    "arch": "x86_64",
+    "build": "h4dbf13b_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "libstdcxx >=15",
+        "libgcc >=15",
+        "__glibc >=2.17,<3.0.a0"
+    ],
+    "fn": "simdjson-5.0.6-h4dbf13b_0.conda",
+    "license": "Apache-2.0",
+    "license_family": "APACHE",
+    "md5": "2a62a581da89a4b12231e62eb7e153d4",
+    "name": "simdjson",
+    "platform": "linux",
+    "sha256": "af620adeb886b8e2d61100faeb7c4085b48171559fb36ee793ea7b8a0d1f8743",
+    "size": 547804,
+    "subdir": "linux-64",
+    "timestamp": 1793141460630,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/simdjson-5.0.6-h4dbf13b_0.conda",
+    "version": "5.0.6"
+}

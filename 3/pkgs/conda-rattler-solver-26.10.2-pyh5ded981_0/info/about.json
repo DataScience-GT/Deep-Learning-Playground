@@ -1,0 +1,17 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "extra": {
+    "flow_run_id": "github_41735263858",
+    "recipe-maintainers": [
+      "danyeaw",
+      "jaimergp"
+    ],
+    "remote_url": "https://github.com/conda-forge/conda-rattler-solver-feedstock",
+    "sha": "34bed65fd8a08771e2ec52199ebaf1a4c784fa1e"
+  },
+  "home": "https://github.com/conda/conda-rattler-solver",
+  "license": "BSD-3-Clause",
+  "summary": "The fast, Rust-based solver for conda"
+}

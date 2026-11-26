@@ -1,0 +1,28 @@
+{
+    "arch": "x86_64",
+    "build": "py314h7e8cd81_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [
+        "__glibc >=2.17"
+    ],
+    "depends": [
+        "python",
+        "typing-extensions >=4.16.0",
+        "libgcc >=15",
+        "__glibc >=2.17,<3.0.a0",
+        "python_abi 3.14.* *_cp314"
+    ],
+    "fn": "pydantic-core-2.50.4-py314h7e8cd81_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "ab8c4835e30e0da3a7b7150130db9e31",
+    "name": "pydantic-core",
+    "platform": "linux",
+    "sha256": "2d973c08e0271033d3b630c992288e25013bd83f28e77e9a4554f1459c44471d",
+    "size": 2011195,
+    "subdir": "linux-64",
+    "timestamp": 1793878756071,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.50.4-py314h7e8cd81_0.conda",
+    "version": "2.50.4"
+}

@@ -1,0 +1,16 @@
+{
+  "build": "pyh5ded981_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.11",
+    "conda >=26.7.0",
+    "py-rattler >=0.28.1,<0.29.0a0",
+    "python"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "conda-rattler-solver",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1793790192071,
+  "version": "26.10.2"
+}

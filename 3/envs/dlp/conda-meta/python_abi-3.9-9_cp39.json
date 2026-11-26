@@ -1,0 +1,36 @@
+{
+    "arch": null,
+    "build": "9_cp39",
+    "build_number": 9,
+    "build_string": "9_cp39",
+    "channel": "conda-forge",
+    "constrains": [
+        "python 3.9.* *_cpython"
+    ],
+    "depends": [],
+    "extracted_package_dir": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/noarch/python_abi-3.9-9_cp39",
+    "files": [],
+    "fn": "python_abi-3.9-9_cp39.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/noarch/python_abi-3.9-9_cp39",
+        "type": 1
+    },
+    "md5": "9615f53c60b6d766f740be806484bad7",
+    "name": "python_abi",
+    "noarch": "generic",
+    "package_tarball_full_path": "/home/runner/conda_pkgs_dir/https/conda.anaconda.org/conda-forge/noarch/python_abi-3.9-9_cp39.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": null,
+    "requested_spec": "",
+    "sha256": "3deb7899d64b8c306b6882a1f25dafe1a8df39f289e3ee84fdc8f6500b833c71",
+    "size": 6772,
+    "subdir": "noarch",
+    "timestamp": 1788302830,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/python_abi-3.9-9_cp39.conda",
+    "version": "3.9"
+}

@@ -1,0 +1,11 @@
+$Env:CONDA_EXE = "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_conda_1792605464/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/conda"
+$Env:_CONDA_EXE = "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_conda_1792605464/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/conda"
+$Env:_CE_M = $null
+$Env:_CE_CONDA = $null
+$Env:CONDA_PYTHON_EXE = "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_conda_1792605464/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python"
+$Env:_CONDA_ROOT = "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_conda_1792605464/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol"
+$CondaModuleArgs = @{ChangePs1 = $True}
+
+Import-Module "$Env:_CONDA_ROOT\shell\condabin\Conda.psm1" -ArgumentList $CondaModuleArgs
+
+Remove-Variable CondaModuleArgs

@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py314hd8ed1ab_100",
+  "build_number": 100,
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi * *_cp314"
+  ],
+  "license": "Python-2.0",
+  "name": "cpython",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1793014778194,
+  "version": "3.14.10"
+}

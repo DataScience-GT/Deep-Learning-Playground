@@ -1,0 +1,23 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "Data validation and settings management using python type hinting.",
+  "dev_url": "https://github.com/pydantic/pydantic",
+  "doc_url": "https://docs.pydantic.dev/",
+  "extra": {
+    "flow_run_id": "github_42082997589",
+    "recipe-maintainers": [
+      "thewchan",
+      "samuelcolvin",
+      "dgasmith",
+      "davidbrochart",
+      "pavelzw"
+    ],
+    "remote_url": "https://github.com/conda-forge/pydantic-feedstock",
+    "sha": "86ba0e0c88c8da8416f420a59b1143058061a609"
+  },
+  "home": "https://github.com/pydantic/pydantic",
+  "license": "MIT",
+  "summary": "Data validation and settings management using python type hinting"
+}

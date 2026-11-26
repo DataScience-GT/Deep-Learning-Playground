@@ -1,0 +1,32 @@
+{
+    "build": "pyh5ded981_1",
+    "build_number": 1,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [
+        "certifi >=2026.10.19",
+        "conda >=26.1.0"
+    ],
+    "depends": [
+        "python >=3.11",
+        "packaging",
+        "unearth",
+        "python-build",
+        "python-installer >=1.0",
+        "platformdirs",
+        "conda-index >=0.13.0",
+        "conda-package-streaming >=0.11",
+        "python"
+    ],
+    "fn": "conda-pypi-0.13.0-pyh5ded981_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "4c0a712cde065bac88caea93eb6aea88",
+    "name": "conda-pypi",
+    "noarch": "python",
+    "sha256": "43351ec8257e7add2e5b852f6e44af2e8f08251cd223823f238063908438040d",
+    "size": 253023,
+    "subdir": "noarch",
+    "timestamp": 1792581704294,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/conda-pypi-0.13.0-pyh5ded981_1.conda",
+    "version": "0.13.0"
+}

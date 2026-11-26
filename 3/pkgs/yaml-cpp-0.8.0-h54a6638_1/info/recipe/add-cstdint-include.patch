@@ -1,0 +1,21 @@
+From 6f6c05e7a252910aeb72d21b4f8e0caecf3f1d75 Mon Sep 17 00:00:00 2001
+From: conda-forge <conda-forge@users.noreply.github.com>
+Date: Wed, 5 Aug 2026 10:00:00 +0000
+Subject: [PATCH] Include cstdint for fixed-width integer types
+
+---
+ src/emitterutils.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/emitterutils.cpp b/src/emitterutils.cpp
+index 4f5ce34..51c2d09 100644
+--- a/src/emitterutils.cpp
++++ b/src/emitterutils.cpp
+@@ -1,4 +1,5 @@
+ #include <algorithm>
++#include <cstdint>
+ #include <iomanip>
+ #include <sstream>
+ 
+-- 
+2.50.1

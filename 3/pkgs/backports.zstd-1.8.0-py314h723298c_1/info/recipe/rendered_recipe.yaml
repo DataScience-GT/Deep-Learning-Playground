@@ -1,0 +1,98 @@
+recipe:
+  schema_version: 1
+  context:
+    version: 1.8.0
+  package:
+    name: backports.zstd
+    version: 1.8.0
+  source:
+  - url: https://files.pythonhosted.org/packages/source/b/backports.zstd/backports_zstd-1.8.0.tar.gz
+    sha256: 9dae4f4c481716e3db473d667457b4f508ff7459c0931b567a5c9677fb3db316
+  build:
+    number: 1
+    string: py314h723298c_1
+    script: []
+    noarch: generic
+  requirements:
+    run:
+    - python >=3.14
+  tests:
+  - package_contents:
+      strict: true
+  - python:
+      imports:
+      - compression.zstd
+      python_version:
+      - 3.14.*
+      - 3.15.*
+  about:
+    homepage: https://pypi.org/project/backports.zstd
+    repository: https://github.com/rogdham/backports.zstd
+    license: Python-2.0
+    license_file:
+    - LICENSE.txt
+    summary: Backport of compression.zstd (no-op on Python 3.14+)
+  extra:
+    feedstock-name: backports.zstd
+    recipe-maintainers:
+    - rogdham
+    - bollwyvl
+build_configuration:
+  target_platform: noarch
+  host_platform:
+    platform: linux-64
+    virtual_packages:
+    - __unix=0=0
+    - __linux=7.0.0=0
+    - __glibc=2.39=0
+    - __archspec=1=zen2
+  build_platform:
+    platform: linux-64
+    virtual_packages:
+    - __unix=0=0
+    - __linux=7.0.0=0
+    - __glibc=2.39=0
+    - __archspec=1=zen2
+  variant:
+    channel_sources: conda-forge
+    channel_targets: conda-forge main
+    python: 3.14.* *_cp314
+    python_min: '3.11'
+    target_platform: noarch
+  hash:
+    hash: 723298c
+    prefix: py314
+  directories:
+    host_prefix: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_backports.zstd_1792690550/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+    build_prefix: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_backports.zstd_1792690550/build_env
+    work_dir: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_backports.zstd_1792690550/work
+    build_dir: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_backports.zstd_1792690550
+  channels:
+  - https://conda.anaconda.org/conda-forge
+  channel_priority: strict
+  solve_strategy: highest
+  timestamp: 2026-10-22T17:35:50.162031103Z
+  subpackages:
+    backports.zstd:
+      name: backports.zstd
+      version: 1.8.0
+      build_string: py314h723298c_1
+  packaging_settings:
+    archive_type: conda
+    compression_level: 15
+finalized_dependencies:
+  build: null
+  host: null
+  run:
+    depends:
+    - source: python >=3.14
+    constraints: []
+finalized_sources:
+- url: https://files.pythonhosted.org/packages/source/b/backports.zstd/backports_zstd-1.8.0.tar.gz
+  sha256: 9dae4f4c481716e3db473d667457b4f508ff7459c0931b567a5c9677fb3db316
+system_tools:
+  rattler-build: 0.77.0
+extra_meta:
+  flow_run_id: github_39823959428
+  remote_url: https://github.com/conda-forge/backports.zstd-feedstock
+  sha: 5cdf9deb18788a65ed75f5714372b96002111a33

@@ -1,0 +1,26 @@
+{
+    "build": "pyh5ded981_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "typing-inspection >=0.4.4",
+        "typing_extensions >=4.16.0",
+        "python >=3.11",
+        "annotated-types >=0.6.0",
+        "pydantic-core ==2.50.4",
+        "python"
+    ],
+    "fn": "pydantic-2.14.3-pyh5ded981_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "1c56381ccdf1762377714aba33912d53",
+    "name": "pydantic",
+    "noarch": "python",
+    "sha256": "faafe38d963939f374556ca0aa0cba61654aaca8a0ee6892fa9661be466cb92b",
+    "size": 362816,
+    "subdir": "noarch",
+    "timestamp": 1793902780292,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/pydantic-2.14.3-pyh5ded981_0.conda",
+    "version": "2.14.3"
+}

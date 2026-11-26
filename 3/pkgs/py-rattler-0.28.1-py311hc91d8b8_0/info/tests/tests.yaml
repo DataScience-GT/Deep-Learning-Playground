@@ -1,0 +1,11 @@
+- python:
+    imports:
+    - rattler
+    python_version:
+    - 3.11.*
+    - '*'
+- script:
+    content: abi3audit $SP_DIR/rattler/rattler.abi3.so -s -v --assume-minimum-abi3 3.11
+  requirements:
+    run:
+    - abi3audit

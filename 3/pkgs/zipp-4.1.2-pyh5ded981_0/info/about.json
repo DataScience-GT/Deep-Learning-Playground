@@ -1,0 +1,20 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/jaraco/zipp",
+  "doc_url": "https://zipp.readthedocs.io/en/latest",
+  "extra": {
+    "flow_run_id": "github_39688764818",
+    "recipe-maintainers": [
+      "jan-janssen",
+      "nehaljwani"
+    ],
+    "remote_url": "https://github.com/conda-forge/zipp-feedstock",
+    "sha": "5b5eb3d34af5020dcc22d4622daa568d8591ce58"
+  },
+  "home": "https://github.com/jaraco/zipp",
+  "license": "MIT",
+  "license_family": "MIT",
+  "summary": "A pathlib-compatible Zipfile object wrapper"
+}

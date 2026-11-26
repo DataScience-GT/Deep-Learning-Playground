@@ -1,0 +1,25 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libpython3.14.so",
+      "path_type": "softlink",
+      "sha256": "f944e272097feb539124f211e6bad3aa82ee2b52a037c614ac6a2d693b18c969",
+      "size_in_bytes": 36199240
+    },
+    {
+      "_path": "lib/libpython3.14.so.1.0",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/python-split_1793013931869/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "f944e272097feb539124f211e6bad3aa82ee2b52a037c614ac6a2d693b18c969",
+      "size_in_bytes": 36199240
+    },
+    {
+      "_path": "lib/libpython3.so",
+      "path_type": "hardlink",
+      "sha256": "c222d8439d487f0213bf174a738529890045293982ead04631b301fd950c4f5a",
+      "size_in_bytes": 14920
+    }
+  ],
+  "paths_version": 1
+}

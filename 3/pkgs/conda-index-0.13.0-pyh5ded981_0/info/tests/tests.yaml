@@ -1,0 +1,23 @@
+- python:
+    imports:
+    - conda_index.index
+    pip_check: false
+    python_version:
+    - 3.11.*
+    - '*'
+- script:
+    content: pytest -k test_index_on_single_subdir_1
+    cwd: etc/conda/test-files/conda-index/1
+  requirements:
+    run:
+    - conda-build >=25
+    - conda-package-handling >=2.2.0
+    - coverage
+    - fsspec
+    - pytest >=7
+    - pytest-cov
+    - pytest-mock
+    - python 3.11.*
+  files:
+    source:
+    - tests

@@ -1,0 +1,1 @@
+{"constructor": "3.17.3", "conda": "24.9.2", "platform": "linux", "python": "3.12.7 | packaged by conda-forge | (main, Oct  4 2024, 16:05:46) [GCC 13.3.0]", "python_version": [3, 12, 7, "final", 0], "machine": "x86_64", "platform_full": "#20-Ubuntu SMP PREEMPT Mon Oct 19 22:41:16 UTC 2026", "extra": ["centos", "7", "Core"]}

@@ -1,0 +1,9 @@
+{
+  "noarch": {
+    "type": "python",
+    "entry_points": [
+      "httpx2 = httpx2:main"
+    ]
+  },
+  "package_metadata_version": 1
+}

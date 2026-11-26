@@ -1,0 +1,19 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/DaanDeMeyer/reproc",
+  "extra": {
+    "flow_run_id": "github_33367395393",
+    "recipe-maintainers": [
+      "AntoinePrv",
+      "wolfv",
+      "DaanDeMeyer"
+    ],
+    "remote_url": "https://github.com/conda-forge/reproc-feedstock",
+    "sha": "03bf859210af9700c861ddb6ede4378ca9b202f4"
+  },
+  "home": "https://github.com/DaanDeMeyer/reproc",
+  "license": "MIT",
+  "summary": "reproc (Redirected Process) is a cross-platform C/C++ library that simplifies starting, stopping and communicating with external programs."
+}

@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ef3c0fd7194deb23ae07d7b5e523aa668ec4e9adb660f9d4c603bf787d066501",
+      "size_in_bytes": 5883
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/__pycache__/__init__.cpython-314.pyc",
+      "path_type": "hardlink",
+      "sha256": "bde2e8c2f7624ab47d066cec648677d1b80894e92f7630273f415f4c5b232bb7",
+      "size_in_bytes": 3487
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/__pycache__/core_schema.cpython-314.pyc",
+      "path_type": "hardlink",
+      "sha256": "d490586d85995a3f8ac2d4416bd954c709ae47ada06b949f88c07b51ac87ba41",
+      "size_in_bytes": 191417
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/_pydantic_core/__init__.pyi",
+      "path_type": "hardlink",
+      "sha256": "72eb141473555561fb7de79759d5128ba1dfaa39f5a82d0302fd96281f6b221b",
+      "size_in_bytes": 48238
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/_pydantic_core/_schema_gather.pyi",
+      "path_type": "hardlink",
+      "sha256": "903831c0244d39c00dae9d6e823d65c86e411fa8916d88a0c3d9c8aadc714cb0",
+      "size_in_bytes": 1645
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "ff952c95e16d242f2017704810884c138e412e1e9192c95bbde318fdcc1b2a2b",
+      "size_in_bytes": 5391136
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/core_schema.py",
+      "path_type": "hardlink",
+      "sha256": "79546d1a51561f7f92ce3861b342e67d0c1f076d13175e47bda73db71167a867",
+      "size_in_bytes": 175868
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "bb1956097beb504f190f8ea20c859b5dfea567679a247ce252d7813dd73f361d",
+      "size_in_bytes": 6568
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "c734e649f3f5def31227d9ba77efbc4e54b01b7fcc05b2bd061518c60da72355",
+      "size_in_bytes": 1439
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1a3ad504b677f5352db54f693397325502b2897b4ece545776f9b758f2501842",
+      "size_in_bytes": 100
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "9ae1661eb4845f20834f059f279525b4133c44d95724d852f6edb1ce33860188",
+      "size_in_bytes": 133
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/licenses/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+      "size_in_bytes": 1080
+    },
+    {
+      "_path": "lib/python3.14/site-packages/pydantic_core-2.50.4.dist-info/sboms/pydantic-core.cyclonedx.json",
+      "path_type": "hardlink",
+      "sha256": "14d6675c7f975382dc6cb071075075153b8d1872d76a11d862a39039d9b5eee9",
+      "size_in_bytes": 104982
+    }
+  ],
+  "paths_version": 1
+}

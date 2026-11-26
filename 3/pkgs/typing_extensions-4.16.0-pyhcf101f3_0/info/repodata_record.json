@@ -1,0 +1,22 @@
+{
+    "build": "pyhcf101f3_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.10",
+        "python"
+    ],
+    "fn": "typing_extensions-4.16.0-pyhcf101f3_0.conda",
+    "license": "PSF-2.0",
+    "license_family": "PSF",
+    "md5": "c70ad746c22219b9700931707482992c",
+    "name": "typing_extensions",
+    "noarch": "python",
+    "sha256": "2d888f90af0686044882c74193ec80a90ec1943145d94a7b1b048958acda1848",
+    "size": 52631,
+    "subdir": "noarch",
+    "timestamp": 1783002732887,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.16.0-pyhcf101f3_0.conda",
+    "version": "4.16.0"
+}

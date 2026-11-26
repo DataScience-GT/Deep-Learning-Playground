@@ -1,0 +1,23 @@
+{
+    "arch": null,
+    "build": "py314hd8ed1ab_100",
+    "build_number": 100,
+    "channel": "https://conda.anaconda.org/conda-forge",
+    "constrains": [],
+    "depends": [
+        "python >=3.14,<3.15.0a0",
+        "python_abi * *_cp314"
+    ],
+    "fn": "cpython-3.14.10-py314hd8ed1ab_100.conda",
+    "license": "Python-2.0",
+    "md5": "81608e10400d700890e3782b9b8d3987",
+    "name": "cpython",
+    "noarch": "generic",
+    "platform": null,
+    "sha256": "80c395601d9cff6d342d3dc81b7c19fabf00a3644b7df053cff14783077e6d15",
+    "size": 52072,
+    "subdir": "noarch",
+    "timestamp": 1793014778194,
+    "url": "https://conda.anaconda.org/conda-forge/noarch/cpython-3.14.10-py314hd8ed1ab_100.conda",
+    "version": "3.14.10"
+}
