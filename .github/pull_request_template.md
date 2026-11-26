@@ -1,11 +1,14 @@
-# Title of Pull Request HERE
+Closes #
 
-Github Issue Number Here: <YOUR_GITHUB_ISSUE_NUMBER_HERE (include the hashtag)>
-**What user problem are we solving?**
+**What does this PR do?**
 
-**What solution does this PR provide?**
+**How I tested it** (paste the check output)
+```
+(cd frontend && pnpm lint && pnpm test) && (cd training && poetry run pytest tests)
+```
 
-**Testing Methodology**
-> How did you test your changes and verify that existing functionality is not broken
+**AI agent note** (skip if you didn't use one)
+What the agent did:
+What I checked myself:
 
-**Any other considerations**
+**Anything else reviewers should know**
