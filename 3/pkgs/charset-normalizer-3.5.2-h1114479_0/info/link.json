@@ -1,9 +1,0 @@
-{
-  "noarch": {
-    "type": "python",
-    "entry_points": [
-      "normalizer = charset_normalizer.cli:cli_detect"
-    ]
-  },
-  "package_metadata_version": 1
-}

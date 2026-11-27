@@ -218,3 +218,8 @@ backend/dlp-firebase-admin.json
 
 #binaries
 bin
+
+# conda/mamba installs (CI once committed one as 3/, see #20)
+/3/
+miniforge3/
+miniconda3/

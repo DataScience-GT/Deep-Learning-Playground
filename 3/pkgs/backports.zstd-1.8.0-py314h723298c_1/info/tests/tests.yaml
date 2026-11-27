@@ -1,6 +1,0 @@
-- python:
-    imports:
-    - compression.zstd
-    python_version:
-    - 3.14.*
-    - 3.15.*

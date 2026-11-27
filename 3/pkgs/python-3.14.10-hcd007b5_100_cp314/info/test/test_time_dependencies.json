@@ -1,1 +1,0 @@
-["ripgrep", "gxx_linux-64 15.*", "ninja", "gcc_linux-64 15.*", "openssl 3.5.*", "cmake", "xorg-libx11", "sysroot_linux-64 2.17.*"]

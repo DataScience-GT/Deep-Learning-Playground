@@ -1,2 +1,0 @@
-export XDG_DATA_DIRS_CONDA_BACKUP="${XDG_DATA_DIRS:-}"
-export XDG_DATA_DIRS="$CONDA_PREFIX/share:${XDG_DATA_DIRS:-/usr/share}"
