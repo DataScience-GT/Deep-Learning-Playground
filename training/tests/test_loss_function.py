@@ -1,3 +1,5 @@
+import warnings
+
 import pytest
 import torch
 import torch.nn as nn
@@ -49,6 +51,26 @@ def test_mse_loss_computation_correct(output, labels, expected_number):
     loss_function_name = "MSELOSS"
     computed_loss = compute_loss(loss_function_name, output, labels)
     assert pytest.approx(expected_number) == torch.sqrt(computed_loss)
+
+
+@pytest.mark.parametrize(
+    "loss_function_name, expected_number",
+    [
+        ("L1LOSS", 2.0),
+        ("MSELOSS", 14 / 3),
+    ],
+)
+def test_regression_losses_match_targets_without_broadcast_warning(
+    loss_function_name, expected_number
+):
+    output = torch.tensor([[[0.0]], [[2.0]], [[5.0]]])
+    labels = torch.tensor([[[1.0]], [[4.0]], [[2.0]]])
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("error", UserWarning)
+        computed_loss = compute_loss(loss_function_name, output, labels)
+
+    assert computed_loss.item() == pytest.approx(expected_number)
 
 
 @pytest.mark.parametrize(

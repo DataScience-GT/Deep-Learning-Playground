@@ -20,6 +20,7 @@ class L1LossHandler(CriterionHandler):
             output,
             (output.shape[0], output.shape[2]),
         )
+        labels = labels.reshape_as(output)
         return nn.L1Loss()(output, labels)
 
 
@@ -29,6 +30,7 @@ class MSELossHandler(CriterionHandler):
             output,
             (output.shape[0], output.shape[2]),
         )
+        labels = labels.reshape_as(output)
         return nn.MSELoss()(output, labels)
 
 
