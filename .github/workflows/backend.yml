@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Mamba
-        uses: conda-incubator/setup-miniconda@v3
+        uses: conda-incubator/setup-miniconda@v4
         with:
           miniforge-version: latest
           installation-dir: /home/runner/miniforge3 # outside the checkout, so no CI step can commit it
@@ -83,7 +83,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Mamba
-        uses: conda-incubator/setup-miniconda@v3
+        uses: conda-incubator/setup-miniconda@v4
         with:
           miniforge-version: latest
           installation-dir: /home/runner/miniforge3 # outside the checkout, so no CI step can commit it
