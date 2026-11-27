@@ -1,8 +1,0 @@
-- python:
-    imports:
-    - conda_rattler_solver.solver
-    python_version:
-    - 3.11.*
-    - '*'
-- script:
-    content: python -m conda create --dry-run --solver=rattler --channel=conda-forge python

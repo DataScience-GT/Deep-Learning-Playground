@@ -1,6 +1,0 @@
-- python:
-    imports:
-    - pydantic
-    python_version:
-    - 3.11.*
-    - '*'
