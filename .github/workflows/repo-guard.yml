@@ -1,0 +1,32 @@
+name: Repo Guard
+
+# Blocks PRs that add an installed environment or other bulk files (see #20).
+on:
+  pull_request:
+
+jobs:
+  added-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check files added by this PR
+        env:
+          BASE: origin/${{ github.base_ref }}
+          MAX_FILES: 300
+          MAX_BYTES: 5000000
+        run: |
+          git diff --name-only --diff-filter=A "$BASE"...HEAD > added.txt
+          n=$(wc -l < added.txt)
+          echo "Files added: $n"
+          if [ "$n" -gt "$MAX_FILES" ]; then
+            echo "::error::This PR adds $n files (limit $MAX_FILES). Is an environment, build output or dataset committed by mistake?"
+            exit 1
+          fi
+          big=$(tr '\n' '\0' < added.txt | xargs -0 -r stat -c '%s %n' | awk -v max="$MAX_BYTES" '$1 > max')
+          if [ -n "$big" ]; then
+            echo "::error::Files over $MAX_BYTES bytes: $big"
+            exit 1
+          fi
