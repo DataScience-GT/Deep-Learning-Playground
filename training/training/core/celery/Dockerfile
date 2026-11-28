@@ -1,32 +1,39 @@
-FROM condaforge/miniforge3:24.1.2-0 AS base
+FROM python:3.9-slim-bookworm AS base
+
+# uv: pinned binary copied from the official image
+COPY --from=ghcr.io/astral-sh/uv:0.13.1 /uv /uvx /bin/
+
+# The venv lives outside $APP_HOME so docker-compose's bind mount of training/
+# can't hide it (or shadow it with a host .venv). Its bin/ is on PATH, so
+# python/celery run directly without `uv run`.
+ENV UV_PROJECT_ENVIRONMENT=/opt/venv \
+    UV_PYTHON_DOWNLOADS=never \
+    UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy \
+    PATH="/opt/venv/bin:$PATH" \
+    APP_HOME=/home/app/training
 
 WORKDIR /usr/src/build
-
-# install dependencies
-RUN mamba create --name dlp -y
-
-COPY environment.yml pyproject.toml poetry.lock README.md ./
-# This is to just see if the readme file exists
-
-RUN mamba run --live-stream -n dlp mamba env update --file environment.yml --prune
+COPY pyproject.toml uv.lock ./
 
 # create directory for the app user
 RUN mkdir -p /home/app
 
-# create the app user
-RUN addgroup --system app && adduser --system --group app
+# create the app user (explicit --home: Debian's default for system users is
+# /nonexistent, which would break the ~/.aws mount at /home/app/.aws)
+RUN addgroup --system app && adduser --system --group --home /home/app app
 
 # create the appropriate directories
-ARG HOME=/home/app
-ARG APP_HOME=/home/app/training
 RUN mkdir "$APP_HOME"
 
 
 ######################## development target ########################
 FROM base AS development
-ENV ENVIRONMENT development
+ENV ENVIRONMENT=development
 
-RUN mamba run --live-stream -n dlp poetry install --no-root
+# all dependency groups (incl. dev: pytest-django, moto)
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --frozen
 
 
 # we previously mounted training/ to APP_HOME
@@ -34,13 +41,14 @@ WORKDIR $APP_HOME
 RUN chown -R app:app "$APP_HOME"
 USER app
 
-CMD mamba run --live-stream -n dlp celery -A training.core.celery.worker worker --loglevel=INFO
+CMD ["celery", "-A", "training.core.celery.worker", "worker", "--loglevel=INFO"]
 
-######################## production target ######################### 
+######################## production target #########################
 FROM base AS production
-ENV ENVIRONMENT production
+ENV ENVIRONMENT=production
 
-RUN mamba run --live-stream -n dlp poetry install --without dev
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --frozen --no-dev
 
 # copy project
 WORKDIR $APP_HOME
@@ -49,4 +57,4 @@ COPY . $APP_HOME
 RUN chown -R app:app "$APP_HOME"
 USER app
 
-CMD mamba run --live-stream -n dlp celery -A training.core.celery.worker worker --loglevel=INFO
+CMD ["celery", "-A", "training.core.celery.worker", "worker", "--loglevel=INFO"]
