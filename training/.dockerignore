@@ -1,0 +1,8 @@
+# Keep host-only artifacts out of the build context / production image.
+# The image builds its own venv at /opt/venv from uv.lock.
+.venv/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+db.sqlite3
+db.sqlite3-journal

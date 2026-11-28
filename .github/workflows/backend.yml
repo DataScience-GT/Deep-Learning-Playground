@@ -13,38 +13,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #----------------------------------------------
-      #       check-out repo and set-up mamba env
+      #       check-out repo and set-up uv env
       #----------------------------------------------
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Setup Mamba
-        uses: conda-incubator/setup-miniconda@v4
+      # Cache is keyed on training/uv.lock; managed Python 3.9 is cached too.
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.4.0
         with:
-          miniforge-version: latest
-          installation-dir: /home/runner/miniforge3 # outside the checkout, so no CI step can commit it
-          use-mamba: true
-          activate-environment: dlp
-
-      # One cache, keyed on both dependency files, no restore-keys: a hit is exactly the env these files built.
-      - name: Cache dlp env
-        id: cached-env
-        uses: actions/cache@v3
-        with:
-          path: /home/runner/miniforge3/envs/dlp
-          key: dlp-env-${{ runner.os }}-1-${{ hashFiles('training/environment.yml', 'training/poetry.lock') }}
-
-      - name: Update environment
-        if: steps.cached-env.outputs.cache-hit != 'true'
-        run: mamba env update -n dlp -f training/environment.yml
+          version: "0.13.1" # same uv as training/Dockerfile
+          working-directory: training
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+          cache-python: true
 
       - name: Install dependencies
-        run: cd training && poetry install --no-interaction --no-root
-        shell: bash -el {0}
+        working-directory: training
+        run: uv sync --frozen
 
-      - name: Add Poetry env to PATH
-        run: cd training && echo "$(poetry env info --path)/bin" >> $GITHUB_PATH
-        shell: bash -el {0}
+      # So Pyright resolves imports against the project's venv
+      - name: Add venv to PATH
+        run: echo "$GITHUB_WORKSPACE/training/.venv/bin" >> "$GITHUB_PATH"
       #----------------------------------------------
       #       pyright static checker
       #----------------------------------------------
@@ -77,45 +67,31 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       #----------------------------------------------
-      #       check-out repo and set-up mamba env
+      #       check-out repo and set-up uv env
       #----------------------------------------------
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Setup Mamba
-        uses: conda-incubator/setup-miniconda@v4
+      # Cache is keyed on training/uv.lock; managed Python 3.9 is cached too.
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.4.0
         with:
-          miniforge-version: latest
-          installation-dir: /home/runner/miniforge3 # outside the checkout, so no CI step can commit it
-          use-mamba: true
-          activate-environment: dlp
-
-      # One cache, keyed on both dependency files, no restore-keys: a hit is exactly the env these files built.
-      - name: Cache dlp env
-        id: cached-env
-        uses: actions/cache@v3
-        with:
-          path: /home/runner/miniforge3/envs/dlp
-          key: dlp-env-${{ runner.os }}-1-${{ hashFiles('training/environment.yml', 'training/poetry.lock') }}
-
-      - name: Update environment
-        if: steps.cached-env.outputs.cache-hit != 'true'
-        run: mamba env update -n dlp -f training/environment.yml
+          version: "0.13.1" # same uv as training/Dockerfile
+          working-directory: training
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+          cache-python: true
 
       - name: Install dependencies
-        run: cd training && poetry install --no-interaction --no-root
-        shell: bash -el {0}
-
-      - name: Add Poetry env to PATH
-        run: cd training && echo "$(poetry env info --path)/bin" >> $GITHUB_PATH
-        shell: bash -el {0}
+        working-directory: training
+        run: uv sync --frozen
       #----------------------------------------------
       #       run test suite
       #----------------------------------------------
       - name: Run tests with moto
-        run: |
-          export AWS_ACCESS_KEY_ID=testing
-          export AWS_SECRET_ACCESS_KEY=testing
-          export AWS_DEFAULT_REGION=us-west-2
-          cd training && poetry run pytest tests
-        shell: bash -el {0}
+        working-directory: training
+        env:
+          AWS_ACCESS_KEY_ID: testing
+          AWS_SECRET_ACCESS_KEY: testing
+          AWS_DEFAULT_REGION: us-west-2
+        run: uv run --frozen pytest tests
