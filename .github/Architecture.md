@@ -50,16 +50,16 @@
 |  |  |- 📜 celeryconfig.py
 |  |  |- 📜 urls.py
 |  |  |- 📜 wsgi.py
+|  |- 📜 .dockerignore
 |  |- 📜 cli.py
 |  |- 📜 pyproject.toml
 |  |- 📜 docker-compose.prod.yml
 |  |- 📜 README.md
 |  |- 📜 Dockerfile
-|  |- 📜 poetry.lock
 |  |- 📜 docker-compose.yml
-|  |- 📜 environment.yml
 |  |- 📜 pytest.ini
 |  |- 📜 manage.py
+|  |- 📜 uv.lock
 ```
 
 ## Frontend Architecture
